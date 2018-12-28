@@ -1,3 +1,7 @@
+---
+title: Bash Reference Manual
+...
+
 Bash Reference Manual {#bash-reference-manual .settitle align="center"}
 =====================
 
