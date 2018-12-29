@@ -1,5 +1,5 @@
 ---
-title: Bash Reference Manual
+title: Bash Reference Manual v4.4
 author: Chet Ramey and Brian Fox
 date: 2016-09-07
 ...
