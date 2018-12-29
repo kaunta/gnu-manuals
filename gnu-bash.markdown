@@ -1,6 +1,7 @@
 ---
 title: Bash Reference Manual
 author: Chet Ramey and Brian Fox
+date: 2016-09-07
 ...
 
 Bash Reference Manual {#bash-reference-manual .settitle align="center"}
