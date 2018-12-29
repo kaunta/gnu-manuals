@@ -5,11 +5,6 @@ title: Bash Reference Manual
 Bash Reference Manual {#bash-reference-manual .settitle align="center"}
 =====================
 
-::: {.header}
-Next: [Introduction](#Introduction), Previous: [(dir)](dir.html#Top),
-Up: [(dir)](dir.html#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-Features-1}
 
@@ -55,10 +50,6 @@ behavior.
 
 []{#Introduction}
 
-::: {.header}
-Next: [Definitions](#Definitions), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Introduction-1}
 
@@ -74,11 +65,6 @@ Next: [Definitions](#Definitions), Up: [Top](#Top)  
 
 []{#What-is-Bash_003f}
 
-::: {.header}
-Next: [What is a shell?](#What-is-a-shell_003f), Up:
-[Introduction](#Introduction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#What-is-Bash_003f-1}
 
@@ -107,11 +93,6 @@ exist for MS-DOS, OS/2, and Windows platforms.
 
 []{#What-is-a-shell_003f}
 
-::: {.header}
-Previous: [What is Bash?](#What-is-Bash_003f), Up:
-[Introduction](#Introduction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#What-is-a-shell_003f-1}
 
@@ -164,11 +145,6 @@ Each of these features is described in this manual.
 
 []{#Definitions}
 
-::: {.header}
-Next: [Basic Shell Features](#Basic-Shell-Features), Previous:
-[Introduction](#Introduction), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Definitions-1}
 
@@ -323,11 +299,6 @@ These definitions are used throughout the remainder of this manual.
 
 []{#Basic-Shell-Features}
 
-::: {.header}
-Next: [Shell Builtin Commands](#Shell-Builtin-Commands), Previous:
-[Definitions](#Definitions), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Basic-Shell-Features-1}
 
@@ -362,11 +333,6 @@ from and to named files, and how the shell executes commands.
 
 []{#Shell-Syntax}
 
-::: {.header}
-Next: [Shell Commands](#Shell-Commands), Up: [Basic Shell
-Features](#Basic-Shell-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Syntax-1}
 
@@ -396,10 +362,6 @@ available for further inspection or processing.
 
 []{#Shell-Operation}
 
-::: {.header}
-Next: [Quoting](#Quoting), Up: [Shell Syntax](#Shell-Syntax)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Operation-1}
 
@@ -433,11 +395,6 @@ reads and executes a command. Basically, the shell does the following:
 
 []{#Quoting}
 
-::: {.header}
-Next: [Comments](#Comments), Previous: [Shell
-Operation](#Shell-Operation), Up: [Shell Syntax](#Shell-Syntax)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Quoting-1}
 
@@ -473,10 +430,6 @@ and double quotes.
 
 []{#Escape-Character}
 
-::: {.header}
-Next: [Single Quotes](#Single-Quotes), Up: [Quoting](#Quoting)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Escape-Character-1}
 
@@ -492,11 +445,6 @@ it is removed from the input stream and effectively ignored).
 
 []{#Single-Quotes}
 
-::: {.header}
-Next: [Double Quotes](#Double-Quotes), Previous: [Escape
-Character](#Escape-Character), Up: [Quoting](#Quoting)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Single-Quotes-1}
 
@@ -510,11 +458,6 @@ between single quotes, even when preceded by a backslash.
 
 []{#Double-Quotes}
 
-::: {.header}
-Next: [ANSI-C Quoting](#ANSI_002dC-Quoting), Previous: [Single
-Quotes](#Single-Quotes), Up: [Quoting](#Quoting)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Double-Quotes-1}
 
@@ -543,11 +486,6 @@ quotes (see [Shell Parameter Expansion](#Shell-Parameter-Expansion)).
 
 []{#ANSI_002dC-Quoting}
 
-::: {.header}
-Next: [Locale Translation](#Locale-Translation), Previous: [Double
-Quotes](#Double-Quotes), Up: [Quoting](#Quoting)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#ANSI_002dC-Quoting-1}
 
@@ -640,11 +578,6 @@ present.
 
 []{#Locale-Translation}
 
-::: {.header}
-Previous: [ANSI-C Quoting](#ANSI_002dC-Quoting), Up: [Quoting](#Quoting)
- 
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Locale_002dSpecific-Translation}
 
@@ -673,10 +606,6 @@ Still others use both variables in this fashion:
 
 []{#Comments}
 
-::: {.header}
-Previous: [Quoting](#Quoting), Up: [Shell Syntax](#Shell-Syntax)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Comments-1}
 
@@ -698,12 +627,6 @@ interactive.
 
 []{#Shell-Commands}
 
-::: {.header}
-Next: [Shell Functions](#Shell-Functions), Previous: [Shell
-Syntax](#Shell-Syntax), Up: [Basic Shell
-Features](#Basic-Shell-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Commands-1}
 
@@ -732,10 +655,6 @@ construct, or in some other grouping.
 
 []{#Simple-Commands}
 
-::: {.header}
-Next: [Pipelines](#Pipelines), Up: [Shell Commands](#Shell-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Simple-Commands-1}
 
@@ -757,11 +676,6 @@ or 128+n if the command was terminated by signal n.
 
 []{#Pipelines}
 
-::: {.header}
-Next: [Lists](#Lists), Previous: [Simple Commands](#Simple-Commands),
-Up: [Shell Commands](#Shell-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Pipelines-1}
 
@@ -830,11 +744,6 @@ commands in the pipeline to terminate before returning a value.
 
 []{#Lists}
 
-::: {.header}
-Next: [Compound Commands](#Compound-Commands), Previous:
-[Pipelines](#Pipelines), Up: [Shell Commands](#Shell-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Lists-of-Commands}
 
@@ -897,11 +806,6 @@ command executed in the list.
 
 []{#Compound-Commands}
 
-::: {.header}
-Next: [Coprocesses](#Coprocesses), Previous: [Lists](#Lists), Up: [Shell
-Commands](#Shell-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Compound-Commands-1}
 
@@ -933,11 +837,6 @@ to group commands and execute them as a unit.
 
 []{#Looping-Constructs}
 
-::: {.header}
-Next: [Conditional Constructs](#Conditional-Constructs), Up: [Compound
-Commands](#Compound-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Looping-Constructs-1}
 
@@ -1031,12 +930,6 @@ execution.
 
 []{#Conditional-Constructs}
 
-::: {.header}
-Next: [Command Grouping](#Command-Grouping), Previous: [Looping
-Constructs](#Looping-Constructs), Up: [Compound
-Commands](#Compound-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Conditional-Constructs-1}
 
@@ -1340,11 +1233,6 @@ Commands](#Compound-Commands)  
 
 []{#Command-Grouping}
 
-::: {.header}
-Previous: [Conditional Constructs](#Conditional-Constructs), Up:
-[Compound Commands](#Compound-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Grouping-Commands}
 
@@ -1399,11 +1287,6 @@ The exit status of both of these constructs is the exit status of list.
 
 []{#Coprocesses}
 
-::: {.header}
-Next: [GNU Parallel](#GNU-Parallel), Previous: [Compound
-Commands](#Compound-Commands), Up: [Shell Commands](#Shell-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Coprocesses-1}
 
@@ -1453,11 +1336,6 @@ exit status of command.
 
 []{#GNU-Parallel}
 
-::: {.header}
-Previous: [Coprocesses](#Coprocesses), Up: [Shell
-Commands](#Shell-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#GNU-Parallel-1}
 
@@ -1602,12 +1480,6 @@ supplied as an argument), in blocks of ten shell jobs at a time.
 
 []{#Shell-Functions}
 
-::: {.header}
-Next: [Shell Parameters](#Shell-Parameters), Previous: [Shell
-Commands](#Shell-Commands), Up: [Basic Shell
-Features](#Basic-Shell-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Functions-1}
 
@@ -1725,12 +1597,6 @@ calls.
 
 []{#Shell-Parameters}
 
-::: {.header}
-Next: [Shell Expansions](#Shell-Expansions), Previous: [Shell
-Functions](#Shell-Functions), Up: [Basic Shell
-Features](#Basic-Shell-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Parameters-1}
 
@@ -1831,11 +1697,6 @@ unset.
 
 []{#Positional-Parameters}
 
-::: {.header}
-Next: [Special Parameters](#Special-Parameters), Up: [Shell
-Parameters](#Shell-Parameters)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Positional-Parameters-1}
 
@@ -1861,11 +1722,6 @@ expanded, it must be enclosed in braces.
 
 []{#Special-Parameters}
 
-::: {.header}
-Previous: [Positional Parameters](#Positional-Parameters), Up: [Shell
-Parameters](#Shell-Parameters)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Special-Parameters-1}
 
@@ -1972,12 +1828,6 @@ be referenced; assignment to them is not allowed.
 
 []{#Shell-Expansions}
 
-::: {.header}
-Next: [Redirections](#Redirections), Previous: [Shell
-Parameters](#Shell-Parameters), Up: [Basic Shell
-Features](#Basic-Shell-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Expansions-1}
 
@@ -2035,11 +1885,6 @@ Removal](#Quote-Removal)) is performed.
 
 []{#Brace-Expansion}
 
-::: {.header}
-Next: [Tilde Expansion](#Tilde-Expansion), Up: [Shell
-Expansions](#Shell-Expansions)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Brace-Expansion-1}
 
@@ -2117,12 +1962,6 @@ chown root /usr/{ucb/{ex,edit},lib/{ex?.?*,how_ex}}
 
 []{#Tilde-Expansion}
 
-::: {.header}
-Next: [Shell Parameter Expansion](#Shell-Parameter-Expansion), Previous:
-[Brace Expansion](#Brace-Expansion), Up: [Shell
-Expansions](#Shell-Expansions)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Tilde-Expansion-1}
 
@@ -2200,12 +2039,6 @@ The following table shows how Bash treats unquoted tilde-prefixes:
 
 []{#Shell-Parameter-Expansion}
 
-::: {.header}
-Next: [Command Substitution](#Command-Substitution), Previous: [Tilde
-Expansion](#Tilde-Expansion), Up: [Shell Expansions](#Shell-Expansions)
- 
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Parameter-Expansion-1}
 
@@ -2566,12 +2399,6 @@ omitted, the operator tests only for existence.
 
 []{#Command-Substitution}
 
-::: {.header}
-Next: [Arithmetic Expansion](#Arithmetic-Expansion), Previous: [Shell
-Parameter Expansion](#Shell-Parameter-Expansion), Up: [Shell
-Expansions](#Shell-Expansions)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Command-Substitution-1}
 
@@ -2620,12 +2447,6 @@ filename expansion are not performed on the results.
 
 []{#Arithmetic-Expansion}
 
-::: {.header}
-Next: [Process Substitution](#Process-Substitution), Previous: [Command
-Substitution](#Command-Substitution), Up: [Shell
-Expansions](#Shell-Expansions)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Arithmetic-Expansion-1}
 
@@ -2658,12 +2479,6 @@ substitution occurs.
 
 []{#Process-Substitution}
 
-::: {.header}
-Next: [Word Splitting](#Word-Splitting), Previous: [Arithmetic
-Expansion](#Arithmetic-Expansion), Up: [Shell
-Expansions](#Shell-Expansions)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Process-Substitution-1}
 
@@ -2706,12 +2521,6 @@ expansion.
 
 []{#Word-Splitting}
 
-::: {.header}
-Next: [Filename Expansion](#Filename-Expansion), Previous: [Process
-Substitution](#Process-Substitution), Up: [Shell
-Expansions](#Shell-Expansions)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Word-Splitting-1}
 
@@ -2754,11 +2563,6 @@ Note that if no expansion occurs, no splitting is performed.
 
 []{#Filename-Expansion}
 
-::: {.header}
-Next: [Quote Removal](#Quote-Removal), Previous: [Word
-Splitting](#Word-Splitting), Up: [Shell Expansions](#Shell-Expansions)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Filename-Expansion-1}
 
@@ -2811,10 +2615,6 @@ the patterns in `GLOBIGNORE`. The `dotglob` option is disabled when
 
 []{#Pattern-Matching}
 
-::: {.header}
-Up: [Filename Expansion](#Filename-Expansion)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Pattern-Matching-1}
 
@@ -2919,11 +2719,6 @@ of the following sub-patterns:
 
 []{#Quote-Removal}
 
-::: {.header}
-Previous: [Filename Expansion](#Filename-Expansion), Up: [Shell
-Expansions](#Shell-Expansions)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Quote-Removal-1}
 
@@ -2937,12 +2732,6 @@ above expansions are removed.
 
 []{#Redirections}
 
-::: {.header}
-Next: [Executing Commands](#Executing-Commands), Previous: [Shell
-Expansions](#Shell-Expansions), Up: [Basic Shell
-Features](#Basic-Shell-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Redirections-1}
 
@@ -3298,12 +3087,6 @@ if n is not specified. If the file does not exist, it is created.
 
 []{#Executing-Commands}
 
-::: {.header}
-Next: [Shell Scripts](#Shell-Scripts), Previous:
-[Redirections](#Redirections), Up: [Basic Shell
-Features](#Basic-Shell-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Executing-Commands-1}
 
@@ -3322,11 +3105,6 @@ Features](#Basic-Shell-Features)  
 
 []{#Simple-Command-Expansion}
 
-::: {.header}
-Next: [Command Search and Execution](#Command-Search-and-Execution), Up:
-[Executing Commands](#Executing-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Simple-Command-Expansion-1}
 
@@ -3370,12 +3148,6 @@ command substitutions, the command exits with a status of zero.
 
 []{#Command-Search-and-Execution}
 
-::: {.header}
-Next: [Command Execution Environment](#Command-Execution-Environment),
-Previous: [Simple Command Expansion](#Simple-Command-Expansion), Up:
-[Executing Commands](#Executing-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Command-Search-and-Execution-1}
 
@@ -3424,12 +3196,6 @@ taken.
 
 []{#Command-Execution-Environment}
 
-::: {.header}
-Next: [Environment](#Environment), Previous: [Command Search and
-Execution](#Command-Search-and-Execution), Up: [Executing
-Commands](#Executing-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Command-Execution-Environment-1}
 
@@ -3497,12 +3263,6 @@ calling shell as modified by redirections.
 
 []{#Environment}
 
-::: {.header}
-Next: [Exit Status](#Exit-Status), Previous: [Command Execution
-Environment](#Command-Execution-Environment), Up: [Executing
-Commands](#Executing-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Environment-1}
 
@@ -3543,11 +3303,6 @@ environment.
 
 []{#Exit-Status}
 
-::: {.header}
-Next: [Signals](#Signals), Previous: [Environment](#Environment), Up:
-[Executing Commands](#Executing-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Exit-Status-1}
 
@@ -3589,11 +3344,6 @@ incorrect usage, generally invalid options or missing arguments.
 
 []{#Signals}
 
-::: {.header}
-Previous: [Exit Status](#Exit-Status), Up: [Executing
-Commands](#Executing-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Signals-1}
 
@@ -3639,11 +3389,6 @@ status greater than 128, immediately after which the trap is executed.
 
 []{#Shell-Scripts}
 
-::: {.header}
-Previous: [Executing Commands](#Executing-Commands), Up: [Basic Shell
-Features](#Basic-Shell-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Scripts-1}
 
@@ -3710,11 +3455,6 @@ interpret the script, even if it is executed under another shell.
 
 []{#Shell-Builtin-Commands}
 
-::: {.header}
-Next: [Shell Variables](#Shell-Variables), Previous: [Basic Shell
-Features](#Basic-Shell-Features), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Builtin-Commands-1}
 
@@ -3763,11 +3503,6 @@ interpretation.
 
 []{#Bourne-Shell-Builtins}
 
-::: {.header}
-Next: [Bash Builtins](#Bash-Builtins), Up: [Shell Builtin
-Commands](#Shell-Builtin-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bourne-Shell-Builtins-1}
 
@@ -4348,12 +4083,6 @@ standard.
 
 []{#Bash-Builtins}
 
-::: {.header}
-Next: [Modifying Shell Behavior](#Modifying-Shell-Behavior), Previous:
-[Bourne Shell Builtins](#Bourne-Shell-Builtins), Up: [Shell Builtin
-Commands](#Shell-Builtin-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-Builtin-Commands}
 
@@ -5313,12 +5042,6 @@ standard.
 
 []{#Modifying-Shell-Behavior}
 
-::: {.header}
-Next: [Special Builtins](#Special-Builtins), Previous: [Bash
-Builtins](#Bash-Builtins), Up: [Shell Builtin
-Commands](#Shell-Builtin-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Modifying-Shell-Behavior-1}
 
@@ -5333,11 +5056,6 @@ Commands](#Shell-Builtin-Commands)  
 
 []{#The-Set-Builtin}
 
-::: {.header}
-Next: [The Shopt Builtin](#The-Shopt-Builtin), Up: [Modifying Shell
-Behavior](#Modifying-Shell-Behavior)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#The-Set-Builtin-1}
 
@@ -5685,11 +5403,6 @@ parameters, or to display the names and values of shell variables.
 
 []{#The-Shopt-Builtin}
 
-::: {.header}
-Previous: [The Set Builtin](#The-Set-Builtin), Up: [Modifying Shell
-Behavior](#Modifying-Shell-Behavior)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#The-Shopt-Builtin-1}
 
@@ -6104,11 +5817,6 @@ This builtin allows you to change additional shell optional behavior.
 
 []{#Special-Builtins}
 
-::: {.header}
-Previous: [Modifying Shell Behavior](#Modifying-Shell-Behavior), Up:
-[Shell Builtin Commands](#Shell-Builtin-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Special-Builtins-1}
 
@@ -6144,11 +5852,6 @@ shift trap unset
 
 []{#Shell-Variables}
 
-::: {.header}
-Next: [Bash Features](#Bash-Features), Previous: [Shell Builtin
-Commands](#Shell-Builtin-Commands), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Variables-1}
 
@@ -6167,11 +5870,6 @@ automatically assigns default values to a number of variables.
 
 []{#Bourne-Shell-Variables}
 
-::: {.header}
-Next: [Bash Variables](#Bash-Variables), Up: [Shell
-Variables](#Shell-Variables)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bourne-Shell-Variables-1}
 
@@ -6242,11 +5940,6 @@ In some cases, Bash assigns a default value to the variable.
 
 []{#Bash-Variables}
 
-::: {.header}
-Previous: [Bourne Shell Variables](#Bourne-Shell-Variables), Up: [Shell
-Variables](#Shell-Variables)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-Variables-1}
 
@@ -7009,11 +6702,6 @@ Variables](#Job-Control-Variables)).
 
 []{#Bash-Features}
 
-::: {.header}
-Next: [Job Control](#Job-Control), Previous: [Shell
-Variables](#Shell-Variables), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-Features-2}
 
@@ -7040,11 +6728,6 @@ This chapter describes features unique to Bash.
 
 []{#Invoking-Bash}
 
-::: {.header}
-Next: [Bash Startup Files](#Bash-Startup-Files), Up: [Bash
-Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Invoking-Bash-1}
 
@@ -7223,11 +6906,6 @@ status is 0.
 
 []{#Bash-Startup-Files}
 
-::: {.header}
-Next: [Interactive Shells](#Interactive-Shells), Previous: [Invoking
-Bash](#Invoking-Bash), Up: [Bash Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-Startup-Files-1}
 
@@ -7366,12 +7044,6 @@ reset.
 
 []{#Interactive-Shells}
 
-::: {.header}
-Next: [Bash Conditional Expressions](#Bash-Conditional-Expressions),
-Previous: [Bash Startup Files](#Bash-Startup-Files), Up: [Bash
-Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Interactive-Shells-1}
 
@@ -7389,11 +7061,6 @@ Features](#Bash-Features)  
 
 []{#What-is-an-Interactive-Shell_003f}
 
-::: {.header}
-Next: [Is this Shell Interactive?](#Is-this-Shell-Interactive_003f), Up:
-[Interactive Shells](#Interactive-Shells)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#What-is-an-Interactive-Shell_003f-1}
 
@@ -7414,13 +7081,6 @@ when an interactive shell is started.
 
 []{#Is-this-Shell-Interactive_003f}
 
-::: {.header}
-Next: [Interactive Shell Behavior](#Interactive-Shell-Behavior),
-Previous: [What is an Interactive
-Shell?](#What-is-an-Interactive-Shell_003f), Up: [Interactive
-Shells](#Interactive-Shells)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Is-this-Shell-Interactive_003f-1}
 
@@ -7456,11 +7116,6 @@ fi
 
 []{#Interactive-Shell-Behavior}
 
-::: {.header}
-Previous: [Is this Shell Interactive?](#Is-this-Shell-Interactive_003f),
-Up: [Interactive Shells](#Interactive-Shells)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Interactive-Shell-Behavior-1}
 
@@ -7531,11 +7186,6 @@ several ways.
 
 []{#Bash-Conditional-Expressions}
 
-::: {.header}
-Next: [Shell Arithmetic](#Shell-Arithmetic), Previous: [Interactive
-Shells](#Interactive-Shells), Up: [Bash Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-Conditional-Expressions-1}
 
@@ -7719,12 +7369,6 @@ link itself.
 
 []{#Shell-Arithmetic}
 
-::: {.header}
-Next: [Aliases](#Aliases), Previous: [Bash Conditional
-Expressions](#Bash-Conditional-Expressions), Up: [Bash
-Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Shell-Arithmetic-1}
 
@@ -7846,11 +7490,6 @@ above.
 
 []{#Aliases}
 
-::: {.header}
-Next: [Arrays](#Arrays), Previous: [Shell
-Arithmetic](#Shell-Arithmetic), Up: [Bash Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Aliases-1}
 
@@ -7907,11 +7546,6 @@ For almost every purpose, shell functions are preferred over aliases.
 
 []{#Arrays}
 
-::: {.header}
-Next: [The Directory Stack](#The-Directory-Stack), Previous:
-[Aliases](#Aliases), Up: [Bash Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Arrays-1}
 
@@ -8046,11 +7680,6 @@ array values in a way that allows them to be reused as input.
 
 []{#The-Directory-Stack}
 
-::: {.header}
-Next: [Controlling the Prompt](#Controlling-the-Prompt), Previous:
-[Arrays](#Arrays), Up: [Bash Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#The-Directory-Stack-1}
 
@@ -8076,10 +7705,6 @@ The contents of the directory stack are also visible as the value of the
 
 []{#Directory-Stack-Builtins}
 
-::: {.header}
-Up: [The Directory Stack](#The-Directory-Stack)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Directory-Stack-Builtins-1}
 
@@ -8204,12 +7829,6 @@ Up: [The Directory Stack](#The-Directory-Stack)  
 
 []{#Controlling-the-Prompt}
 
-::: {.header}
-Next: [The Restricted Shell](#The-Restricted-Shell), Previous: [The
-Directory Stack](#The-Directory-Stack), Up: [Bash
-Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Controlling-the-Prompt-1}
 
@@ -8354,11 +7973,6 @@ Builtins](#Bash-Builtins)).
 
 []{#The-Restricted-Shell}
 
-::: {.header}
-Next: [Bash POSIX Mode](#Bash-POSIX-Mode), Previous: [Controlling the
-Prompt](#Controlling-the-Prompt), Up: [Bash Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#The-Restricted-Shell-1}
 
@@ -8404,11 +8018,6 @@ the shell spawned to execute the script.
 
 []{#Bash-POSIX-Mode}
 
-::: {.header}
-Previous: [The Restricted Shell](#The-Restricted-Shell), Up: [Bash
-Features](#Bash-Features)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-POSIX-Mode-1}
 
@@ -8593,11 +8202,6 @@ the \--enable-strict-posix-default to `configure` when building (see
 
 []{#Job-Control}
 
-::: {.header}
-Next: [Command Line Editing](#Command-Line-Editing), Previous: [Bash
-Features](#Bash-Features), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Job-Control-1}
 
@@ -8617,11 +8221,6 @@ allows you to access its facilities.
 
 []{#Job-Control-Basics}
 
-::: {.header}
-Next: [Job Control Builtins](#Job-Control-Builtins), Up: [Job
-Control](#Job-Control)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Job-Control-Basics-1}
 
@@ -8720,11 +8319,6 @@ print another warning, and any stopped jobs are terminated.
 
 []{#Job-Control-Builtins}
 
-::: {.header}
-Next: [Job Control Variables](#Job-Control-Variables), Previous: [Job
-Control Basics](#Job-Control-Basics), Up: [Job Control](#Job-Control)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Job-Control-Builtins-1}
 
@@ -8889,11 +8483,6 @@ accept jobspec arguments. They must be supplied process IDs.
 
 []{#Job-Control-Variables}
 
-::: {.header}
-Previous: [Job Control Builtins](#Job-Control-Builtins), Up: [Job
-Control](#Job-Control)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Job-Control-Variables-1}
 
@@ -8922,11 +8511,6 @@ Control](#Job-Control)  
 
 []{#Command-Line-Editing}
 
-::: {.header}
-Next: [Using History Interactively](#Using-History-Interactively),
-Previous: [Job Control](#Job-Control), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Command-Line-Editing-1}
 
@@ -8961,11 +8545,6 @@ using the -o emacs or -o vi options to the `set` builtin command (see
 
 []{#Introduction-and-Notation}
 
-::: {.header}
-Next: [Readline Interaction](#Readline-Interaction), Up: [Command Line
-Editing](#Command-Line-Editing)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Introduction-to-Line-Editing}
 
@@ -9006,12 +8585,6 @@ desired character. The `RET`{.key} key may be labeled `Return`{.key} or
 
 []{#Readline-Interaction}
 
-::: {.header}
-Next: [Readline Init File](#Readline-Init-File), Previous: [Introduction
-and Notation](#Introduction-and-Notation), Up: [Command Line
-Editing](#Command-Line-Editing)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Readline-Interaction-1}
 
@@ -9042,11 +8615,6 @@ of the location of the cursor within the line.
 
 []{#Readline-Bare-Essentials}
 
-::: {.header}
-Next: [Readline Movement Commands](#Readline-Movement-Commands), Up:
-[Readline Interaction](#Readline-Interaction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Readline-Bare-Essentials-1}
 
@@ -9106,12 +8674,6 @@ the character to the left of the cursor.)
 
 []{#Readline-Movement-Commands}
 
-::: {.header}
-Next: [Readline Killing Commands](#Readline-Killing-Commands), Previous:
-[Readline Bare Essentials](#Readline-Bare-Essentials), Up: [Readline
-Interaction](#Readline-Interaction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Readline-Movement-Commands-1}
 
@@ -9150,12 +8712,6 @@ characters while meta keystrokes operate on words.
 
 []{#Readline-Killing-Commands}
 
-::: {.header}
-Next: [Readline Arguments](#Readline-Arguments), Previous: [Readline
-Movement Commands](#Readline-Movement-Commands), Up: [Readline
-Interaction](#Readline-Interaction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Readline-Killing-Commands-1}
 
@@ -9219,12 +8775,6 @@ M-y
 
 []{#Readline-Arguments}
 
-::: {.header}
-Next: [Searching](#Searching), Previous: [Readline Killing
-Commands](#Readline-Killing-Commands), Up: [Readline
-Interaction](#Readline-Interaction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Readline-Arguments-1}
 
@@ -9249,11 +8799,6 @@ delete the next ten characters on the input line.
 
 []{#Searching}
 
-::: {.header}
-Previous: [Readline Arguments](#Readline-Arguments), Up: [Readline
-Interaction](#Readline-Interaction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Searching-for-Commands-in-the-History}
 
@@ -9299,12 +8844,6 @@ the user or be part of the contents of the current line.
 
 []{#Readline-Init-File}
 
-::: {.header}
-Next: [Bindable Readline Commands](#Bindable-Readline-Commands),
-Previous: [Readline Interaction](#Readline-Interaction), Up: [Command
-Line Editing](#Command-Line-Editing)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Readline-Init-File-1}
 
@@ -9355,11 +8894,6 @@ An example inputrc file.
 
 []{#Readline-Init-File-Syntax}
 
-::: {.header}
-Next: [Conditional Init Constructs](#Conditional-Init-Constructs), Up:
-[Readline Init File](#Readline-Init-File)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Readline-Init-File-Syntax-1}
 
@@ -9975,12 +9509,6 @@ Key Bindings
 
 []{#Conditional-Init-Constructs}
 
-::: {.header}
-Next: [Sample Init File](#Sample-Init-File), Previous: [Readline Init
-File Syntax](#Readline-Init-File-Syntax), Up: [Readline Init
-File](#Readline-Init-File)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Conditional-Init-Constructs-1}
 
@@ -10060,11 +9588,6 @@ parser directives used.
 
 []{#Sample-Init-File}
 
-::: {.header}
-Previous: [Conditional Init Constructs](#Conditional-Init-Constructs),
-Up: [Readline Init File](#Readline-Init-File)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Sample-Init-File-1}
 
@@ -10181,12 +9704,6 @@ $endif
 
 []{#Bindable-Readline-Commands}
 
-::: {.header}
-Next: [Readline vi Mode](#Readline-vi-Mode), Previous: [Readline Init
-File](#Readline-Init-File), Up: [Command Line
-Editing](#Command-Line-Editing)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bindable-Readline-Commands-1}
 
@@ -10218,11 +9735,6 @@ command. The text between the point and mark is referred to as the
 
 []{#Commands-For-Moving}
 
-::: {.header}
-Next: [Commands For History](#Commands-For-History), Up: [Bindable
-Readline Commands](#Bindable-Readline-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Commands-For-Moving-1}
 
@@ -10277,12 +9789,6 @@ Readline Commands](#Bindable-Readline-Commands)  
 
 []{#Commands-For-History}
 
-::: {.header}
-Next: [Commands For Text](#Commands-For-Text), Previous: [Commands For
-Moving](#Commands-For-Moving), Up: [Bindable Readline
-Commands](#Bindable-Readline-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Commands-For-Manipulating-The-History}
 
@@ -10392,12 +9898,6 @@ Commands](#Bindable-Readline-Commands)  
 
 []{#Commands-For-Text}
 
-::: {.header}
-Next: [Commands For Killing](#Commands-For-Killing), Previous: [Commands
-For History](#Commands-For-History), Up: [Bindable Readline
-Commands](#Bindable-Readline-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Commands-For-Changing-Text}
 
@@ -10492,12 +9992,6 @@ Commands](#Bindable-Readline-Commands)  
 
 []{#Commands-For-Killing}
 
-::: {.header}
-Next: [Numeric Arguments](#Numeric-Arguments), Previous: [Commands For
-Text](#Commands-For-Text), Up: [Bindable Readline
-Commands](#Bindable-Readline-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Killing-And-Yanking}
 
@@ -10593,12 +10087,6 @@ Commands](#Bindable-Readline-Commands)  
 
 []{#Numeric-Arguments}
 
-::: {.header}
-Next: [Commands For Completion](#Commands-For-Completion), Previous:
-[Commands For Killing](#Commands-For-Killing), Up: [Bindable Readline
-Commands](#Bindable-Readline-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Specifying-Numeric-Arguments}
 
@@ -10627,12 +10115,6 @@ Commands](#Bindable-Readline-Commands)  
 
 []{#Commands-For-Completion}
 
-::: {.header}
-Next: [Keyboard Macros](#Keyboard-Macros), Previous: [Numeric
-Arguments](#Numeric-Arguments), Up: [Bindable Readline
-Commands](#Bindable-Readline-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Letting-Readline-Type-For-You}
 
@@ -10756,12 +10238,6 @@ Commands](#Bindable-Readline-Commands)  
 
 []{#Keyboard-Macros}
 
-::: {.header}
-Next: [Miscellaneous Commands](#Miscellaneous-Commands), Previous:
-[Commands For Completion](#Commands-For-Completion), Up: [Bindable
-Readline Commands](#Bindable-Readline-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Keyboard-Macros-1}
 
@@ -10790,11 +10266,6 @@ Readline Commands](#Bindable-Readline-Commands)  
 
 []{#Miscellaneous-Commands}
 
-::: {.header}
-Previous: [Keyboard Macros](#Keyboard-Macros), Up: [Bindable Readline
-Commands](#Bindable-Readline-Commands)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Some-Miscellaneous-Commands}
 
@@ -10969,12 +10440,6 @@ Commands](#Bindable-Readline-Commands)  
 
 []{#Readline-vi-Mode}
 
-::: {.header}
-Next: [Programmable Completion](#Programmable-Completion), Previous:
-[Bindable Readline Commands](#Bindable-Readline-Commands), Up: [Command
-Line Editing](#Command-Line-Editing)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Readline-vi-Mode-1}
 
@@ -10998,13 +10463,6 @@ lines with 'k' and subsequent lines with 'j', and so forth.
 
 []{#Programmable-Completion}
 
-::: {.header}
-Next: [Programmable Completion
-Builtins](#Programmable-Completion-Builtins), Previous: [Readline vi
-Mode](#Readline-vi-Mode), Up: [Command Line
-Editing](#Command-Line-Editing)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Programmable-Completion-1}
 
@@ -11152,13 +10610,6 @@ complete -D -F _completion_loader -o bashdefault -o default
 
 []{#Programmable-Completion-Builtins}
 
-::: {.header}
-Next: [A Programmable Completion
-Example](#A-Programmable-Completion-Example), Previous: [Programmable
-Completion](#Programmable-Completion), Up: [Command Line
-Editing](#Command-Line-Editing)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Programmable-Completion-Builtins-1}
 
@@ -11475,12 +10926,6 @@ happening.
 
 []{#A-Programmable-Completion-Example}
 
-::: {.header}
-Previous: [Programmable Completion
-Builtins](#Programmable-Completion-Builtins), Up: [Command Line
-Editing](#Command-Line-Editing)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#A-Programmable-Completion-Example-1}
 
@@ -11608,11 +11053,6 @@ bash in the examples/complete subdirectory.
 
 []{#Using-History-Interactively}
 
-::: {.header}
-Next: [Installing Bash](#Installing-Bash), Previous: [Command Line
-Editing](#Command-Line-Editing), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Using-History-Interactively-1}
 
@@ -11634,11 +11074,6 @@ GNU Readline Library Manual.
 
 []{#Bash-History-Facilities}
 
-::: {.header}
-Next: [Bash History Builtins](#Bash-History-Builtins), Up: [Using
-History Interactively](#Using-History-Interactively)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-History-Facilities-1}
 
@@ -11698,12 +11133,6 @@ See [Bash Builtins](#Bash-Builtins), for a description of `shopt`.
 
 []{#Bash-History-Builtins}
 
-::: {.header}
-Next: [History Interaction](#History-Interaction), Previous: [Bash
-History Facilities](#Bash-History-Facilities), Up: [Using History
-Interactively](#Using-History-Interactively)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Bash-History-Builtins-1}
 
@@ -11825,11 +11254,6 @@ history file.
 
 []{#History-Interaction}
 
-::: {.header}
-Previous: [Bash History Builtins](#Bash-History-Builtins), Up: [Using
-History Interactively](#Using-History-Interactively)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#History-Expansion}
 
@@ -11893,11 +11317,6 @@ file.
 
 []{#Event-Designators}
 
-::: {.header}
-Next: [Word Designators](#Word-Designators), Up: [History
-Interaction](#History-Interaction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Event-Designators-1}
 
@@ -11951,12 +11370,6 @@ the current position in the history list. []{#index-history-events}
 
 []{#Word-Designators}
 
-::: {.header}
-Next: [Modifiers](#Modifiers), Previous: [Event
-Designators](#Event-Designators), Up: [History
-Interaction](#History-Interaction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Word-Designators-1}
 
@@ -12033,11 +11446,6 @@ previous command is used as the event.
 
 []{#Modifiers}
 
-::: {.header}
-Previous: [Word Designators](#Word-Designators), Up: [History
-Interaction](#History-Interaction)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Modifiers-1}
 
@@ -12103,11 +11511,6 @@ more of the following modifiers, each preceded by a ':'.
 
 []{#Installing-Bash}
 
-::: {.header}
-Next: [Reporting Bugs](#Reporting-Bugs), Previous: [Using History
-Interactively](#Using-History-Interactively), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Installing-Bash-1}
 
@@ -12135,11 +11538,6 @@ Windows platforms.
 
 []{#Basic-Installation}
 
-::: {.header}
-Next: [Compilers and Options](#Compilers-and-Options), Up: [Installing
-Bash](#Installing-Bash)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Basic-Installation-1}
 
@@ -12210,13 +11608,6 @@ computer), type 'make distclean'.
 
 []{#Compilers-and-Options}
 
-::: {.header}
-Next: [Compiling For Multiple
-Architectures](#Compiling-For-Multiple-Architectures), Previous: [Basic
-Installation](#Basic-Installation), Up: [Installing
-Bash](#Installing-Bash)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Compilers-and-Options-1}
 
@@ -12247,12 +11638,6 @@ The configuration process uses GCC to build Bash if it is available.
 
 []{#Compiling-For-Multiple-Architectures}
 
-::: {.header}
-Next: [Installation Names](#Installation-Names), Previous: [Compilers
-and Options](#Compilers-and-Options), Up: [Installing
-Bash](#Installing-Bash)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Compiling-For-Multiple-Architectures-1}
 
@@ -12293,13 +11678,6 @@ for other architectures.
 
 []{#Installation-Names}
 
-::: {.header}
-Next: [Specifying the System Type](#Specifying-the-System-Type),
-Previous: [Compiling For Multiple
-Architectures](#Compiling-For-Multiple-Architectures), Up: [Installing
-Bash](#Installing-Bash)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Installation-Names-1}
 
@@ -12321,11 +11699,6 @@ files will still use the regular prefix.
 
 []{#Specifying-the-System-Type}
 
-::: {.header}
-Next: [Sharing Defaults](#Sharing-Defaults), Previous: [Installation
-Names](#Installation-Names), Up: [Installing Bash](#Installing-Bash)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Specifying-the-System-Type-1}
 
@@ -12345,12 +11718,6 @@ See the file support/config.sub for the possible values of each field.
 
 []{#Sharing-Defaults}
 
-::: {.header}
-Next: [Operation Controls](#Operation-Controls), Previous: [Specifying
-the System Type](#Specifying-the-System-Type), Up: [Installing
-Bash](#Installing-Bash)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Sharing-Defaults-1}
 
@@ -12369,11 +11736,6 @@ scripts do.
 
 []{#Operation-Controls}
 
-::: {.header}
-Next: [Optional Features](#Optional-Features), Previous: [Sharing
-Defaults](#Sharing-Defaults), Up: [Installing Bash](#Installing-Bash)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Operation-Controls-1}
 
@@ -12414,11 +11776,6 @@ options. 'configure \--help' prints the complete list.
 
 []{#Optional-Features}
 
-::: {.header}
-Previous: [Operation Controls](#Operation-Controls), Up: [Installing
-Bash](#Installing-Bash)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Optional-Features-1}
 
@@ -12727,12 +12084,6 @@ effect.
 
 []{#Reporting-Bugs}
 
-::: {.header}
-Next: [Major Differences From The Bourne
-Shell](#Major-Differences-From-The-Bourne-Shell), Previous: [Installing
-Bash](#Installing-Bash), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Reporting-Bugs-1}
 
@@ -12768,11 +12119,6 @@ Please send all reports concerning this manual to <bug-bash@gnu.org>.
 
 []{#Major-Differences-From-The-Bourne-Shell}
 
-::: {.header}
-Next: [GNU Free Documentation License](#GNU-Free-Documentation-License),
-Previous: [Reporting Bugs](#Reporting-Bugs), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Major-Differences-From-The-Bourne-Shell-1}
 
@@ -13084,11 +12430,6 @@ many of the limitations of the SVR4.2 shell. For instance:
 
 []{#GNU-Free-Documentation-License}
 
-::: {.header}
-Next: [Indexes](#Indexes), Previous: [Major Differences From The Bourne
-Shell](#Major-Differences-From-The-Bourne-Shell), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#GNU-Free-Documentation-License-1}
 
@@ -13573,11 +12914,6 @@ their use in free software.
 
 []{#Indexes}
 
-::: {.header}
-Previous: [GNU Free Documentation
-License](#GNU-Free-Documentation-License), Up: [Top](#Top)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Indexes-1}
 
@@ -13596,11 +12932,6 @@ Appendix D Indexes {#appendix-d-indexes .appendix}
 
 []{#Builtin-Index}
 
-::: {.header}
-Next: [Reserved Word Index](#Reserved-Word-Index), Up:
-[Indexes](#Indexes)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Index-of-Shell-Builtin-Commands}
 
@@ -14068,11 +13399,6 @@ Section
 
 []{#Reserved-Word-Index}
 
-::: {.header}
-Next: [Variable Index](#Variable-Index), Previous: [Builtin
-Index](#Builtin-Index), Up: [Indexes](#Indexes)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Index-of-Shell-Reserved-Words}
 
@@ -14284,11 +13610,6 @@ Section
 
 []{#Variable-Index}
 
-::: {.header}
-Next: [Function Index](#Function-Index), Previous: [Reserved Word
-Index](#Reserved-Word-Index), Up: [Indexes](#Indexes)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Parameter-and-Variable-Index}
 
@@ -15402,11 +14723,6 @@ Section
 
 []{#Function-Index}
 
-::: {.header}
-Next: [Concept Index](#Concept-Index), Previous: [Variable
-Index](#Variable-Index), Up: [Indexes](#Indexes)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Function-Index-1}
 
@@ -16160,10 +15476,6 @@ Section
 
 []{#Concept-Index}
 
-::: {.header}
-Previous: [Function Index](#Function-Index), Up: [Indexes](#Indexes)  
-\[[Contents](#SEC_Contents "Table of contents")\]\[[Index](#Indexes "Index")\]
-:::
 
 []{#Concept-Index-1}
 
