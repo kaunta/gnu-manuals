@@ -45,7 +45,6 @@ behavior.
   • [Indexes](#Indexes):                                                                        Various indexes for this manual.
   ---------------------------------------------------------------------------------------- ---- ----------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Introduction}
 
@@ -60,7 +59,6 @@ behavior.
   • [What is a shell?](#What-is-a-shell_003f):        A brief introduction to shells.
   ---------------------------------------------- ---- ---------------------------------
 
-------------------------------------------------------------------------
 
 []{#What-is-Bash_003f}
 
@@ -88,7 +86,6 @@ Bash is quite portable. It currently runs on nearly every version of
 Unix and a few other operating systems - independently-supported ports
 exist for MS-DOS, OS/2, and Windows platforms.
 
-------------------------------------------------------------------------
 
 []{#What-is-a-shell_003f}
 
@@ -140,7 +137,6 @@ than to augment the programming language. These interactive features
 include job control, command line editing, command history and aliases.
 Each of these features is described in this manual.
 
-------------------------------------------------------------------------
 
 []{#Definitions}
 
@@ -294,7 +290,6 @@ These definitions are used throughout the remainder of this manual.
     A sequence of characters treated as a unit by the shell. Words may
     not include unquoted `metacharacters`.
 
-------------------------------------------------------------------------
 
 []{#Basic-Shell-Features}
 
@@ -328,7 +323,6 @@ from and to named files, and how the shell executes commands.
   • [Shell Scripts](#Shell-Scripts):                  Executing files of shell commands.
   ---------------------------------------------- ---- -------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Shell-Syntax}
 
@@ -357,7 +351,6 @@ others, redirects input and output as needed, executes the specified
 command, waits for the command's exit status, and makes that exit status
 available for further inspection or processing.
 
-------------------------------------------------------------------------
 
 []{#Shell-Operation}
 
@@ -390,7 +383,6 @@ reads and executes a command. Basically, the shell does the following:
 7.  Optionally waits for the command to complete and collects its exit
     status (see [Exit Status](#Exit-Status)).
 
-------------------------------------------------------------------------
 
 []{#Quoting}
 
@@ -425,7 +417,6 @@ concerning history expansion.
 There are three quoting mechanisms: the escape character, single quotes,
 and double quotes.
 
-------------------------------------------------------------------------
 
 []{#Escape-Character}
 
@@ -440,7 +431,6 @@ of `newline`. If a `\newline` pair appears, and the backslash itself is
 not quoted, the `\newline` is treated as a line continuation (that is,
 it is removed from the input stream and effectively ignored).
 
-------------------------------------------------------------------------
 
 []{#Single-Quotes}
 
@@ -453,7 +443,6 @@ Enclosing characters in single quotes ('\'') preserves the literal value
 of each character within the quotes. A single quote may not occur
 between single quotes, even when preceded by a backslash.
 
-------------------------------------------------------------------------
 
 []{#Double-Quotes}
 
@@ -481,7 +470,6 @@ backslash. The backslash preceding the '!' is not removed.
 The special parameters '\*' and '@' have special meaning when in double
 quotes (see [Shell Parameter Expansion](#Shell-Parameter-Expansion)).
 
-------------------------------------------------------------------------
 
 []{#ANSI_002dC-Quoting}
 
@@ -573,7 +561,6 @@ follows:
 The expanded result is single-quoted, as if the dollar sign had not been
 present.
 
-------------------------------------------------------------------------
 
 []{#Locale-Translation}
 
@@ -601,7 +588,6 @@ If you use the `TEXTDOMAIN` variable, you may need to set the
 Still others use both variables in this fashion:
 `TEXTDOMAINDIR`/`LC_MESSAGES`/LC\_MESSAGES/`TEXTDOMAIN`.mo.
 
-------------------------------------------------------------------------
 
 []{#Comments}
 
@@ -622,7 +608,6 @@ by default in interactive shells. See [Interactive
 Shells](#Interactive-Shells), for a description of what makes a shell
 interactive.
 
-------------------------------------------------------------------------
 
 []{#Shell-Commands}
 
@@ -650,7 +635,6 @@ construct, or in some other grouping.
   • [GNU Parallel](#GNU-Parallel):                  Running commands in parallel.
   -------------------------------------------- ---- ------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Simple-Commands}
 
@@ -671,7 +655,6 @@ The return status (see [Exit Status](#Exit-Status)) of a simple command
 is its exit status as provided by the POSIX 1003.1 `waitpid` function,
 or 128+n if the command was terminated by signal n.
 
-------------------------------------------------------------------------
 
 []{#Pipelines}
 
@@ -739,7 +722,6 @@ reserved word '!' precedes the pipeline, the exit status is the logical
 negation of the exit status as described above. The shell waits for all
 commands in the pipeline to terminate before returning a value.
 
-------------------------------------------------------------------------
 
 []{#Lists}
 
@@ -801,7 +783,6 @@ status.
 The return status of AND and OR lists is the exit status of the last
 command executed in the list.
 
-------------------------------------------------------------------------
 
 []{#Compound-Commands}
 
@@ -832,7 +813,6 @@ may be followed by a newline in place of a semicolon.
 Bash provides looping constructs, conditional commands, and mechanisms
 to group commands and execute them as a unit.
 
-------------------------------------------------------------------------
 
 []{#Looping-Constructs}
 
@@ -925,7 +905,6 @@ The `break` and `continue` builtins (see [Bourne Shell
 Builtins](#Bourne-Shell-Builtins)) may be used to control loop
 execution.
 
-------------------------------------------------------------------------
 
 []{#Conditional-Constructs}
 
@@ -1228,7 +1207,6 @@ execution.
     of expression1 is sufficient to determine the return value of the
     entire conditional expression.
 
-------------------------------------------------------------------------
 
 []{#Command-Grouping}
 
@@ -1282,7 +1260,6 @@ separated from the list by whitespace.
 
 The exit status of both of these constructs is the exit status of list.
 
-------------------------------------------------------------------------
 
 []{#Coprocesses}
 
@@ -1331,7 +1308,6 @@ Since the coprocess is created as an asynchronous command, the `coproc`
 command always returns success. The return status of a coprocess is the
 exit status of command.
 
-------------------------------------------------------------------------
 
 []{#GNU-Parallel}
 
@@ -1475,7 +1451,6 @@ parallel -j 10 < file
 will evaluate the commands using the shell (since no explicit command is
 supplied as an argument), in blocks of ten shell jobs at a time.
 
-------------------------------------------------------------------------
 
 []{#Shell-Functions}
 
@@ -1592,7 +1567,6 @@ the depth of the function call stack and restrict the number of function
 invocations. By default, no limit is placed on the number of recursive
 calls.
 
-------------------------------------------------------------------------
 
 []{#Shell-Parameters}
 
@@ -1692,7 +1666,6 @@ Otherwise, if `unset` is executed with the name of a nameref variable as
 an argument, the variable referenced by the nameref variable will be
 unset.
 
-------------------------------------------------------------------------
 
 []{#Positional-Parameters}
 
@@ -1717,7 +1690,6 @@ Functions](#Shell-Functions)).
 When a positional parameter consisting of more than a single digit is
 expanded, it must be enclosed in braces.
 
-------------------------------------------------------------------------
 
 []{#Special-Parameters}
 
@@ -1823,7 +1795,6 @@ be referenced; assignment to them is not allowed.
     in the environment exported to that command. When checking mail,
     this parameter holds the name of the mail file.
 
-------------------------------------------------------------------------
 
 []{#Shell-Expansions}
 
@@ -1880,7 +1851,6 @@ word to a single word. The only exceptions to this are the expansions of
 After all expansions, `quote removal` (see [Quote
 Removal](#Quote-Removal)) is performed.
 
-------------------------------------------------------------------------
 
 []{#Brace-Expansion}
 
@@ -1957,7 +1927,6 @@ chown root /usr/{ucb/{ex,edit},lib/{ex?.?*,how_ex}}
 ```
 :::
 
-------------------------------------------------------------------------
 
 []{#Tilde-Expansion}
 
@@ -2034,7 +2003,6 @@ The following table shows how Bash treats unquoted tilde-prefixes:
 
 :   The string that would be displayed by 'dirs -N'
 
-------------------------------------------------------------------------
 
 []{#Shell-Parameter-Expansion}
 
@@ -2394,7 +2362,6 @@ omitted, the operator tests only for existence.
     The result of the expansion is subject to word splitting and
     pathname expansion as described below.
 
-------------------------------------------------------------------------
 
 []{#Command-Substitution}
 
@@ -2442,7 +2409,6 @@ form, escape the inner backquotes with backslashes.
 If the substitution appears within double quotes, word splitting and
 filename expansion are not performed on the results.
 
-------------------------------------------------------------------------
 
 []{#Arithmetic-Expansion}
 
@@ -2474,7 +2440,6 @@ The evaluation is performed according to the rules listed below (see
 Bash prints a message indicating failure to the standard error and no
 substitution occurs.
 
-------------------------------------------------------------------------
 
 []{#Process-Substitution}
 
@@ -2516,7 +2481,6 @@ When available, process substitution is performed simultaneously with
 parameter and variable expansion, command substitution, and arithmetic
 expansion.
 
-------------------------------------------------------------------------
 
 []{#Word-Splitting}
 
@@ -2558,7 +2522,6 @@ expansion is non-null, the null argument is removed. That is, the word
 
 Note that if no expansion occurs, no splitting is performed.
 
-------------------------------------------------------------------------
 
 []{#Filename-Expansion}
 
@@ -2610,7 +2573,6 @@ behavior of ignoring filenames beginning with a '.', make '.\*' one of
 the patterns in `GLOBIGNORE`. The `dotglob` option is disabled when
 `GLOBIGNORE` is unset.
 
-------------------------------------------------------------------------
 
 []{#Pattern-Matching}
 
@@ -2714,7 +2676,6 @@ of the following sub-patterns:
 
 :   Matches anything except one of the given patterns.
 
-------------------------------------------------------------------------
 
 []{#Quote-Removal}
 
@@ -2727,7 +2688,6 @@ After the preceding expansions, all unquoted occurrences of the
 characters '\\', '\'', and '\"' that did not result from one of the
 above expansions are removed.
 
-------------------------------------------------------------------------
 
 []{#Redirections}
 
@@ -3082,7 +3042,6 @@ causes the file whose name is the expansion of word to be opened for
 both reading and writing on file descriptor n, or on file descriptor 0
 if n is not specified. If the file does not exist, it is created.
 
-------------------------------------------------------------------------
 
 []{#Executing-Commands}
 
@@ -3100,7 +3059,6 @@ if n is not specified. If the file does not exist, it is created.
   • [Signals](#Signals):                                                    What happens when Bash or a command it runs receives a signal.
   -------------------------------------------------------------------- ---- ------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Simple-Command-Expansion}
 
@@ -3143,7 +3101,6 @@ contained a command substitution, the exit status of the command is the
 exit status of the last command substitution performed. If there were no
 command substitutions, the command exits with a status of zero.
 
-------------------------------------------------------------------------
 
 []{#Command-Search-and-Execution}
 
@@ -3191,7 +3148,6 @@ taken.
 6.  If the command was not begun asynchronously, the shell waits for the
     command to complete and collects its exit status.
 
-------------------------------------------------------------------------
 
 []{#Command-Execution-Environment}
 
@@ -3258,7 +3214,6 @@ default standard input for the command is the empty file /dev/null.
 Otherwise, the invoked command inherits the file descriptors of the
 calling shell as modified by redirections.
 
-------------------------------------------------------------------------
 
 []{#Environment}
 
@@ -3298,7 +3253,6 @@ When Bash invokes an external command, the variable '\$\_' is set to the
 full pathname of the command and passed to that command in its
 environment.
 
-------------------------------------------------------------------------
 
 []{#Exit-Status}
 
@@ -3339,7 +3293,6 @@ and a non-zero status on failure, so they may be used by the conditional
 and list constructs. All builtins return an exit status of 2 to indicate
 incorrect usage, generally invalid options or missing arguments.
 
-------------------------------------------------------------------------
 
 []{#Signals}
 
@@ -3384,7 +3337,6 @@ the `wait` builtin, the reception of a signal for which a trap has been
 set will cause the `wait` builtin to return immediately with an exit
 status greater than 128, immediately after which the trap is executed.
 
-------------------------------------------------------------------------
 
 []{#Shell-Scripts}
 
@@ -3450,7 +3402,6 @@ Bash scripts often begin with `#! /bin/bash` (assuming that Bash has
 been installed in /bin), since this ensures that Bash will be used to
 interpret the script, even if it is executed under another shell.
 
-------------------------------------------------------------------------
 
 []{#Shell-Builtin-Commands}
 
@@ -3498,7 +3449,6 @@ arguments but are not specified as accepting options interpret arguments
 beginning with '-' as invalid options and require '\--' to prevent this
 interpretation.
 
-------------------------------------------------------------------------
 
 []{#Bourne-Shell-Builtins}
 
@@ -4077,7 +4027,6 @@ standard.
     may not be unset. The return status is zero unless a name is
     readonly.
 
-------------------------------------------------------------------------
 
 []{#Bash-Builtins}
 
@@ -5036,7 +4985,6 @@ standard.
     Remove each name from the list of aliases. If -a is supplied, all
     aliases are removed. Aliases are described in [Aliases](#Aliases).
 
-------------------------------------------------------------------------
 
 []{#Modifying-Shell-Behavior}
 
@@ -5050,7 +4998,6 @@ standard.
   • [The Shopt Builtin](#The-Shopt-Builtin):        Modify shell optional behavior.
   -------------------------------------------- ---- ------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#The-Set-Builtin}
 
@@ -5397,7 +5344,6 @@ parameters, or to display the names and values of shell variables.
     The return status is always zero unless an invalid option is
     supplied.
 
-------------------------------------------------------------------------
 
 []{#The-Shopt-Builtin}
 
@@ -5811,7 +5757,6 @@ This builtin allows you to change additional shell optional behavior.
     enabled, non-zero otherwise. When setting or unsetting options, the
     return status is zero unless an optname is not a valid shell option.
 
-------------------------------------------------------------------------
 
 []{#Special-Builtins}
 
@@ -5846,7 +5791,6 @@ shift trap unset
 ```
 :::
 
-------------------------------------------------------------------------
 
 []{#Shell-Variables}
 
@@ -5864,7 +5808,6 @@ shift trap unset
 This chapter describes the shell variables that Bash uses. Bash
 automatically assigns default values to a number of variables.
 
-------------------------------------------------------------------------
 
 []{#Bourne-Shell-Variables}
 
@@ -5934,7 +5877,6 @@ In some cases, Bash assigns a default value to the variable.
 
 :   The secondary prompt string. The default value is '\> '.
 
-------------------------------------------------------------------------
 
 []{#Bash-Variables}
 
@@ -6696,7 +6638,6 @@ Variables](#Job-Control-Variables)).
 :   The numeric real user id of the current user. This variable is
     readonly.
 
-------------------------------------------------------------------------
 
 []{#Bash-Features}
 
@@ -6722,7 +6663,6 @@ This chapter describes features unique to Bash.
   • [Bash POSIX Mode](#Bash-POSIX-Mode):                                  Making Bash behave more closely to what the POSIX standard specifies.
   ------------------------------------------------------------------ ---- -----------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Invoking-Bash}
 
@@ -6900,7 +6840,6 @@ file, then exits. Bash's exit status is the exit status of the last
 command executed in the script. If no commands are executed, the exit
 status is 0.
 
-------------------------------------------------------------------------
 
 []{#Bash-Startup-Files}
 
@@ -7038,7 +6977,6 @@ is set to the real user id. If the -p option is supplied at invocation,
 the startup behavior is the same, but the effective user id is not
 reset.
 
-------------------------------------------------------------------------
 
 []{#Interactive-Shells}
 
@@ -7055,7 +6993,6 @@ reset.
   • [Interactive Shell Behavior](#Interactive-Shell-Behavior):                  What changes in a interactive shell?
   ------------------------------------------------------------------------ ---- -------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#What-is-an-Interactive-Shell_003f}
 
@@ -7075,7 +7012,6 @@ terminal.
 The -s invocation option may be used to set the positional parameters
 when an interactive shell is started.
 
-------------------------------------------------------------------------
 
 []{#Is-this-Shell-Interactive_003f}
 
@@ -7110,7 +7046,6 @@ fi
 ```
 :::
 
-------------------------------------------------------------------------
 
 []{#Interactive-Shell-Behavior}
 
@@ -7180,7 +7115,6 @@ several ways.
     command is not read within the specified number of seconds after
     printing `$PS1` (see [Bash Variables](#Bash-Variables)).
 
-------------------------------------------------------------------------
 
 []{#Bash-Conditional-Expressions}
 
@@ -7363,7 +7297,6 @@ link itself.
     than or equal to arg2, respectively. Arg1 and arg2 may be positive
     or negative integers.
 
-------------------------------------------------------------------------
 
 []{#Shell-Arithmetic}
 
@@ -7484,7 +7417,6 @@ Operators are evaluated in order of precedence. Sub-expressions in
 parentheses are evaluated first and may override the precedence rules
 above.
 
-------------------------------------------------------------------------
 
 []{#Aliases}
 
@@ -7540,7 +7472,6 @@ separate line, and do not use `alias` in compound commands.
 
 For almost every purpose, shell functions are preferred over aliases.
 
-------------------------------------------------------------------------
 
 []{#Arrays}
 
@@ -7674,7 +7605,6 @@ standard input to an array, and can read values from the standard input
 into individual array elements. The `set` and `declare` builtins display
 array values in a way that allows them to be reused as input.
 
-------------------------------------------------------------------------
 
 []{#The-Directory-Stack}
 
@@ -7699,7 +7629,6 @@ directory is always the \"top\" of the directory stack.
 The contents of the directory stack are also visible as the value of the
 `DIRSTACK` shell variable.
 
-------------------------------------------------------------------------
 
 []{#Directory-Stack-Builtins}
 
@@ -7823,7 +7752,6 @@ The contents of the directory stack are also visible as the value of the
         directory as if it had been supplied as an argument to the `cd`
         builtin.
 
-------------------------------------------------------------------------
 
 []{#Controlling-the-Prompt}
 
@@ -7967,7 +7895,6 @@ command substitution, arithmetic expansion, and quote removal, subject
 to the value of the `promptvars` shell option (see [Bash
 Builtins](#Bash-Builtins)).
 
-------------------------------------------------------------------------
 
 []{#The-Restricted-Shell}
 
@@ -8012,7 +7939,6 @@ When a command that is found to be a shell script is executed (see
 [Shell Scripts](#Shell-Scripts)), `rbash` turns off any restrictions in
 the shell spawned to execute the script.
 
-------------------------------------------------------------------------
 
 []{#Bash-POSIX-Mode}
 
@@ -8196,7 +8122,6 @@ Bash can be configured to be POSIX-conformant by default, by specifying
 the \--enable-strict-posix-default to `configure` when building (see
 [Optional Features](#Optional-Features)).
 
-------------------------------------------------------------------------
 
 []{#Job-Control}
 
@@ -8215,7 +8140,6 @@ allows you to access its facilities.
   • [Job Control Variables](#Job-Control-Variables):        Variables Bash uses to customize job control.
   ---------------------------------------------------- ---- ----------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Job-Control-Basics}
 
@@ -8313,7 +8237,6 @@ The `jobs` command may then be used to inspect their status. If a second
 attempt to exit is made without an intervening command, Bash does not
 print another warning, and any stopped jobs are terminated.
 
-------------------------------------------------------------------------
 
 []{#Job-Control-Builtins}
 
@@ -8477,7 +8400,6 @@ print another warning, and any stopped jobs are terminated.
 When job control is not active, the `kill` and `wait` builtins do not
 accept jobspec arguments. They must be supplied process IDs.
 
-------------------------------------------------------------------------
 
 []{#Job-Control-Variables}
 
@@ -8505,7 +8427,6 @@ accept jobspec arguments. They must be supplied process IDs.
 
 []{#index-Readline_002c-how-to-use}
 
-------------------------------------------------------------------------
 
 []{#Command-Line-Editing}
 
@@ -8539,7 +8460,6 @@ using the -o emacs or -o vi options to the `set` builtin command (see
   • [A Programmable Completion Example](#A-Programmable-Completion-Example):        An example shell function for generating possible completions.
   ---------------------------------------------------------------------------- ---- ---------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Introduction-and-Notation}
 
@@ -8579,7 +8499,6 @@ keyboard lacks a `LFD`{.key} key, typing `C-j`{.key} will produce the
 desired character. The `RET`{.key} key may be labeled `Return`{.key} or
 `Enter`{.key} on some keyboards.
 
-------------------------------------------------------------------------
 
 []{#Readline-Interaction}
 
@@ -8609,7 +8528,6 @@ of the location of the cursor within the line.
   • [Searching](#Searching):                                          Searching through previous lines.
   -------------------------------------------------------------- ---- ---------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Readline-Bare-Essentials}
 
@@ -8668,7 +8586,6 @@ delete the character to the left of the cursor and the `DEL`{.key} key
 set to delete the character underneath the cursor, like C-d, rather than
 the character to the left of the cursor.)
 
-------------------------------------------------------------------------
 
 []{#Readline-Movement-Commands}
 
@@ -8706,7 +8623,6 @@ Notice how C-f moves forward a character, while M-f moves forward a
 word. It is a loose convention that control keystrokes operate on
 characters while meta keystrokes operate on words.
 
-------------------------------------------------------------------------
 
 []{#Readline-Killing-Commands}
 
@@ -8769,7 +8685,6 @@ M-y
 :   Rotate the kill-ring, and yank the new top. You can only do this if
     the prior command is C-y or M-y.
 
-------------------------------------------------------------------------
 
 []{#Readline-Arguments}
 
@@ -8793,7 +8708,6 @@ remainder of the digits, and then the command. For example, to give the
 C-d command an argument of 10, you could type 'M-1 0 C-d', which will
 delete the next ten characters on the input line.
 
-------------------------------------------------------------------------
 
 []{#Searching}
 
@@ -8838,7 +8752,6 @@ Non-incremental searches read the entire search string before starting
 to search for matching history lines. The search string may be typed by
 the user or be part of the contents of the current line.
 
-------------------------------------------------------------------------
 
 []{#Readline-Init-File}
 
@@ -8888,7 +8801,6 @@ Conditional key bindings in the inputrc file.
 
 An example inputrc file.
 
-------------------------------------------------------------------------
 
 []{#Readline-Init-File-Syntax}
 
@@ -9503,7 +9415,6 @@ Key Bindings
     ```
     :::
 
-------------------------------------------------------------------------
 
 []{#Conditional-Init-Constructs}
 
@@ -9582,7 +9493,6 @@ parser directives used.
     ```
     :::
 
-------------------------------------------------------------------------
 
 []{#Sample-Init-File}
 
@@ -9698,7 +9608,6 @@ $endif
 ```
 :::
 
-------------------------------------------------------------------------
 
 []{#Bindable-Readline-Commands}
 
@@ -9729,7 +9638,6 @@ position, and *mark* refers to a cursor position saved by the `set-mark`
 command. The text between the point and mark is referred to as the
 *region*.
 
-------------------------------------------------------------------------
 
 []{#Commands-For-Moving}
 
@@ -9783,7 +9691,6 @@ command. The text between the point and mark is referred to as the
 
 :   Refresh the current line. By default, this is unbound.
 
-------------------------------------------------------------------------
 
 []{#Commands-For-History}
 
@@ -9892,7 +9799,6 @@ command. The text between the point and mark is referred to as the
     history expansion facilities are used to extract the last argument,
     as if the '!\$' history expansion had been specified.
 
-------------------------------------------------------------------------
 
 []{#Commands-For-Text}
 
@@ -9986,7 +9892,6 @@ command. The text between the point and mark is referred to as the
 
     By default, this command is unbound.
 
-------------------------------------------------------------------------
 
 []{#Commands-For-Killing}
 
@@ -10081,7 +9986,6 @@ command. The text between the point and mark is referred to as the
 :   Rotate the kill-ring, and yank the new top. You can only do this if
     the prior command is `yank` or `yank-pop`.
 
-------------------------------------------------------------------------
 
 []{#Numeric-Arguments}
 
@@ -10109,7 +10013,6 @@ command. The text between the point and mark is referred to as the
     four, a second time makes the argument count sixteen, and so on. By
     default, this is not bound to a key.
 
-------------------------------------------------------------------------
 
 []{#Commands-For-Completion}
 
@@ -10232,7 +10135,6 @@ command. The text between the point and mark is referred to as the
     completions enclosed within braces so the list is available to the
     shell (see [Brace Expansion](#Brace-Expansion)).
 
-------------------------------------------------------------------------
 
 []{#Keyboard-Macros}
 
@@ -10260,7 +10162,6 @@ command. The text between the point and mark is referred to as the
 :   Print the last keboard macro defined in a format suitable for the
     inputrc file.
 
-------------------------------------------------------------------------
 
 []{#Miscellaneous-Commands}
 
@@ -10434,7 +10335,6 @@ command. The text between the point and mark is referred to as the
     as shell commands. Bash attempts to invoke `$VISUAL`, `$EDITOR`, and
     `emacs` as the editor, in that order.
 
-------------------------------------------------------------------------
 
 []{#Readline-vi-Mode}
 
@@ -10457,7 +10357,6 @@ switches you into 'command' mode, where you can edit the text of the
 line with the standard `vi` movement keys, move to previous history
 lines with 'k' and subsequent lines with 'j', and so forth.
 
-------------------------------------------------------------------------
 
 []{#Programmable-Completion}
 
@@ -10604,7 +10503,6 @@ complete -D -F _completion_loader -o bashdefault -o default
 ```
 :::
 
-------------------------------------------------------------------------
 
 []{#Programmable-Completion-Builtins}
 
@@ -10920,7 +10818,6 @@ happening.
     attempt is made to modify the options for a name for which no
     completion specification exists, or an output error occurs.
 
-------------------------------------------------------------------------
 
 []{#A-Programmable-Completion-Example}
 
@@ -11047,7 +10944,6 @@ bash in the examples/complete subdirectory.
 
 []{#index-History_002c-how-to-use}
 
-------------------------------------------------------------------------
 
 []{#Using-History-Interactively}
 
@@ -11068,7 +10964,6 @@ GNU Readline Library Manual.
   • [History Interaction](#History-Interaction):                What it feels like using History as a user.
   -------------------------------------------------------- ---- ----------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Bash-History-Facilities}
 
@@ -11127,7 +11022,6 @@ option causes the shell to save the command with embedded newlines
 instead of semicolons. The `shopt` builtin is used to set these options.
 See [Bash Builtins](#Bash-Builtins), for a description of `shopt`.
 
-------------------------------------------------------------------------
 
 []{#Bash-History-Builtins}
 
@@ -11248,7 +11142,6 @@ history file.
     given, then it is used as the history file. If not, then the value
     of the `HISTFILE` variable is used.
 
-------------------------------------------------------------------------
 
 []{#History-Interaction}
 
@@ -11311,7 +11204,6 @@ file.
   • [Modifiers](#Modifiers):                        Modifying the results of substitution.
   -------------------------------------------- ---- -------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Event-Designators}
 
@@ -11364,7 +11256,6 @@ the current position in the history list. []{#index-history-events}
 
 :   The entire command line typed so far.
 
-------------------------------------------------------------------------
 
 []{#Word-Designators}
 
@@ -11440,7 +11331,6 @@ Here are the word designators:
 If a word designator is supplied without an event specification, the
 previous command is used as the event.
 
-------------------------------------------------------------------------
 
 []{#Modifiers}
 
@@ -11505,7 +11395,6 @@ more of the following modifiers, each preceded by a ':'.
 
 :   Apply the following 's' modifier once to each word in the event.
 
-------------------------------------------------------------------------
 
 []{#Installing-Bash}
 
@@ -11532,7 +11421,6 @@ Windows platforms.
   • [Optional Features](#Optional-Features):                                              How to enable and disable optional features when building Bash.
   ---------------------------------------------------------------------------------- ---- ---------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Basic-Installation}
 
@@ -11602,7 +11490,6 @@ code directory by typing 'make clean'. To also remove the files that
 `configure` created (so you can compile Bash for a different kind of
 computer), type 'make distclean'.
 
-------------------------------------------------------------------------
 
 []{#Compilers-and-Options}
 
@@ -11632,7 +11519,6 @@ env CPPFLAGS=-I/usr/local/include LDFLAGS=-s ./configure
 
 The configuration process uses GCC to build Bash if it is available.
 
-------------------------------------------------------------------------
 
 []{#Compiling-For-Multiple-Architectures}
 
@@ -11672,7 +11558,6 @@ The `mkclone` script requires Bash, so you must have already built Bash
 for at least one architecture before you can create build directories
 for other architectures.
 
-------------------------------------------------------------------------
 
 []{#Installation-Names}
 
@@ -11693,7 +11578,6 @@ option \--exec-prefix=PATH, 'make install' will use PATH as the prefix
 for installing programs and libraries. Documentation and other data
 files will still use the regular prefix.
 
-------------------------------------------------------------------------
 
 []{#Specifying-the-System-Type}
 
@@ -11712,7 +11596,6 @@ canonical name with three fields: 'CPU-COMPANY-SYSTEM' (e.g.,
 
 See the file support/config.sub for the possible values of each field.
 
-------------------------------------------------------------------------
 
 []{#Sharing-Defaults}
 
@@ -11730,7 +11613,6 @@ environment variable to the location of the site script. A warning: the
 Bash `configure` looks for a site script, but not all `configure`
 scripts do.
 
-------------------------------------------------------------------------
 
 []{#Operation-Controls}
 
@@ -11770,7 +11652,6 @@ scripts do.
 `configure` also accepts some other, not widely used, boilerplate
 options. 'configure \--help' prints the complete list.
 
-------------------------------------------------------------------------
 
 []{#Optional-Features}
 
@@ -12078,7 +11959,6 @@ meant to be changed; beware of the consequences if you do. Read the
 comments associated with each definition for more information about its
 effect.
 
-------------------------------------------------------------------------
 
 []{#Reporting-Bugs}
 
@@ -12113,7 +11993,6 @@ it provides for filing a bug report.
 
 Please send all reports concerning this manual to <bug-bash@gnu.org>.
 
-------------------------------------------------------------------------
 
 []{#Major-Differences-From-The-Bourne-Shell}
 
@@ -12424,7 +12303,6 @@ many of the limitations of the SVR4.2 shell. For instance:
 -   The SVR4.2 shell behaves differently when invoked as `jsh` (it turns
     on job control).
 
-------------------------------------------------------------------------
 
 []{#GNU-Free-Documentation-License}
 
@@ -12908,7 +12786,6 @@ recommend releasing these examples in parallel under your choice of free
 software license, such as the GNU General Public License, to permit
 their use in free software.
 
-------------------------------------------------------------------------
 
 []{#Indexes}
 
@@ -12926,7 +12803,6 @@ Appendix D Indexes {#appendix-d-indexes .appendix}
   • [Concept Index](#Concept-Index):                    General index for concepts described in this manual.
   ------------------------------------------------ ---- -------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Builtin-Index}
 
@@ -12947,7 +12823,6 @@ Index Entry
 
 Section
 
-------------------------------------------------------------------------
 
 [.]{#Builtin-Index_bt_symbol-1}
 
@@ -12957,7 +12832,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [:]{#Builtin-Index_bt_symbol-2}
 
@@ -12967,7 +12841,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [\[]{#Builtin-Index_bt_symbol-3}
 
@@ -12977,7 +12850,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [A]{#Builtin-Index_bt_letter-A}
 
@@ -12987,7 +12859,6 @@ Section
 
 [Bash Builtins](#Bash-Builtins)
 
-------------------------------------------------------------------------
 
 [B]{#Builtin-Index_bt_letter-B}
 
@@ -13015,7 +12886,6 @@ Section
 
 [Bash Builtins](#Bash-Builtins)
 
-------------------------------------------------------------------------
 
 [C]{#Builtin-Index_bt_letter-C}
 
@@ -13061,7 +12931,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [D]{#Builtin-Index_bt_letter-D}
 
@@ -13083,7 +12952,6 @@ Section
 
 [Job Control Builtins](#Job-Control-Builtins)
 
-------------------------------------------------------------------------
 
 [E]{#Builtin-Index_bt_letter-E}
 
@@ -13123,7 +12991,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [F]{#Builtin-Index_bt_letter-F}
 
@@ -13139,7 +13006,6 @@ Section
 
 [Job Control Builtins](#Job-Control-Builtins)
 
-------------------------------------------------------------------------
 
 [G]{#Builtin-Index_bt_letter-G}
 
@@ -13149,7 +13015,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [H]{#Builtin-Index_bt_letter-H}
 
@@ -13171,7 +13036,6 @@ Section
 
 [Bash History Builtins](#Bash-History-Builtins)
 
-------------------------------------------------------------------------
 
 [J]{#Builtin-Index_bt_letter-J}
 
@@ -13181,7 +13045,6 @@ Section
 
 [Job Control Builtins](#Job-Control-Builtins)
 
-------------------------------------------------------------------------
 
 [K]{#Builtin-Index_bt_letter-K}
 
@@ -13191,7 +13054,6 @@ Section
 
 [Job Control Builtins](#Job-Control-Builtins)
 
-------------------------------------------------------------------------
 
 [L]{#Builtin-Index_bt_letter-L}
 
@@ -13213,7 +13075,6 @@ Section
 
 [Bash Builtins](#Bash-Builtins)
 
-------------------------------------------------------------------------
 
 [M]{#Builtin-Index_bt_letter-M}
 
@@ -13223,7 +13084,6 @@ Section
 
 [Bash Builtins](#Bash-Builtins)
 
-------------------------------------------------------------------------
 
 [P]{#Builtin-Index_bt_letter-P}
 
@@ -13251,7 +13111,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [R]{#Builtin-Index_bt_letter-R}
 
@@ -13279,7 +13138,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [S]{#Builtin-Index_bt_letter-S}
 
@@ -13313,7 +13171,6 @@ Section
 
 [Job Control Builtins](#Job-Control-Builtins)
 
-------------------------------------------------------------------------
 
 [T]{#Builtin-Index_bt_letter-T}
 
@@ -13347,7 +13204,6 @@ Section
 
 [Bash Builtins](#Bash-Builtins)
 
-------------------------------------------------------------------------
 
 [U]{#Builtin-Index_bt_letter-U}
 
@@ -13375,7 +13231,6 @@ Section
 
 [Bourne Shell Builtins](#Bourne-Shell-Builtins)
 
-------------------------------------------------------------------------
 
 [W]{#Builtin-Index_bt_letter-W}
 
@@ -13385,7 +13240,6 @@ Section
 
 [Job Control Builtins](#Job-Control-Builtins)
 
-------------------------------------------------------------------------
 
   ------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Jump to:     [**.**](#Builtin-Index_bt_symbol-1){.summary-letter}   [**:**](#Builtin-Index_bt_symbol-2){.summary-letter}   [**\[**](#Builtin-Index_bt_symbol-3){.summary-letter}  \
@@ -13393,7 +13247,6 @@ Section
 
   ------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Reserved-Word-Index}
 
@@ -13414,7 +13267,6 @@ Index Entry
 
 Section
 
-------------------------------------------------------------------------
 
 [!]{#Reserved-Word-Index_rw_symbol-1}
 
@@ -13424,7 +13276,6 @@ Section
 
 [Pipelines](#Pipelines)
 
-------------------------------------------------------------------------
 
 [\[]{#Reserved-Word-Index_rw_symbol-2}
 
@@ -13434,7 +13285,6 @@ Section
 
 [Conditional Constructs](#Conditional-Constructs)
 
-------------------------------------------------------------------------
 
 [\]]{#Reserved-Word-Index_rw_symbol-3}
 
@@ -13444,7 +13294,6 @@ Section
 
 [Conditional Constructs](#Conditional-Constructs)
 
-------------------------------------------------------------------------
 
 [{]{#Reserved-Word-Index_rw_symbol-4}
 
@@ -13454,7 +13303,6 @@ Section
 
 [Command Grouping](#Command-Grouping)
 
-------------------------------------------------------------------------
 
 [}]{#Reserved-Word-Index_rw_symbol-5}
 
@@ -13464,7 +13312,6 @@ Section
 
 [Command Grouping](#Command-Grouping)
 
-------------------------------------------------------------------------
 
 [C]{#Reserved-Word-Index_rw_letter-C}
 
@@ -13474,7 +13321,6 @@ Section
 
 [Conditional Constructs](#Conditional-Constructs)
 
-------------------------------------------------------------------------
 
 [D]{#Reserved-Word-Index_rw_letter-D}
 
@@ -13490,7 +13336,6 @@ Section
 
 [Looping Constructs](#Looping-Constructs)
 
-------------------------------------------------------------------------
 
 [E]{#Reserved-Word-Index_rw_letter-E}
 
@@ -13512,7 +13357,6 @@ Section
 
 [Conditional Constructs](#Conditional-Constructs)
 
-------------------------------------------------------------------------
 
 [F]{#Reserved-Word-Index_rw_letter-F}
 
@@ -13534,7 +13378,6 @@ Section
 
 [Shell Functions](#Shell-Functions)
 
-------------------------------------------------------------------------
 
 [I]{#Reserved-Word-Index_rw_letter-I}
 
@@ -13550,7 +13393,6 @@ Section
 
 [Conditional Constructs](#Conditional-Constructs)
 
-------------------------------------------------------------------------
 
 [S]{#Reserved-Word-Index_rw_letter-S}
 
@@ -13560,7 +13402,6 @@ Section
 
 [Conditional Constructs](#Conditional-Constructs)
 
-------------------------------------------------------------------------
 
 [T]{#Reserved-Word-Index_rw_letter-T}
 
@@ -13576,7 +13417,6 @@ Section
 
 [Pipelines](#Pipelines)
 
-------------------------------------------------------------------------
 
 [U]{#Reserved-Word-Index_rw_letter-U}
 
@@ -13586,7 +13426,6 @@ Section
 
 [Looping Constructs](#Looping-Constructs)
 
-------------------------------------------------------------------------
 
 [W]{#Reserved-Word-Index_rw_letter-W}
 
@@ -13596,7 +13435,6 @@ Section
 
 [Looping Constructs](#Looping-Constructs)
 
-------------------------------------------------------------------------
 
   ------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Jump to:     [**!**](#Reserved-Word-Index_rw_symbol-1){.summary-letter}   [**\[**](#Reserved-Word-Index_rw_symbol-2){.summary-letter}   [**\]**](#Reserved-Word-Index_rw_symbol-3){.summary-letter}   [**{**](#Reserved-Word-Index_rw_symbol-4){.summary-letter}   [**}**](#Reserved-Word-Index_rw_symbol-5){.summary-letter}  \
@@ -13604,7 +13442,6 @@ Section
 
   ------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Variable-Index}
 
@@ -13625,7 +13462,6 @@ Index Entry
 
 Section
 
-------------------------------------------------------------------------
 
 [!]{#Variable-Index_vr_symbol-1}
 
@@ -13635,7 +13471,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [\#]{#Variable-Index_vr_symbol-2}
 
@@ -13645,7 +13480,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [\$]{#Variable-Index_vr_symbol-3}
 
@@ -13709,7 +13543,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [\*]{#Variable-Index_vr_symbol-4}
 
@@ -13719,7 +13552,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [-]{#Variable-Index_vr_symbol-5}
 
@@ -13729,7 +13561,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [0]{#Variable-Index_vr_symbol-6}
 
@@ -13739,7 +13570,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [?]{#Variable-Index_vr_symbol-7}
 
@@ -13749,7 +13579,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [@]{#Variable-Index_vr_symbol-8}
 
@@ -13759,7 +13588,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [\_]{#Variable-Index_vr_symbol-9}
 
@@ -13769,7 +13597,6 @@ Section
 
 [Special Parameters](#Special-Parameters)
 
-------------------------------------------------------------------------
 
 [A]{#Variable-Index_vr_letter-A}
 
@@ -13779,7 +13606,6 @@ Section
 
 [Job Control Variables](#Job-Control-Variables)
 
-------------------------------------------------------------------------
 
 [B]{#Variable-Index_vr_letter-B}
 
@@ -13915,7 +13741,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [C]{#Variable-Index_vr_letter-C}
 
@@ -14045,7 +13870,6 @@ Section
 
 [Bash Variables](#Bash-Variables)
 
-------------------------------------------------------------------------
 
 [D]{#Variable-Index_vr_letter-D}
 
@@ -14061,7 +13885,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [E]{#Variable-Index_vr_letter-E}
 
@@ -14125,7 +13948,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [F]{#Variable-Index_vr_letter-F}
 
@@ -14153,7 +13975,6 @@ Section
 
 [Bash Variables](#Bash-Variables)
 
-------------------------------------------------------------------------
 
 [G]{#Variable-Index_vr_letter-G}
 
@@ -14169,7 +13990,6 @@ Section
 
 [Bash Variables](#Bash-Variables)
 
-------------------------------------------------------------------------
 
 [H]{#Variable-Index_vr_letter-H}
 
@@ -14263,7 +14083,6 @@ Section
 
 [Bash Variables](#Bash-Variables)
 
-------------------------------------------------------------------------
 
 [I]{#Variable-Index_vr_letter-I}
 
@@ -14297,7 +14116,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [K]{#Variable-Index_vr_letter-K}
 
@@ -14307,7 +14125,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [L]{#Variable-Index_vr_letter-L}
 
@@ -14371,7 +14188,6 @@ Section
 
 [Bash Variables](#Bash-Variables)
 
-------------------------------------------------------------------------
 
 [M]{#Variable-Index_vr_letter-M}
 
@@ -14435,7 +14251,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [O]{#Variable-Index_vr_letter-O}
 
@@ -14475,7 +14290,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [P]{#Variable-Index_vr_letter-P}
 
@@ -14557,7 +14371,6 @@ Section
 
 [Bash Variables](#Bash-Variables)
 
-------------------------------------------------------------------------
 
 [R]{#Variable-Index_vr_letter-R}
 
@@ -14591,7 +14404,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [S]{#Variable-Index_vr_letter-S}
 
@@ -14643,7 +14455,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [T]{#Variable-Index_vr_letter-T}
 
@@ -14677,7 +14488,6 @@ Section
 
 [Bash Variables](#Bash-Variables)
 
-------------------------------------------------------------------------
 
 [U]{#Variable-Index_vr_letter-U}
 
@@ -14687,7 +14497,6 @@ Section
 
 [Bash Variables](#Bash-Variables)
 
-------------------------------------------------------------------------
 
 [V]{#Variable-Index_vr_letter-V}
 
@@ -14709,7 +14518,6 @@ Section
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
   ------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Jump to:     [**!**](#Variable-Index_vr_symbol-1){.summary-letter}   [**\#**](#Variable-Index_vr_symbol-2){.summary-letter}   [**\$**](#Variable-Index_vr_symbol-3){.summary-letter}   [**\***](#Variable-Index_vr_symbol-4){.summary-letter}   [**-**](#Variable-Index_vr_symbol-5){.summary-letter}   [**0**](#Variable-Index_vr_symbol-6){.summary-letter}   [**?**](#Variable-Index_vr_symbol-7){.summary-letter}   [**@**](#Variable-Index_vr_symbol-8){.summary-letter}   [**\_**](#Variable-Index_vr_symbol-9){.summary-letter}  \
@@ -14717,7 +14525,6 @@ Section
 
   ------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Function-Index}
 
@@ -14736,7 +14543,6 @@ Index Entry
 
 Section
 
-------------------------------------------------------------------------
 
 [A]{#Function-Index_fn_letter-A}
 
@@ -14758,7 +14564,6 @@ Section
 
 [Miscellaneous Commands](#Miscellaneous-Commands)
 
-------------------------------------------------------------------------
 
 [B]{#Function-Index_fn_letter-B}
 
@@ -14810,7 +14615,6 @@ Section
 
 [Commands For Text](#Commands-For-Text)
 
-------------------------------------------------------------------------
 
 [C]{#Function-Index_fn_letter-C}
 
@@ -14904,7 +14708,6 @@ Section
 
 [Commands For Killing](#Commands-For-Killing)
 
-------------------------------------------------------------------------
 
 [D]{#Function-Index_fn_letter-D}
 
@@ -14980,7 +14783,6 @@ Section
 
 [Commands For Completion](#Commands-For-Completion)
 
-------------------------------------------------------------------------
 
 [E]{#Function-Index_fn_letter-E}
 
@@ -15020,7 +14822,6 @@ Section
 
 [Miscellaneous Commands](#Miscellaneous-Commands)
 
-------------------------------------------------------------------------
 
 [F]{#Function-Index_fn_letter-F}
 
@@ -15048,7 +14849,6 @@ Section
 
 [Commands For Moving](#Commands-For-Moving)
 
-------------------------------------------------------------------------
 
 [G]{#Function-Index_fn_letter-G}
 
@@ -15070,7 +14870,6 @@ Section
 
 [Miscellaneous Commands](#Miscellaneous-Commands)
 
-------------------------------------------------------------------------
 
 [H]{#Function-Index_fn_letter-H}
 
@@ -15110,7 +14909,6 @@ Section
 
 [Commands For History](#Commands-For-History)
 
-------------------------------------------------------------------------
 
 [I]{#Function-Index_fn_letter-I}
 
@@ -15132,7 +14930,6 @@ Section
 
 [Miscellaneous Commands](#Miscellaneous-Commands)
 
-------------------------------------------------------------------------
 
 [K]{#Function-Index_fn_letter-K}
 
@@ -15160,7 +14957,6 @@ Section
 
 [Commands For Killing](#Commands-For-Killing)
 
-------------------------------------------------------------------------
 
 [M]{#Function-Index_fn_letter-M}
 
@@ -15182,7 +14978,6 @@ Section
 
 [Commands For Completion](#Commands-For-Completion)
 
-------------------------------------------------------------------------
 
 [N]{#Function-Index_fn_letter-N}
 
@@ -15204,7 +14999,6 @@ Section
 
 [Commands For History](#Commands-For-History)
 
-------------------------------------------------------------------------
 
 [O]{#Function-Index_fn_letter-O}
 
@@ -15220,7 +15014,6 @@ Section
 
 [Commands For Text](#Commands-For-Text)
 
-------------------------------------------------------------------------
 
 [P]{#Function-Index_fn_letter-P}
 
@@ -15278,7 +15071,6 @@ Section
 
 [Keyboard Macros](#Keyboard-Macros)
 
-------------------------------------------------------------------------
 
 [Q]{#Function-Index_fn_letter-Q}
 
@@ -15288,7 +15080,6 @@ Section
 
 [Commands For Text](#Commands-For-Text)
 
-------------------------------------------------------------------------
 
 [R]{#Function-Index_fn_letter-R}
 
@@ -15316,7 +15107,6 @@ Section
 
 [Miscellaneous Commands](#Miscellaneous-Commands)
 
-------------------------------------------------------------------------
 
 [S]{#Function-Index_fn_letter-S}
 
@@ -15374,7 +15164,6 @@ Section
 
 [Keyboard Macros](#Keyboard-Macros)
 
-------------------------------------------------------------------------
 
 [T]{#Function-Index_fn_letter-T}
 
@@ -15396,7 +15185,6 @@ Section
 
 [Commands For Text](#Commands-For-Text)
 
-------------------------------------------------------------------------
 
 [U]{#Function-Index_fn_letter-U}
 
@@ -15436,7 +15224,6 @@ Section
 
 [Commands For Text](#Commands-For-Text)
 
-------------------------------------------------------------------------
 
 [Y]{#Function-Index_fn_letter-Y}
 
@@ -15464,13 +15251,11 @@ Section
 
 [Commands For Killing](#Commands-For-Killing)
 
-------------------------------------------------------------------------
 
   ------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Jump to:     [**A**](#Function-Index_fn_letter-A){.summary-letter}   [**B**](#Function-Index_fn_letter-B){.summary-letter}   [**C**](#Function-Index_fn_letter-C){.summary-letter}   [**D**](#Function-Index_fn_letter-D){.summary-letter}   [**E**](#Function-Index_fn_letter-E){.summary-letter}   [**F**](#Function-Index_fn_letter-F){.summary-letter}   [**G**](#Function-Index_fn_letter-G){.summary-letter}   [**H**](#Function-Index_fn_letter-H){.summary-letter}   [**I**](#Function-Index_fn_letter-I){.summary-letter}   [**K**](#Function-Index_fn_letter-K){.summary-letter}   [**M**](#Function-Index_fn_letter-M){.summary-letter}   [**N**](#Function-Index_fn_letter-N){.summary-letter}   [**O**](#Function-Index_fn_letter-O){.summary-letter}   [**P**](#Function-Index_fn_letter-P){.summary-letter}   [**Q**](#Function-Index_fn_letter-Q){.summary-letter}   [**R**](#Function-Index_fn_letter-R){.summary-letter}   [**S**](#Function-Index_fn_letter-S){.summary-letter}   [**T**](#Function-Index_fn_letter-T){.summary-letter}   [**U**](#Function-Index_fn_letter-U){.summary-letter}   [**Y**](#Function-Index_fn_letter-Y){.summary-letter}  
   ------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 []{#Concept-Index}
 
@@ -15489,7 +15274,6 @@ Index Entry
 
 Section
 
-------------------------------------------------------------------------
 
 [A]{#Concept-Index_cp_letter-A}
 
@@ -15523,7 +15307,6 @@ Section
 
 [Arrays](#Arrays)
 
-------------------------------------------------------------------------
 
 [B]{#Concept-Index_cp_letter-B}
 
@@ -15563,7 +15346,6 @@ Section
 
 [Definitions](#Definitions)
 
-------------------------------------------------------------------------
 
 [C]{#Concept-Index_cp_letter-C}
 
@@ -15687,7 +15469,6 @@ Section
 
 [Coprocesses](#Coprocesses)
 
-------------------------------------------------------------------------
 
 [D]{#Concept-Index_cp_letter-D}
 
@@ -15697,7 +15478,6 @@ Section
 
 [The Directory Stack](#The-Directory-Stack)
 
-------------------------------------------------------------------------
 
 [E]{#Concept-Index_cp_letter-E}
 
@@ -15797,7 +15577,6 @@ Section
 
 [Bash Conditional Expressions](#Bash-Conditional-Expressions)
 
-------------------------------------------------------------------------
 
 [F]{#Concept-Index_cp_letter-F}
 
@@ -15831,7 +15610,6 @@ Section
 
 [Shell Functions](#Shell-Functions)
 
-------------------------------------------------------------------------
 
 [H]{#Concept-Index_cp_letter-H}
 
@@ -15865,7 +15643,6 @@ Section
 
 [A Programmable Completion Example](#A-Programmable-Completion-Example)
 
-------------------------------------------------------------------------
 
 [I]{#Concept-Index_cp_letter-I}
 
@@ -15912,7 +15689,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Locale Translation](#Locale-Translation)
 
-------------------------------------------------------------------------
 
 [J]{#Concept-Index_cp_letter-J}
 
@@ -15934,7 +15710,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Job Control Basics](#Job-Control-Basics)
 
-------------------------------------------------------------------------
 
 [K]{#Concept-Index_cp_letter-K}
 
@@ -15950,7 +15725,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Readline Killing Commands](#Readline-Killing-Commands)
 
-------------------------------------------------------------------------
 
 [L]{#Concept-Index_cp_letter-L}
 
@@ -15966,7 +15740,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Invoking Bash](#Invoking-Bash)
 
-------------------------------------------------------------------------
 
 [M]{#Concept-Index_cp_letter-M}
 
@@ -15982,7 +15755,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Definitions](#Definitions)
 
-------------------------------------------------------------------------
 
 [N]{#Concept-Index_cp_letter-N}
 
@@ -16004,7 +15776,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Readline Bare Essentials](#Readline-Bare-Essentials)
 
-------------------------------------------------------------------------
 
 [O]{#Concept-Index_cp_letter-O}
 
@@ -16014,7 +15785,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Definitions](#Definitions)
 
-------------------------------------------------------------------------
 
 [P]{#Concept-Index_cp_letter-P}
 
@@ -16102,7 +15872,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Controlling the Prompt](#Controlling-the-Prompt)
 
-------------------------------------------------------------------------
 
 [Q]{#Concept-Index_cp_letter-Q}
 
@@ -16118,7 +15887,6 @@ readline](#index-initialization-file_002c-readline):
 
 [ANSI-C Quoting](#ANSI_002dC-Quoting)
 
-------------------------------------------------------------------------
 
 [R]{#Concept-Index_cp_letter-R}
 
@@ -16152,7 +15920,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Definitions](#Definitions)
 
-------------------------------------------------------------------------
 
 [S]{#Concept-Index_cp_letter-S}
 
@@ -16222,7 +15989,6 @@ readline](#index-initialization-file_002c-readline):
 
 [Job Control Basics](#Job-Control-Basics)
 
-------------------------------------------------------------------------
 
 [T]{#Concept-Index_cp_letter-T}
 
@@ -16245,7 +16011,6 @@ languages](#index-translation_002c-native-languages):
 
 [Locale Translation](#Locale-Translation)
 
-------------------------------------------------------------------------
 
 [V]{#Concept-Index_cp_letter-V}
 
@@ -16261,7 +16026,6 @@ languages](#index-translation_002c-native-languages):
 
 [Readline Init File Syntax](#Readline-Init-File-Syntax)
 
-------------------------------------------------------------------------
 
 [W]{#Concept-Index_cp_letter-W}
 
@@ -16277,7 +16041,6 @@ languages](#index-translation_002c-native-languages):
 
 [Word Splitting](#Word-Splitting)
 
-------------------------------------------------------------------------
 
 [Y]{#Concept-Index_cp_letter-Y}
 
@@ -16287,10 +16050,8 @@ languages](#index-translation_002c-native-languages):
 
 [Readline Killing Commands](#Readline-Killing-Commands)
 
-------------------------------------------------------------------------
 
   ------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Jump to:     [**A**](#Concept-Index_cp_letter-A){.summary-letter}   [**B**](#Concept-Index_cp_letter-B){.summary-letter}   [**C**](#Concept-Index_cp_letter-C){.summary-letter}   [**D**](#Concept-Index_cp_letter-D){.summary-letter}   [**E**](#Concept-Index_cp_letter-E){.summary-letter}   [**F**](#Concept-Index_cp_letter-F){.summary-letter}   [**H**](#Concept-Index_cp_letter-H){.summary-letter}   [**I**](#Concept-Index_cp_letter-I){.summary-letter}   [**J**](#Concept-Index_cp_letter-J){.summary-letter}   [**K**](#Concept-Index_cp_letter-K){.summary-letter}   [**L**](#Concept-Index_cp_letter-L){.summary-letter}   [**M**](#Concept-Index_cp_letter-M){.summary-letter}   [**N**](#Concept-Index_cp_letter-N){.summary-letter}   [**O**](#Concept-Index_cp_letter-O){.summary-letter}   [**P**](#Concept-Index_cp_letter-P){.summary-letter}   [**Q**](#Concept-Index_cp_letter-Q){.summary-letter}   [**R**](#Concept-Index_cp_letter-R){.summary-letter}   [**S**](#Concept-Index_cp_letter-S){.summary-letter}   [**T**](#Concept-Index_cp_letter-T){.summary-letter}   [**V**](#Concept-Index_cp_letter-V){.summary-letter}   [**W**](#Concept-Index_cp_letter-W){.summary-letter}   [**Y**](#Concept-Index_cp_letter-Y){.summary-letter}  
   ------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
