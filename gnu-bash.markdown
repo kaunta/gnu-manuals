@@ -3870,8 +3870,7 @@ standard.
     status is zero unless n is greater than `$#` or less than zero,
     non-zero otherwise.
 
-`test`\
-`[`
+`test`, `[`
 
 :   []{#index-test} []{#index-_005b}
 
