@@ -28,22 +28,20 @@ This manual is meant as a brief introduction to features found in Bash.
 The Bash manual page should be used as the definitive reference on shell
 behavior.
 
-  ---------------------------------------------------------------------------------------- ---- ----------------------------------------------------------------------------------
-  • [Introduction](#Introduction):                                                              An introduction to the shell.
-  • [Definitions](#Definitions):                                                                Some definitions used in the rest of this manual.
-  • [Basic Shell Features](#Basic-Shell-Features):                                              The shell \"building blocks\".
-  • [Shell Builtin Commands](#Shell-Builtin-Commands):                                          Commands that are a part of the shell.
-  • [Shell Variables](#Shell-Variables):                                                        Variables used or set by Bash.
-  • [Bash Features](#Bash-Features):                                                            Features found only in Bash.
-  • [Job Control](#Job-Control):                                                                What job control is and how Bash allows you to use it.
-  • [Command Line Editing](#Command-Line-Editing):                                              Chapter describing the command line editing features.
-  • [Using History Interactively](#Using-History-Interactively):                                Command History Expansion
-  • [Installing Bash](#Installing-Bash):                                                        How to build and install Bash on your system.
-  • [Reporting Bugs](#Reporting-Bugs):                                                          How to report bugs in Bash.
-  • [Major Differences From The Bourne Shell](#Major-Differences-From-The-Bourne-Shell):        A terse list of the differences between Bash and historical versions of /bin/sh.
-  • [GNU Free Documentation License](#GNU-Free-Documentation-License):                          Copying and sharing this documentation.
-  • [Indexes](#Indexes):                                                                        Various indexes for this manual.
-  ---------------------------------------------------------------------------------------- ---- ----------------------------------------------------------------------------------
+  - [Introduction](#Introduction): An introduction to the shell.
+  - [Definitions](#Definitions): Some definitions used in the rest of this manual.
+  - [Basic Shell Features](#Basic-Shell-Features): The shell \"building blocks\".
+  - [Shell Builtin Commands](#Shell-Builtin-Commands): Commands that are a part of the shell.
+  - [Shell Variables](#Shell-Variables): Variables used or set by Bash.
+  - [Bash Features](#Bash-Features): Features found only in Bash.
+  - [Job Control](#Job-Control): What job control is and how Bash allows you to use it.
+  - [Command Line Editing](#Command-Line-Editing): Chapter describing the command line editing features.
+  - [Using History Interactively](#Using-History-Interactively): Command History Expansion
+  - [Installing Bash](#Installing-Bash): How to build and install Bash on your system.
+  - [Reporting Bugs](#Reporting-Bugs): How to report bugs in Bash.
+  - [Major Differences From The Bourne Shell](#Major-Differences-From-The-Bourne-Shell): A terse list of the differences between Bash and historical versions of /bin/sh.
+  - [GNU Free Documentation License](#GNU-Free-Documentation-License): Copying and sharing this documentation.
+  - [Indexes](#Indexes): Various indexes for this manual.
 
 
 []{#Introduction}
@@ -54,10 +52,8 @@ behavior.
 1 Introduction {#introduction .chapter}
 --------------
 
-  ---------------------------------------------- ---- ---------------------------------
-  • [What is Bash?](#What-is-Bash_003f):              A short description of Bash.
-  • [What is a shell?](#What-is-a-shell_003f):        A brief introduction to shells.
-  ---------------------------------------------- ---- ---------------------------------
+  - [What is Bash?](#What-is-Bash_003f): A short description of Bash.
+  - [What is a shell?](#What-is-a-shell_003f): A brief introduction to shells.
 
 
 []{#What-is-Bash_003f}
@@ -312,16 +308,14 @@ control structures, shell functions, shell *parameters*, shell
 expansions, *redirections*, which are a way to direct input and output
 from and to named files, and how the shell executes commands.
 
-  ---------------------------------------------- ---- -------------------------------------------------------------------
-  • [Shell Syntax](#Shell-Syntax):                    What your input means to the shell.
-  • [Shell Commands](#Shell-Commands):                The types of commands you can use.
-  • [Shell Functions](#Shell-Functions):              Grouping commands by name.
-  • [Shell Parameters](#Shell-Parameters):            How the shell stores values.
-  • [Shell Expansions](#Shell-Expansions):            How Bash expands parameters and the various expansions available.
-  • [Redirections](#Redirections):                    A way to control where input and output go.
-  • [Executing Commands](#Executing-Commands):        What happens when you run a command.
-  • [Shell Scripts](#Shell-Scripts):                  Executing files of shell commands.
-  ---------------------------------------------- ---- -------------------------------------------------------------------
+  - [Shell Syntax](#Shell-Syntax): What your input means to the shell.
+  - [Shell Commands](#Shell-Commands): The types of commands you can use.
+  - [Shell Functions](#Shell-Functions): Grouping commands by name.
+  - [Shell Parameters](#Shell-Parameters): How the shell stores values.
+  - [Shell Expansions](#Shell-Expansions): How Bash expands parameters and the various expansions available.
+  - [Redirections](#Redirections): A way to control where input and output go.
+  - [Executing Commands](#Executing-Commands): What happens when you run a command.
+  - [Shell Scripts](#Shell-Scripts): Executing files of shell commands.
 
 
 []{#Shell-Syntax}
@@ -331,11 +325,9 @@ from and to named files, and how the shell executes commands.
 
 ### 3.1 Shell Syntax {#shell-syntax .section}
 
-  ---------------------------------------- ---- ----------------------------------------------------
-  • [Shell Operation](#Shell-Operation):        The basic operation of the shell.
-  • [Quoting](#Quoting):                        How to remove the special meaning from characters.
-  • [Comments](#Comments):                      How to specify comments.
-  ---------------------------------------- ---- ----------------------------------------------------
+  - [Shell Operation](#Shell-Operation): The basic operation of the shell.
+  - [Quoting](#Quoting): How to remove the special meaning from characters.
+  - [Comments](#Comments): How to specify comments.
 
 When the shell reads input, it proceeds through a sequence of
 operations. If the input indicates the beginning of a comment, the shell
@@ -393,13 +385,11 @@ reads and executes a command. Basically, the shell does the following:
 
 []{#index-quoting}
 
-  ---------------------------------------------- ---- -------------------------------------------------------------------------
-  • [Escape Character](#Escape-Character):            How to remove the special meaning from a single character.
-  • [Single Quotes](#Single-Quotes):                  How to inhibit all interpretation of a sequence of characters.
-  • [Double Quotes](#Double-Quotes):                  How to suppress most of the interpretation of a sequence of characters.
-  • [ANSI-C Quoting](#ANSI_002dC-Quoting):            How to expand ANSI-C sequences in quoted strings.
-  • [Locale Translation](#Locale-Translation):        How to translate strings into different languages.
-  ---------------------------------------------- ---- -------------------------------------------------------------------------
+  - [Escape Character](#Escape-Character): How to remove the special meaning from a single character.
+  - [Single Quotes](#Single-Quotes): How to inhibit all interpretation of a sequence of characters.
+  - [Double Quotes](#Double-Quotes): How to suppress most of the interpretation of a sequence of characters.
+  - [ANSI-C Quoting](#ANSI_002dC-Quoting): How to expand ANSI-C sequences in quoted strings.
+  - [Locale Translation](#Locale-Translation): How to translate strings into different languages.
 
 Quoting is used to remove the special meaning of certain characters or
 words to the shell. Quoting can be used to disable special treatment for
@@ -626,14 +616,12 @@ together in a variety of ways: in a pipeline in which the output of one
 command becomes the input of a second, in a loop or conditional
 construct, or in some other grouping.
 
-  -------------------------------------------- ---- ------------------------------------------------------
-  • [Simple Commands](#Simple-Commands):            The most common type of command.
-  • [Pipelines](#Pipelines):                        Connecting the input and output of several commands.
-  • [Lists](#Lists):                                How to execute commands sequentially.
-  • [Compound Commands](#Compound-Commands):        Shell commands for control flow.
-  • [Coprocesses](#Coprocesses):                    Two-way communication between commands.
-  • [GNU Parallel](#GNU-Parallel):                  Running commands in parallel.
-  -------------------------------------------- ---- ------------------------------------------------------
+  - [Simple Commands](#Simple-Commands): The most common type of command.
+  - [Pipelines](#Pipelines): Connecting the input and output of several commands.
+  - [Lists](#Lists): How to execute commands sequentially.
+  - [Compound Commands](#Compound-Commands): Shell commands for control flow.
+  - [Coprocesses](#Coprocesses): Two-way communication between commands.
+  - [GNU Parallel](#GNU-Parallel): Running commands in parallel.
 
 
 []{#Simple-Commands}
@@ -793,11 +781,9 @@ command executed in the list.
 
 []{#index-commands_002c-compound}
 
-  ------------------------------------------------------ ---- -------------------------------------------
-  • [Looping Constructs](#Looping-Constructs):                Shell commands for iterative action.
-  • [Conditional Constructs](#Conditional-Constructs):        Shell commands for conditional execution.
-  • [Command Grouping](#Command-Grouping):                    Ways to group commands.
-  ------------------------------------------------------ ---- -------------------------------------------
+  - [Looping Constructs](#Looping-Constructs): Shell commands for iterative action.
+  - [Conditional Constructs](#Conditional-Constructs): Shell commands for conditional execution.
+  - [Command Grouping](#Command-Grouping): Ways to group commands.
 
 Compound commands are the shell programming constructs. Each construct
 begins with a reserved word or control operator and is terminated by a
@@ -1578,10 +1564,8 @@ calls.
 []{#index-parameters} []{#index-variable_002c-shell}
 []{#index-shell-variable}
 
-  ---------------------------------------------------- ---- -------------------------------------------
-  • [Positional Parameters](#Positional-Parameters):        The shell's command-line arguments.
-  • [Special Parameters](#Special-Parameters):              Parameters denoted by special characters.
-  ---------------------------------------------------- ---- -------------------------------------------
+  - [Positional Parameters](#Positional-Parameters): The shell's command-line arguments.
+  - [Special Parameters](#Special-Parameters): Parameters denoted by special characters.
 
 A parameter is an entity that stores values. It can be a `name`, a
 number, or one of the special characters listed below. A variable is a
@@ -1816,17 +1800,15 @@ Expansion is performed on the command line after it has been split into
 -   word splitting
 -   filename expansion
 
-  ------------------------------------------------------------ ---- -----------------------------------------------------------------
-  • [Brace Expansion](#Brace-Expansion):                            Expansion of expressions within braces.
-  • [Tilde Expansion](#Tilde-Expansion):                            Expansion of the \~ character.
-  • [Shell Parameter Expansion](#Shell-Parameter-Expansion):        How Bash expands variables to their values.
-  • [Command Substitution](#Command-Substitution):                  Using the output of a command as an argument.
-  • [Arithmetic Expansion](#Arithmetic-Expansion):                  How to use arithmetic in shell expansions.
-  • [Process Substitution](#Process-Substitution):                  A way to write and read to and from a command.
-  • [Word Splitting](#Word-Splitting):                              How the results of expansion are split into separate arguments.
-  • [Filename Expansion](#Filename-Expansion):                      A shorthand for specifying filenames matching patterns.
-  • [Quote Removal](#Quote-Removal):                                How and when quote characters are removed from words.
-  ------------------------------------------------------------ ---- -----------------------------------------------------------------
+  - [Brace Expansion](#Brace-Expansion): Expansion of expressions within braces.
+  - [Tilde Expansion](#Tilde-Expansion): Expansion of the \~ character.
+  - [Shell Parameter Expansion](#Shell-Parameter-Expansion): How Bash expands variables to their values.
+  - [Command Substitution](#Command-Substitution): Using the output of a command as an argument.
+  - [Arithmetic Expansion](#Arithmetic-Expansion): How to use arithmetic in shell expansions.
+  - [Process Substitution](#Process-Substitution): A way to write and read to and from a command.
+  - [Word Splitting](#Word-Splitting): How the results of expansion are split into separate arguments.
+  - [Filename Expansion](#Filename-Expansion): A shorthand for specifying filenames matching patterns.
+  - [Quote Removal](#Quote-Removal): How and when quote characters are removed from words.
 
 The order of expansions is: brace expansion; tilde expansion, parameter
 and variable expansion, arithmetic expansion, and command substitution
@@ -2530,9 +2512,7 @@ Note that if no expansion occurs, no splitting is performed.
 
 #### 3.5.8 Filename Expansion {#filename-expansion .subsection}
 
-  ------------------------------------------ ---- ---------------------------------
-  • [Pattern Matching](#Pattern-Matching):        How the shell matches patterns.
-  ------------------------------------------ ---- ---------------------------------
+  - [Pattern Matching](#Pattern-Matching): How the shell matches patterns.
 
 []{#index-expansion_002c-filename} []{#index-expansion_002c-pathname}
 []{#index-filename-expansion} []{#index-pathname-expansion}
@@ -3050,14 +3030,12 @@ if n is not specified. If the file does not exist, it is created.
 
 ### 3.7 Executing Commands {#executing-commands .section}
 
-  -------------------------------------------------------------------- ---- ------------------------------------------------------------------------------
-  • [Simple Command Expansion](#Simple-Command-Expansion):                  How Bash expands simple commands before executing them.
-  • [Command Search and Execution](#Command-Search-and-Execution):          How Bash finds commands and runs them.
-  • [Command Execution Environment](#Command-Execution-Environment):        The environment in which Bash executes commands that are not shell builtins.
-  • [Environment](#Environment):                                            The environment given to a command.
-  • [Exit Status](#Exit-Status):                                            The status returned by commands and how Bash interprets it.
-  • [Signals](#Signals):                                                    What happens when Bash or a command it runs receives a signal.
-  -------------------------------------------------------------------- ---- ------------------------------------------------------------------------------
+  - [Simple Command Expansion](#Simple-Command-Expansion): How Bash expands simple commands before executing them.
+  - [Command Search and Execution](#Command-Search-and-Execution): How Bash finds commands and runs them.
+  - [Command Execution Environment](#Command-Execution-Environment): The environment in which Bash executes commands that are not shell builtins.
+  - [Environment](#Environment): The environment given to a command.
+  - [Exit Status](#Exit-Status): The status returned by commands and how Bash interprets it.
+  - [Signals](#Signals): What happens when Bash or a command it runs receives a signal.
 
 
 []{#Simple-Command-Expansion}
@@ -3411,12 +3389,10 @@ interpret the script, even if it is executed under another shell.
 4 Shell Builtin Commands {#shell-builtin-commands .chapter}
 ------------------------
 
-  ---------------------------------------------------------- ---- ------------------------------------------------------------
-  • [Bourne Shell Builtins](#Bourne-Shell-Builtins):              Builtin commands inherited from the Bourne Shell.
-  • [Bash Builtins](#Bash-Builtins):                              Table of builtins specific to Bash.
-  • [Modifying Shell Behavior](#Modifying-Shell-Behavior):        Builtins to modify shell attributes and optional behavior.
-  • [Special Builtins](#Special-Builtins):                        Builtin commands classified specially by POSIX.
-  ---------------------------------------------------------- ---- ------------------------------------------------------------
+  - [Bourne Shell Builtins](#Bourne-Shell-Builtins): Builtin commands inherited from the Bourne Shell.
+  - [Bash Builtins](#Bash-Builtins): Table of builtins specific to Bash.
+  - [Modifying Shell Behavior](#Modifying-Shell-Behavior): Builtins to modify shell attributes and optional behavior.
+  - [Special Builtins](#Special-Builtins): Builtin commands classified specially by POSIX.
 
 Builtin commands are contained within the shell itself. When the name of
 a builtin command is used as the first word of a simple command (see
@@ -4993,10 +4969,8 @@ standard.
 
 ### 4.3 Modifying Shell Behavior {#modifying-shell-behavior .section}
 
-  -------------------------------------------- ---- ------------------------------------------------------------------
-  • [The Set Builtin](#The-Set-Builtin):            Change the values of shell attributes and positional parameters.
-  • [The Shopt Builtin](#The-Shopt-Builtin):        Modify shell optional behavior.
-  -------------------------------------------- ---- ------------------------------------------------------------------
+  - [The Set Builtin](#The-Set-Builtin): Change the values of shell attributes and positional parameters.
+  - [The Shopt Builtin](#The-Shopt-Builtin): Modify shell optional behavior.
 
 
 []{#The-Set-Builtin}
@@ -5800,10 +5774,8 @@ shift trap unset
 5 Shell Variables {#shell-variables .chapter}
 -----------------
 
-  ------------------------------------------------------ ---- ----------------------------------------------------------------
-  • [Bourne Shell Variables](#Bourne-Shell-Variables):        Variables which Bash uses in the same way as the Bourne Shell.
-  • [Bash Variables](#Bash-Variables):                        List of variables that exist in Bash.
-  ------------------------------------------------------ ---- ----------------------------------------------------------------
+  - [Bourne Shell Variables](#Bourne-Shell-Variables): Variables which Bash uses in the same way as the Bourne Shell.
+  - [Bash Variables](#Bash-Variables): List of variables that exist in Bash.
 
 This chapter describes the shell variables that Bash uses. Bash
 automatically assigns default values to a number of variables.
@@ -6649,19 +6621,17 @@ Variables](#Job-Control-Variables)).
 
 This chapter describes features unique to Bash.
 
-  ------------------------------------------------------------------ ---- -----------------------------------------------------------------------
-  • [Invoking Bash](#Invoking-Bash):                                      Command line options that you can give to Bash.
-  • [Bash Startup Files](#Bash-Startup-Files):                            When and how Bash executes scripts.
-  • [Interactive Shells](#Interactive-Shells):                            What an interactive shell is.
-  • [Bash Conditional Expressions](#Bash-Conditional-Expressions):        Primitives used in composing expressions for the `test` builtin.
-  • [Shell Arithmetic](#Shell-Arithmetic):                                Arithmetic on shell variables.
-  • [Aliases](#Aliases):                                                  Substituting one command for another.
-  • [Arrays](#Arrays):                                                    Array Variables.
-  • [The Directory Stack](#The-Directory-Stack):                          History of visited directories.
-  • [Controlling the Prompt](#Controlling-the-Prompt):                    Customizing the various prompt strings.
-  • [The Restricted Shell](#The-Restricted-Shell):                        A more controlled mode of shell execution.
-  • [Bash POSIX Mode](#Bash-POSIX-Mode):                                  Making Bash behave more closely to what the POSIX standard specifies.
-  ------------------------------------------------------------------ ---- -----------------------------------------------------------------------
+  - [Invoking Bash](#Invoking-Bash): Command line options that you can give to Bash.
+  - [Bash Startup Files](#Bash-Startup-Files): When and how Bash executes scripts.
+  - [Interactive Shells](#Interactive-Shells): What an interactive shell is.
+  - [Bash Conditional Expressions](#Bash-Conditional-Expressions): Primitives used in composing expressions for the `test` builtin.
+  - [Shell Arithmetic](#Shell-Arithmetic): Arithmetic on shell variables.
+  - [Aliases](#Aliases): Substituting one command for another.
+  - [Arrays](#Arrays): Array Variables.
+  - [The Directory Stack](#The-Directory-Stack): History of visited directories.
+  - [Controlling the Prompt](#Controlling-the-Prompt): Customizing the various prompt strings.
+  - [The Restricted Shell](#The-Restricted-Shell): A more controlled mode of shell execution.
+  - [Bash POSIX Mode](#Bash-POSIX-Mode): Making Bash behave more closely to what the POSIX standard specifies.
 
 
 []{#Invoking-Bash}
@@ -6987,11 +6957,9 @@ reset.
 
 []{#index-interactive-shell-1} []{#index-shell_002c-interactive}
 
-  ------------------------------------------------------------------------ ---- -------------------------------------------------
-  • [What is an Interactive Shell?](#What-is-an-Interactive-Shell_003f):        What determines whether a shell is Interactive.
-  • [Is this Shell Interactive?](#Is-this-Shell-Interactive_003f):              How to tell if a shell is interactive.
-  • [Interactive Shell Behavior](#Interactive-Shell-Behavior):                  What changes in a interactive shell?
-  ------------------------------------------------------------------------ ---- -------------------------------------------------
+  - [What is an Interactive Shell?](#What-is-an-Interactive-Shell_003f): What determines whether a shell is Interactive.
+  - [Is this Shell Interactive?](#Is-this-Shell-Interactive_003f): How to tell if a shell is interactive.
+  - [Interactive Shell Behavior](#Interactive-Shell-Behavior): What changes in a interactive shell?
 
 
 []{#What-is-an-Interactive-Shell_003f}
@@ -7615,9 +7583,7 @@ array values in a way that allows them to be reused as input.
 
 []{#index-directory-stack}
 
-  ---------------------------------------------------------- ---- ----------------------------------------------------------
-  • [Directory Stack Builtins](#Directory-Stack-Builtins):        Bash builtin commands to manipulate the directory stack.
-  ---------------------------------------------------------- ---- ----------------------------------------------------------
+  - [Directory Stack Builtins](#Directory-Stack-Builtins): Bash builtin commands to manipulate the directory stack.
 
 The directory stack is a list of recently-visited directories. The
 `pushd` builtin adds directories to the stack as it changes the current
@@ -8134,11 +8100,9 @@ the \--enable-strict-posix-default to `configure` when building (see
 This chapter discusses what job control is, how it works, and how Bash
 allows you to access its facilities.
 
-  ---------------------------------------------------- ---- ----------------------------------------------------------
-  • [Job Control Basics](#Job-Control-Basics):              How job control works.
-  • [Job Control Builtins](#Job-Control-Builtins):          Bash builtin commands used to interact with job control.
-  • [Job Control Variables](#Job-Control-Variables):        Variables Bash uses to customize job control.
-  ---------------------------------------------------- ---- ----------------------------------------------------------
+  - [Job Control Basics](#Job-Control-Basics): How job control works.
+  - [Job Control Builtins](#Job-Control-Builtins): Bash builtin commands used to interact with job control.
+  - [Job Control Variables](#Job-Control-Variables): Variables Bash uses to customize job control.
 
 
 []{#Job-Control-Basics}
@@ -8449,16 +8413,14 @@ using the -o emacs or -o vi options to the `set` builtin command (see
 [The Set Builtin](#The-Set-Builtin)), or disabled using the +o emacs or
 +o vi options to `set`.
 
-  ---------------------------------------------------------------------------- ---- ---------------------------------------------------------------------------------
-  • [Introduction and Notation](#Introduction-and-Notation):                        Notation used in this text.
-  • [Readline Interaction](#Readline-Interaction):                                  The minimum set of commands for editing a line.
-  • [Readline Init File](#Readline-Init-File):                                      Customizing Readline from a user's view.
-  • [Bindable Readline Commands](#Bindable-Readline-Commands):                      A description of most of the Readline commands available for binding
-  • [Readline vi Mode](#Readline-vi-Mode):                                          A short description of how to make Readline behave like the vi editor.
-  • [Programmable Completion](#Programmable-Completion):                            How to specify the possible completions for a specific command.
-  • [Programmable Completion Builtins](#Programmable-Completion-Builtins):          Builtin commands to specify how to complete arguments for a particular command.
-  • [A Programmable Completion Example](#A-Programmable-Completion-Example):        An example shell function for generating possible completions.
-  ---------------------------------------------------------------------------- ---- ---------------------------------------------------------------------------------
+  - [Introduction and Notation](#Introduction-and-Notation): Notation used in this text.
+  - [Readline Interaction](#Readline-Interaction): The minimum set of commands for editing a line.
+  - [Readline Init File](#Readline-Init-File): Customizing Readline from a user's view.
+  - [Bindable Readline Commands](#Bindable-Readline-Commands): A description of most of the Readline commands available for binding
+  - [Readline vi Mode](#Readline-vi-Mode): A short description of how to make Readline behave like the vi editor.
+  - [Programmable Completion](#Programmable-Completion): How to specify the possible completions for a specific command.
+  - [Programmable Completion Builtins](#Programmable-Completion-Builtins): Builtin commands to specify how to complete arguments for a particular command.
+  - [A Programmable Completion Example](#A-Programmable-Completion-Example): An example shell function for generating possible completions.
 
 
 []{#Introduction-and-Notation}
@@ -8520,13 +8482,11 @@ the line, you simply press `RET`{.key}. You do not have to be at the end
 of the line to press `RET`{.key}; the entire line is accepted regardless
 of the location of the cursor within the line.
 
-  -------------------------------------------------------------- ---- ---------------------------------------------
-  • [Readline Bare Essentials](#Readline-Bare-Essentials):            The least you need to know about Readline.
-  • [Readline Movement Commands](#Readline-Movement-Commands):        Moving about the input line.
-  • [Readline Killing Commands](#Readline-Killing-Commands):          How to delete text, and how to get it back!
-  • [Readline Arguments](#Readline-Arguments):                        Giving numeric arguments to commands.
-  • [Searching](#Searching):                                          Searching through previous lines.
-  -------------------------------------------------------------- ---- ---------------------------------------------
+  - [Readline Bare Essentials](#Readline-Bare-Essentials): The least you need to know about Readline.
+  - [Readline Movement Commands](#Readline-Movement-Commands): Moving about the input line.
+  - [Readline Killing Commands](#Readline-Killing-Commands): How to delete text, and how to get it back!
+  - [Readline Arguments](#Readline-Arguments): Giving numeric arguments to commands.
+  - [Searching](#Searching): Searching through previous lines.
 
 
 []{#Readline-Bare-Essentials}
@@ -8777,7 +8737,7 @@ is read, and the key bindings are set.
 In addition, the `C-x C-r` command re-reads this init file, thus
 incorporating any changes that you might have made to it.
 
-• [Readline Init File Syntax](#Readline-Init-File-Syntax):
+- [Readline Init File Syntax](#Readline-Init-File-Syntax):
 
   
 
@@ -8786,7 +8746,7 @@ Syntax for the commands in the inputrc file.
 ``` {.menu-comment}
 ```
 
-• [Conditional Init Constructs](#Conditional-Init-Constructs):
+- [Conditional Init Constructs](#Conditional-Init-Constructs):
 
   
 
@@ -8795,7 +8755,7 @@ Conditional key bindings in the inputrc file.
 ``` {.menu-comment}
 ```
 
-• [Sample Init File](#Sample-Init-File):
+- [Sample Init File](#Sample-Init-File):
 
   
 
@@ -9616,16 +9576,14 @@ $endif
 
 ### 8.4 Bindable Readline Commands {#bindable-readline-commands .section}
 
-  -------------------------------------------------------- ---- ----------------------------------------------
-  • [Commands For Moving](#Commands-For-Moving):                Moving about the line.
-  • [Commands For History](#Commands-For-History):              Getting at previous lines.
-  • [Commands For Text](#Commands-For-Text):                    Commands for changing text.
-  • [Commands For Killing](#Commands-For-Killing):              Commands for killing and yanking.
-  • [Numeric Arguments](#Numeric-Arguments):                    Specifying numeric arguments, repeat counts.
-  • [Commands For Completion](#Commands-For-Completion):        Getting Readline to do the typing for you.
-  • [Keyboard Macros](#Keyboard-Macros):                        Saving and re-executing typed characters
-  • [Miscellaneous Commands](#Miscellaneous-Commands):          Other miscellaneous commands.
-  -------------------------------------------------------- ---- ----------------------------------------------
+  - [Commands For Moving](#Commands-For-Moving): Moving about the line.
+  - [Commands For History](#Commands-For-History): Getting at previous lines.
+  - [Commands For Text](#Commands-For-Text): Commands for changing text.
+  - [Commands For Killing](#Commands-For-Killing): Commands for killing and yanking.
+  - [Numeric Arguments](#Numeric-Arguments): Specifying numeric arguments, repeat counts.
+  - [Commands For Completion](#Commands-For-Completion): Getting Readline to do the typing for you.
+  - [Keyboard Macros](#Keyboard-Macros): Saving and re-executing typed characters
+  - [Miscellaneous Commands](#Miscellaneous-Commands): Other miscellaneous commands.
 
 This section describes Readline commands that may be bound to key
 sequences. You can list your key bindings by executing `bind -P` or, for
@@ -10958,11 +10916,9 @@ from a user's standpoint. It should be considered a user's guide. For
 information on using the GNU History Library in other programs, see the
 GNU Readline Library Manual.
 
-  -------------------------------------------------------- ---- ----------------------------------------------------------------
-  • [Bash History Facilities](#Bash-History-Facilities):        How Bash lets you manipulate your command history.
-  • [Bash History Builtins](#Bash-History-Builtins):            The Bash builtin commands that manipulate the command history.
-  • [History Interaction](#History-Interaction):                What it feels like using History as a user.
-  -------------------------------------------------------- ---- ----------------------------------------------------------------
+  - [Bash History Facilities](#Bash-History-Facilities): How Bash lets you manipulate your command history.
+  - [Bash History Builtins](#Bash-History-Builtins): The Bash builtin commands that manipulate the command history.
+  - [History Interaction](#History-Interaction): What it feels like using History as a user.
 
 
 []{#Bash-History-Facilities}
@@ -11198,11 +11154,9 @@ expansion mechanism with the `histchars` variable, as explained above
 comment character to mark history timestamps when writing the history
 file.
 
-  -------------------------------------------- ---- -------------------------------------------
-  • [Event Designators](#Event-Designators):        How to specify which history line to use.
-  • [Word Designators](#Word-Designators):          Specifying which words are of interest.
-  • [Modifiers](#Modifiers):                        Modifying the results of substitution.
-  -------------------------------------------- ---- -------------------------------------------
+  - [Event Designators](#Event-Designators): How to specify which history line to use.
+  - [Word Designators](#Word-Designators): Specifying which words are of interest.
+  - [Modifiers](#Modifiers): Modifying the results of substitution.
 
 
 []{#Event-Designators}
@@ -11410,16 +11364,14 @@ systems, nearly every version of Unix, and several non-Unix systems such
 as BeOS and Interix. Other independent ports exist for MS-DOS, OS/2, and
 Windows platforms.
 
-  ---------------------------------------------------------------------------------- ---- ---------------------------------------------------------------------------------
-  • [Basic Installation](#Basic-Installation):                                            Installation instructions.
-  • [Compilers and Options](#Compilers-and-Options):                                      How to set special options for various systems.
-  • [Compiling For Multiple Architectures](#Compiling-For-Multiple-Architectures):        How to compile Bash for more than one kind of system from the same source tree.
-  • [Installation Names](#Installation-Names):                                            How to set the various paths used by the installation.
-  • [Specifying the System Type](#Specifying-the-System-Type):                            How to configure Bash for a particular system.
-  • [Sharing Defaults](#Sharing-Defaults):                                                How to share default configuration values among GNU programs.
-  • [Operation Controls](#Operation-Controls):                                            Options recognized by the configuration program.
-  • [Optional Features](#Optional-Features):                                              How to enable and disable optional features when building Bash.
-  ---------------------------------------------------------------------------------- ---- ---------------------------------------------------------------------------------
+  - [Basic Installation](#Basic-Installation): Installation instructions.
+  - [Compilers and Options](#Compilers-and-Options): How to set special options for various systems.
+  - [Compiling For Multiple Architectures](#Compiling-For-Multiple-Architectures): How to compile Bash for more than one kind of system from the same source tree.
+  - [Installation Names](#Installation-Names): How to set the various paths used by the installation.
+  - [Specifying the System Type](#Specifying-the-System-Type): How to configure Bash for a particular system.
+  - [Sharing Defaults](#Sharing-Defaults): How to share default configuration values among GNU programs.
+  - [Operation Controls](#Operation-Controls): Options recognized by the configuration program.
+  - [Optional Features](#Optional-Features): How to enable and disable optional features when building Bash.
 
 
 []{#Basic-Installation}
@@ -12795,13 +12747,11 @@ their use in free software.
 Appendix D Indexes {#appendix-d-indexes .appendix}
 ------------------
 
-  ------------------------------------------------ ---- -------------------------------------------------------
-  • [Builtin Index](#Builtin-Index):                    Index of Bash builtin commands.
-  • [Reserved Word Index](#Reserved-Word-Index):        Index of Bash reserved words.
-  • [Variable Index](#Variable-Index):                  Quick reference helps you find the variable you want.
-  • [Function Index](#Function-Index):                  Index of bindable Readline functions.
-  • [Concept Index](#Concept-Index):                    General index for concepts described in this manual.
-  ------------------------------------------------ ---- -------------------------------------------------------
+  - [Builtin Index](#Builtin-Index): Index of Bash builtin commands.
+  - [Reserved Word Index](#Reserved-Word-Index): Index of Bash reserved words.
+  - [Variable Index](#Variable-Index): Quick reference helps you find the variable you want.
+  - [Function Index](#Function-Index): Index of bindable Readline functions.
+  - [Concept Index](#Concept-Index): General index for concepts described in this manual.
 
 
 []{#Builtin-Index}
