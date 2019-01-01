@@ -7,7 +7,8 @@ PANDOC=pandoc
 #
 PANDOC_EPUB_OPTS= \
 	--table-of-contents \
-	--toc-depth=6
+	--toc-depth=6 \
+	--number-sections
 
 %.epub: %.markdown
 	$(PANDOC) $(PANDOC_EPUB_OPTS) $< -o $@
