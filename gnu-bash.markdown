@@ -2060,8 +2060,7 @@ omitted, the operator tests only for existence.
 :   If parameter is null or unset, nothing is substituted, otherwise the
     expansion of word is substituted.
 
-`${parameter:offset}`\
-`${parameter:offset:length}`
+`${parameter:offset}`, `${parameter:offset:length}`
 
 :   This is referred to as Substring Expansion. It expands to up to
     length characters of the value of parameter starting at the
