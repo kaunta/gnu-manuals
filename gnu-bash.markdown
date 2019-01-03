@@ -477,8 +477,7 @@ follows:
 
 :   backspace
 
-`\e`\
-`\E`
+`\e`, `\E`
 
 :   an escape character (not ANSI C)
 
