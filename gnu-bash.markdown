@@ -46,7 +46,7 @@ behavior.
 
 []{#Introduction-1}
 
-# 1 Introduction {#introduction .chapter}
+# Introduction {#introduction .chapter}
 
   - [What is Bash?](#What-is-Bash_003f): A short description of Bash.
   - [What is a shell?](#What-is-a-shell_003f): A brief introduction to shells.
@@ -57,7 +57,7 @@ behavior.
 
 []{#What-is-Bash_003f-1}
 
-## 1.1 What is Bash? {#what-is-bash .section}
+## What is Bash? {#what-is-bash .section}
 
 Bash is the shell, or command language interpreter, for the GNU
 operating system. The name is an acronym for the 'Bourne-Again SHell', a
@@ -84,7 +84,7 @@ exist for MS-DOS, OS/2, and Windows platforms.
 
 []{#What-is-a-shell_003f-1}
 
-## 1.2 What is a shell? {#what-is-a-shell .section}
+## What is a shell? {#what-is-a-shell .section}
 
 At its base, a shell is simply a macro processor that executes commands.
 The term macro processor means functionality where text and symbols are
@@ -135,7 +135,7 @@ Each of these features is described in this manual.
 
 []{#Definitions-1}
 
-# 2 Definitions {#definitions .chapter}
+# Definitions {#definitions .chapter}
 
 These definitions are used throughout the remainder of this manual.
 
@@ -287,7 +287,7 @@ These definitions are used throughout the remainder of this manual.
 
 []{#Basic-Shell-Features-1}
 
-# 3 Basic Shell Features {#basic-shell-features .chapter}
+# Basic Shell Features {#basic-shell-features .chapter}
 
 []{#index-Bourne-shell}
 
@@ -317,7 +317,7 @@ from and to named files, and how the shell executes commands.
 
 []{#Shell-Syntax-1}
 
-## 3.1 Shell Syntax {#shell-syntax .section}
+## Shell Syntax {#shell-syntax .section}
 
   - [Shell Operation](#Shell-Operation): The basic operation of the shell.
   - [Quoting](#Quoting): How to remove the special meaning from characters.
@@ -343,7 +343,7 @@ available for further inspection or processing.
 
 []{#Shell-Operation-1}
 
-### 3.1.1 Shell Operation {#shell-operation .subsection}
+### Shell Operation {#shell-operation .subsection}
 
 The following is a brief description of the shell's operation when it
 reads and executes a command. Basically, the shell does the following:
@@ -375,7 +375,7 @@ reads and executes a command. Basically, the shell does the following:
 
 []{#Quoting-1}
 
-### 3.1.2 Quoting {#quoting .subsection}
+### Quoting {#quoting .subsection}
 
 []{#index-quoting}
 
@@ -407,7 +407,7 @@ and double quotes.
 
 []{#Escape-Character-1}
 
-#### 3.1.2.1 Escape Character {#escape-character .subsubsection}
+#### Escape Character {#escape-character .subsubsection}
 
 A non-quoted backslash '\\' is the Bash escape character. It preserves
 the literal value of the next character that follows, with the exception
@@ -421,7 +421,7 @@ it is removed from the input stream and effectively ignored).
 
 []{#Single-Quotes-1}
 
-#### 3.1.2.2 Single Quotes {#single-quotes .subsubsection}
+#### Single Quotes {#single-quotes .subsubsection}
 
 Enclosing characters in single quotes ('\'') preserves the literal value
 of each character within the quotes. A single quote may not occur
@@ -433,7 +433,7 @@ between single quotes, even when preceded by a backslash.
 
 []{#Double-Quotes-1}
 
-#### 3.1.2.3 Double Quotes {#double-quotes .subsubsection}
+#### Double Quotes {#double-quotes .subsubsection}
 
 Enclosing characters in double quotes ('\"') preserves the literal value
 of all characters within the quotes, with the exception of '\$', '\`',
@@ -460,7 +460,7 @@ quotes (see [Shell Parameter Expansion](#Shell-Parameter-Expansion)).
 
 []{#ANSI_002dC-Quoting-1}
 
-#### 3.1.2.4 ANSI-C Quoting {#ansi-c-quoting .subsubsection}
+#### ANSI-C Quoting {#ansi-c-quoting .subsubsection}
 
 []{#index-quoting_002c-ANSI}
 
@@ -551,7 +551,7 @@ present.
 
 []{#Locale_002dSpecific-Translation}
 
-#### 3.1.2.5 Locale-Specific Translation {#locale-specific-translation .subsubsection}
+#### Locale-Specific Translation {#locale-specific-translation .subsubsection}
 
 []{#index-localization} []{#index-internationalization}
 []{#index-native-languages} []{#index-translation_002c-native-languages}
@@ -578,7 +578,7 @@ Still others use both variables in this fashion:
 
 []{#Comments-1}
 
-### 3.1.3 Comments {#comments .subsection}
+### Comments {#comments .subsection}
 
 []{#index-comments_002c-shell}
 
@@ -598,7 +598,7 @@ interactive.
 
 []{#Shell-Commands-1}
 
-## 3.2 Shell Commands {#shell-commands .section}
+## Shell Commands {#shell-commands .section}
 
 []{#index-commands_002c-shell}
 
@@ -623,7 +623,7 @@ construct, or in some other grouping.
 
 []{#Simple-Commands-1}
 
-### 3.2.1 Simple Commands {#simple-commands .subsection}
+### Simple Commands {#simple-commands .subsection}
 
 []{#index-commands_002c-simple}
 
@@ -643,7 +643,7 @@ or 128+n if the command was terminated by signal n.
 
 []{#Pipelines-1}
 
-### 3.2.2 Pipelines {#pipelines .subsection}
+### Pipelines {#pipelines .subsection}
 
 []{#index-pipeline} []{#index-commands_002c-pipelines}
 
@@ -710,7 +710,7 @@ commands in the pipeline to terminate before returning a value.
 
 []{#Lists-of-Commands}
 
-### 3.2.3 Lists of Commands {#lists-of-commands .subsection}
+### Lists of Commands {#lists-of-commands .subsection}
 
 []{#index-commands_002c-lists}
 
@@ -771,7 +771,7 @@ command executed in the list.
 
 []{#Compound-Commands-1}
 
-### 3.2.4 Compound Commands {#compound-commands .subsection}
+### Compound Commands {#compound-commands .subsection}
 
 []{#index-commands_002c-compound}
 
@@ -799,7 +799,7 @@ to group commands and execute them as a unit.
 
 []{#Looping-Constructs-1}
 
-#### 3.2.4.1 Looping Constructs {#looping-constructs .subsubsection}
+#### Looping Constructs {#looping-constructs .subsubsection}
 
 []{#index-commands_002c-looping}
 
@@ -891,7 +891,7 @@ execution.
 
 []{#Conditional-Constructs-1}
 
-#### 3.2.4.2 Conditional Constructs {#conditional-constructs .subsubsection}
+#### Conditional Constructs {#conditional-constructs .subsubsection}
 
 []{#index-commands_002c-conditional}
 
@@ -1193,7 +1193,7 @@ execution.
 
 []{#Grouping-Commands}
 
-#### 3.2.4.3 Grouping Commands {#grouping-commands .subsubsection}
+#### Grouping Commands {#grouping-commands .subsubsection}
 
 []{#index-commands_002c-grouping}
 
@@ -1246,7 +1246,7 @@ The exit status of both of these constructs is the exit status of list.
 
 []{#Coprocesses-1}
 
-### 3.2.5 Coprocesses {#coprocesses .subsection}
+### Coprocesses {#coprocesses .subsection}
 
 []{#index-coprocess}
 
@@ -1294,7 +1294,7 @@ exit status of command.
 
 []{#GNU-Parallel-1}
 
-### 3.2.6 GNU Parallel {#gnu-parallel .subsection}
+### GNU Parallel {#gnu-parallel .subsection}
 
 There are ways to run commands in parallel that are not built into Bash.
 GNU Parallel is a tool to do just that.
@@ -1437,7 +1437,7 @@ supplied as an argument), in blocks of ten shell jobs at a time.
 
 []{#Shell-Functions-1}
 
-## 3.3 Shell Functions {#shell-functions .section}
+## Shell Functions {#shell-functions .section}
 
 []{#index-shell-function} []{#index-functions_002c-shell}
 
@@ -1553,7 +1553,7 @@ calls.
 
 []{#Shell-Parameters-1}
 
-## 3.4 Shell Parameters {#shell-parameters .section}
+## Shell Parameters {#shell-parameters .section}
 
 []{#index-parameters} []{#index-variable_002c-shell}
 []{#index-shell-variable}
@@ -1650,7 +1650,7 @@ unset.
 
 []{#Positional-Parameters-1}
 
-### 3.4.1 Positional Parameters {#positional-parameters .subsection}
+### Positional Parameters {#positional-parameters .subsection}
 
 []{#index-parameters_002c-positional}
 
@@ -1674,7 +1674,7 @@ expanded, it must be enclosed in braces.
 
 []{#Special-Parameters-1}
 
-### 3.4.2 Special Parameters {#special-parameters .subsection}
+### Special Parameters {#special-parameters .subsection}
 
 []{#index-parameters_002c-special}
 
@@ -1779,7 +1779,7 @@ be referenced; assignment to them is not allowed.
 
 []{#Shell-Expansions-1}
 
-## 3.5 Shell Expansions {#shell-expansions .section}
+## Shell Expansions {#shell-expansions .section}
 
 []{#index-expansion}
 
@@ -1833,7 +1833,7 @@ Removal](#Quote-Removal)) is performed.
 
 []{#Brace-Expansion-1}
 
-### 3.5.1 Brace Expansion {#brace-expansion .subsection}
+### Brace Expansion {#brace-expansion .subsection}
 
 []{#index-brace-expansion} []{#index-expansion_002c-brace}
 
@@ -1909,7 +1909,7 @@ chown root /usr/{ucb/{ex,edit},lib/{ex?.?*,how_ex}}
 
 []{#Tilde-Expansion-1}
 
-### 3.5.2 Tilde Expansion {#tilde-expansion .subsection}
+### Tilde Expansion {#tilde-expansion .subsection}
 
 []{#index-tilde-expansion} []{#index-expansion_002c-tilde}
 
@@ -1985,7 +1985,7 @@ The following table shows how Bash treats unquoted tilde-prefixes:
 
 []{#Shell-Parameter-Expansion-1}
 
-### 3.5.3 Shell Parameter Expansion {#shell-parameter-expansion .subsection}
+### Shell Parameter Expansion {#shell-parameter-expansion .subsection}
 
 []{#index-parameter-expansion} []{#index-expansion_002c-parameter}
 
@@ -2343,7 +2343,7 @@ omitted, the operator tests only for existence.
 
 []{#Command-Substitution-1}
 
-### 3.5.4 Command Substitution {#command-substitution .subsection}
+### Command Substitution {#command-substitution .subsection}
 
 []{#index-command-substitution}
 
@@ -2390,7 +2390,7 @@ filename expansion are not performed on the results.
 
 []{#Arithmetic-Expansion-1}
 
-### 3.5.5 Arithmetic Expansion {#arithmetic-expansion .subsection}
+### Arithmetic Expansion {#arithmetic-expansion .subsection}
 
 []{#index-expansion_002c-arithmetic} []{#index-arithmetic-expansion}
 
@@ -2421,7 +2421,7 @@ substitution occurs.
 
 []{#Process-Substitution-1}
 
-### 3.5.6 Process Substitution {#process-substitution .subsection}
+### Process Substitution {#process-substitution .subsection}
 
 []{#index-process-substitution}
 
@@ -2462,7 +2462,7 @@ expansion.
 
 []{#Word-Splitting-1}
 
-### 3.5.7 Word Splitting {#word-splitting .subsection}
+### Word Splitting {#word-splitting .subsection}
 
 []{#index-word-splitting}
 
@@ -2503,7 +2503,7 @@ Note that if no expansion occurs, no splitting is performed.
 
 []{#Filename-Expansion-1}
 
-### 3.5.8 Filename Expansion {#filename-expansion .subsection}
+### Filename Expansion {#filename-expansion .subsection}
 
   - [Pattern Matching](#Pattern-Matching): How the shell matches patterns.
 
@@ -2552,7 +2552,7 @@ the patterns in `GLOBIGNORE`. The `dotglob` option is disabled when
 
 []{#Pattern-Matching-1}
 
-#### 3.5.8.1 Pattern Matching {#pattern-matching .subsubsection}
+#### Pattern Matching {#pattern-matching .subsubsection}
 
 []{#index-pattern-matching} []{#index-matching_002c-pattern}
 
@@ -2655,7 +2655,7 @@ of the following sub-patterns:
 
 []{#Quote-Removal-1}
 
-### 3.5.9 Quote Removal {#quote-removal .subsection}
+### Quote Removal {#quote-removal .subsection}
 
 After the preceding expansions, all unquoted occurrences of the
 characters '\\', '\'', and '\"' that did not result from one of the
@@ -2667,7 +2667,7 @@ above expansions are removed.
 
 []{#Redirections-1}
 
-## 3.6 Redirections {#redirections .section}
+## Redirections {#redirections .section}
 
 []{#index-redirection}
 
@@ -2764,7 +2764,7 @@ internally.
 
 []{#Redirecting-Input}
 
-### 3.6.1 Redirecting Input {#redirecting-input .subsection}
+### Redirecting Input {#redirecting-input .subsection}
 
 Redirection of input causes the file whose name results from the
 expansion of word to be opened for reading on file descriptor `n`, or
@@ -2780,7 +2780,7 @@ The general format for redirecting input is:
 
 []{#Redirecting-Output}
 
-### 3.6.2 Redirecting Output {#redirecting-output .subsection}
+### Redirecting Output {#redirecting-output .subsection}
 
 Redirection of output causes the file whose name results from the
 expansion of word to be opened for writing on file descriptor n, or the
@@ -2805,7 +2805,7 @@ attempted even if the file named by word exists.
 
 []{#Appending-Redirected-Output}
 
-### 3.6.3 Appending Redirected Output {#appending-redirected-output .subsection}
+### Appending Redirected Output {#appending-redirected-output .subsection}
 
 Redirection of output in this fashion causes the file whose name results
 from the expansion of word to be opened for appending on file descriptor
@@ -2822,7 +2822,7 @@ The general format for appending output is:
 
 []{#Redirecting-Standard-Output-and-Standard-Error}
 
-### 3.6.4 Redirecting Standard Output and Standard Error {#redirecting-standard-output-and-standard-error .subsection}
+### Redirecting Standard Output and Standard Error {#redirecting-standard-output-and-standard-error .subsection}
 
 This construct allows both the standard output (file descriptor 1) and
 the standard error output (file descriptor 2) to be redirected to the
@@ -2860,7 +2860,7 @@ Descriptors below) for compatibility reasons.
 
 []{#Appending-Standard-Output-and-Standard-Error}
 
-### 3.6.5 Appending Standard Output and Standard Error {#appending-standard-output-and-standard-error .subsection}
+### Appending Standard Output and Standard Error {#appending-standard-output-and-standard-error .subsection}
 
 This construct allows both the standard output (file descriptor 1) and
 the standard error output (file descriptor 2) to be appended to the file
@@ -2886,7 +2886,7 @@ This is semantically equivalent to
 
 []{#Here-Documents}
 
-### 3.6.6 Here Documents {#here-documents .subsection}
+### Here Documents {#here-documents .subsection}
 
 This type of redirection instructs the shell to read input from the
 current source until a line containing only word (with no trailing
@@ -2920,7 +2920,7 @@ fashion.
 
 []{#Here-Strings}
 
-### 3.6.7 Here Strings {#here-strings .subsection}
+### Here Strings {#here-strings .subsection}
 
 A variant of here documents, the format is:
 
@@ -2939,7 +2939,7 @@ specified).
 
 []{#Duplicating-File-Descriptors}
 
-### 3.6.8 Duplicating File Descriptors {#duplicating-file-descriptors .subsection}
+### Duplicating File Descriptors {#duplicating-file-descriptors .subsection}
 
 The redirection operator
 
@@ -2974,7 +2974,7 @@ redirected as described previously.
 
 []{#Moving-File-Descriptors}
 
-### 3.6.9 Moving File Descriptors {#moving-file-descriptors .subsection}
+### Moving File Descriptors {#moving-file-descriptors .subsection}
 
 The redirection operator
 
@@ -3001,7 +3001,7 @@ output (file descriptor 1) if n is not specified.
 
 []{#Opening-File-Descriptors-for-Reading-and-Writing}
 
-### 3.6.10 Opening File Descriptors for Reading and Writing {#opening-file-descriptors-for-reading-and-writing .subsection}
+### Opening File Descriptors for Reading and Writing {#opening-file-descriptors-for-reading-and-writing .subsection}
 
 The redirection operator
 
@@ -3021,7 +3021,7 @@ if n is not specified. If the file does not exist, it is created.
 
 []{#Executing-Commands-1}
 
-## 3.7 Executing Commands {#executing-commands .section}
+## Executing Commands {#executing-commands .section}
 
   - [Simple Command Expansion](#Simple-Command-Expansion): How Bash expands simple commands before executing them.
   - [Command Search and Execution](#Command-Search-and-Execution): How Bash finds commands and runs them.
@@ -3036,7 +3036,7 @@ if n is not specified. If the file does not exist, it is created.
 
 []{#Simple-Command-Expansion-1}
 
-### 3.7.1 Simple Command Expansion {#simple-command-expansion .subsection}
+### Simple Command Expansion {#simple-command-expansion .subsection}
 
 []{#index-command-expansion}
 
@@ -3078,7 +3078,7 @@ command substitutions, the command exits with a status of zero.
 
 []{#Command-Search-and-Execution-1}
 
-### 3.7.2 Command Search and Execution {#command-search-and-execution .subsection}
+### Command Search and Execution {#command-search-and-execution .subsection}
 
 []{#index-command-execution} []{#index-command-search}
 
@@ -3125,7 +3125,7 @@ taken.
 
 []{#Command-Execution-Environment-1}
 
-### 3.7.3 Command Execution Environment {#command-execution-environment .subsection}
+### Command Execution Environment {#command-execution-environment .subsection}
 
 []{#index-execution-environment}
 
@@ -3191,7 +3191,7 @@ calling shell as modified by redirections.
 
 []{#Environment-1}
 
-### 3.7.4 Environment {#environment .subsection}
+### Environment {#environment .subsection}
 
 []{#index-environment}
 
@@ -3230,7 +3230,7 @@ environment.
 
 []{#Exit-Status-1}
 
-### 3.7.5 Exit Status {#exit-status .subsection}
+### Exit Status {#exit-status .subsection}
 
 []{#index-exit-status-1}
 
@@ -3270,7 +3270,7 @@ incorrect usage, generally invalid options or missing arguments.
 
 []{#Signals-1}
 
-### 3.7.6 Signals {#signals .subsection}
+### Signals {#signals .subsection}
 
 []{#index-signal-handling}
 
@@ -3314,7 +3314,7 @@ status greater than 128, immediately after which the trap is executed.
 
 []{#Shell-Scripts-1}
 
-## 3.8 Shell Scripts {#shell-scripts .section}
+## Shell Scripts {#shell-scripts .section}
 
 []{#index-shell-script}
 
@@ -3379,7 +3379,7 @@ interpret the script, even if it is executed under another shell.
 
 []{#Shell-Builtin-Commands-1}
 
-# 4 Shell Builtin Commands {#shell-builtin-commands .chapter}
+# Shell Builtin Commands {#shell-builtin-commands .chapter}
 
   - [Bourne Shell Builtins](#Bourne-Shell-Builtins): Builtin commands inherited from the Bourne Shell.
   - [Bash Builtins](#Bash-Builtins): Table of builtins specific to Bash.
@@ -3423,7 +3423,7 @@ interpretation.
 
 []{#Bourne-Shell-Builtins-1}
 
-## 4.1 Bourne Shell Builtins {#bourne-shell-builtins .section}
+## Bourne Shell Builtins {#bourne-shell-builtins .section}
 
 The following shell builtin commands are inherited from the Bourne
 Shell. These commands are implemented as specified by the POSIX
@@ -4001,7 +4001,7 @@ standard.
 
 []{#Bash-Builtin-Commands}
 
-## 4.2 Bash Builtin Commands {#bash-builtin-commands .section}
+## Bash Builtin Commands {#bash-builtin-commands .section}
 
 This section describes builtin commands which are unique to or have been
 extended in Bash. Some of these commands are specified in the POSIX
@@ -4959,7 +4959,7 @@ standard.
 
 []{#Modifying-Shell-Behavior-1}
 
-## 4.3 Modifying Shell Behavior {#modifying-shell-behavior .section}
+## Modifying Shell Behavior {#modifying-shell-behavior .section}
 
   - [The Set Builtin](#The-Set-Builtin): Change the values of shell attributes and positional parameters.
   - [The Shopt Builtin](#The-Shopt-Builtin): Modify shell optional behavior.
@@ -4970,7 +4970,7 @@ standard.
 
 []{#The-Set-Builtin-1}
 
-### 4.3.1 The Set Builtin {#the-set-builtin .subsection}
+### The Set Builtin {#the-set-builtin .subsection}
 
 This builtin is so complicated that it deserves its own section. `set`
 allows you to change the values of shell options and set the positional
@@ -5316,7 +5316,7 @@ parameters, or to display the names and values of shell variables.
 
 []{#The-Shopt-Builtin-1}
 
-### 4.3.2 The Shopt Builtin {#the-shopt-builtin .subsection}
+### The Shopt Builtin {#the-shopt-builtin .subsection}
 
 This builtin allows you to change additional shell optional behavior.
 
@@ -5729,7 +5729,7 @@ This builtin allows you to change additional shell optional behavior.
 
 []{#Special-Builtins-1}
 
-## 4.4 Special Builtins {#special-builtins .section}
+## Special Builtins {#special-builtins .section}
 
 []{#index-special-builtin-1}
 
@@ -5763,7 +5763,7 @@ shift trap unset
 
 []{#Shell-Variables-1}
 
-# 5 Shell Variables {#shell-variables .chapter}
+# Shell Variables {#shell-variables .chapter}
 
   - [Bourne Shell Variables](#Bourne-Shell-Variables): Variables which Bash uses in the same way as the Bourne Shell.
   - [Bash Variables](#Bash-Variables): List of variables that exist in Bash.
@@ -5777,7 +5777,7 @@ automatically assigns default values to a number of variables.
 
 []{#Bourne-Shell-Variables-1}
 
-## 5.1 Bourne Shell Variables {#bourne-shell-variables .section}
+## Bourne Shell Variables {#bourne-shell-variables .section}
 
 Bash uses certain shell variables in the same way as the Bourne shell.
 In some cases, Bash assigns a default value to the variable.
@@ -5846,7 +5846,7 @@ In some cases, Bash assigns a default value to the variable.
 
 []{#Bash-Variables-1}
 
-## 5.2 Bash Variables {#bash-variables .section}
+## Bash Variables {#bash-variables .section}
 
 These variables are set or used by Bash, but other shells do not
 normally treat them specially.
@@ -6607,7 +6607,7 @@ Variables](#Job-Control-Variables)).
 
 []{#Bash-Features-2}
 
-# 6 Bash Features {#bash-features-1 .chapter}
+# Bash Features {#bash-features-1 .chapter}
 
 This chapter describes features unique to Bash.
 
@@ -6629,7 +6629,7 @@ This chapter describes features unique to Bash.
 
 []{#Invoking-Bash-1}
 
-## 6.1 Invoking Bash {#invoking-bash .section}
+## Invoking Bash {#invoking-bash .section}
 
 ::: {.example}
 ``` {.example}
@@ -6806,7 +6806,7 @@ status is 0.
 
 []{#Bash-Startup-Files-1}
 
-## 6.2 Bash Startup Files {#bash-startup-files .section}
+## Bash Startup Files {#bash-startup-files .section}
 
 []{#index-startup-files}
 
@@ -6943,7 +6943,7 @@ reset.
 
 []{#Interactive-Shells-1}
 
-## 6.3 Interactive Shells {#interactive-shells .section}
+## Interactive Shells {#interactive-shells .section}
 
 []{#index-interactive-shell-1} []{#index-shell_002c-interactive}
 
@@ -6957,7 +6957,7 @@ reset.
 
 []{#What-is-an-Interactive-Shell_003f-1}
 
-### 6.3.1 What is an Interactive Shell? {#what-is-an-interactive-shell .subsection}
+### What is an Interactive Shell? {#what-is-an-interactive-shell .subsection}
 
 An interactive shell is one started without non-option arguments, unless
 -s is specified, without specifying the -c option, and whose input and
@@ -6976,7 +6976,7 @@ when an interactive shell is started.
 
 []{#Is-this-Shell-Interactive_003f-1}
 
-### 6.3.2 Is this Shell Interactive? {#is-this-shell-interactive .subsection}
+### Is this Shell Interactive? {#is-this-shell-interactive .subsection}
 
 To determine within a startup script whether or not Bash is running
 interactively, test the value of the '-' special parameter. It contains
@@ -7010,7 +7010,7 @@ fi
 
 []{#Interactive-Shell-Behavior-1}
 
-### 6.3.3 Interactive Shell Behavior {#interactive-shell-behavior .subsection}
+### Interactive Shell Behavior {#interactive-shell-behavior .subsection}
 
 When the shell is running interactively, it changes its behavior in
 several ways.
@@ -7079,7 +7079,7 @@ several ways.
 
 []{#Bash-Conditional-Expressions-1}
 
-## 6.4 Bash Conditional Expressions {#bash-conditional-expressions .section}
+## Bash Conditional Expressions {#bash-conditional-expressions .section}
 
 []{#index-expressions_002c-conditional}
 
@@ -7261,7 +7261,7 @@ link itself.
 
 []{#Shell-Arithmetic-1}
 
-## 6.5 Shell Arithmetic {#shell-arithmetic .section}
+## Shell Arithmetic {#shell-arithmetic .section}
 
 []{#index-arithmetic_002c-shell} []{#index-shell-arithmetic}
 []{#index-expressions_002c-arithmetic}
@@ -7381,7 +7381,7 @@ above.
 
 []{#Aliases-1}
 
-## 6.6 Aliases {#aliases .section}
+## Aliases {#aliases .section}
 
 []{#index-alias-expansion}
 
@@ -7436,7 +7436,7 @@ For almost every purpose, shell functions are preferred over aliases.
 
 []{#Arrays-1}
 
-## 6.7 Arrays {#arrays .section}
+## Arrays {#arrays .section}
 
 []{#index-arrays}
 
@@ -7569,7 +7569,7 @@ array values in a way that allows them to be reused as input.
 
 []{#The-Directory-Stack-1}
 
-## 6.8 The Directory Stack {#the-directory-stack .section}
+## The Directory Stack {#the-directory-stack .section}
 
 []{#index-directory-stack}
 
@@ -7591,7 +7591,7 @@ The contents of the directory stack are also visible as the value of the
 
 []{#Directory-Stack-Builtins-1}
 
-### 6.8.1 Directory Stack Builtins {#directory-stack-builtins .subsection}
+### Directory Stack Builtins {#directory-stack-builtins .subsection}
 
 `dirs`
 
@@ -7714,7 +7714,7 @@ The contents of the directory stack are also visible as the value of the
 
 []{#Controlling-the-Prompt-1}
 
-## 6.9 Controlling the Prompt {#controlling-the-prompt .section}
+## Controlling the Prompt {#controlling-the-prompt .section}
 
 []{#index-prompting}
 
@@ -7857,7 +7857,7 @@ Builtins](#Bash-Builtins)).
 
 []{#The-Restricted-Shell-1}
 
-## 6.10 The Restricted Shell {#the-restricted-shell .section}
+## The Restricted Shell {#the-restricted-shell .section}
 
 []{#index-restricted-shell}
 
@@ -7901,7 +7901,7 @@ the shell spawned to execute the script.
 
 []{#Bash-POSIX-Mode-1}
 
-## 6.11 Bash POSIX Mode {#bash-posix-mode .section}
+## Bash POSIX Mode {#bash-posix-mode .section}
 
 []{#index-POSIX-Mode}
 
@@ -8084,7 +8084,7 @@ the \--enable-strict-posix-default to `configure` when building (see
 
 []{#Job-Control-1}
 
-# 7 Job Control {#job-control .chapter}
+# Job Control {#job-control .chapter}
 
 This chapter discusses what job control is, how it works, and how Bash
 allows you to access its facilities.
@@ -8099,7 +8099,7 @@ allows you to access its facilities.
 
 []{#Job-Control-Basics-1}
 
-## 7.1 Job Control Basics {#job-control-basics .section}
+## Job Control Basics {#job-control-basics .section}
 
 []{#index-job-control-1} []{#index-foreground} []{#index-background}
 []{#index-suspending-jobs}
@@ -8196,7 +8196,7 @@ print another warning, and any stopped jobs are terminated.
 
 []{#Job-Control-Builtins-1}
 
-## 7.2 Job Control Builtins {#job-control-builtins .section}
+## Job Control Builtins {#job-control-builtins .section}
 
 `bg`
 
@@ -8359,7 +8359,7 @@ accept jobspec arguments. They must be supplied process IDs.
 
 []{#Job-Control-Variables-1}
 
-## 7.3 Job Control Variables {#job-control-variables .section}
+## Job Control Variables {#job-control-variables .section}
 
 `auto_resume` []{#index-auto_005fresume} 
 
@@ -8386,7 +8386,7 @@ accept jobspec arguments. They must be supplied process IDs.
 
 []{#Command-Line-Editing-1}
 
-# 8 Command Line Editing {#command-line-editing .chapter}
+# Command Line Editing {#command-line-editing .chapter}
 
 This chapter describes the basic features of the GNU command line
 editing interface. Command line editing is provided by the Readline
@@ -8416,7 +8416,7 @@ using the -o emacs or -o vi options to the `set` builtin command (see
 
 []{#Introduction-to-Line-Editing}
 
-## 8.1 Introduction to Line Editing {#introduction-to-line-editing .section}
+## Introduction to Line Editing {#introduction-to-line-editing .section}
 
 The following paragraphs describe the notation used to represent
 keystrokes.
@@ -8455,7 +8455,7 @@ desired character. The `RET`{.key} key may be labeled `Return`{.key} or
 
 []{#Readline-Interaction-1}
 
-## 8.2 Readline Interaction {#readline-interaction .section}
+## Readline Interaction {#readline-interaction .section}
 
 []{#index-interaction_002c-readline}
 
@@ -8482,7 +8482,7 @@ of the location of the cursor within the line.
 
 []{#Readline-Bare-Essentials-1}
 
-### 8.2.1 Readline Bare Essentials {#readline-bare-essentials .subsection}
+### Readline Bare Essentials {#readline-bare-essentials .subsection}
 
 []{#index-notation_002c-readline} []{#index-command-editing}
 []{#index-editing-command-lines}
@@ -8540,7 +8540,7 @@ the character to the left of the cursor.)
 
 []{#Readline-Movement-Commands-1}
 
-### 8.2.2 Readline Movement Commands {#readline-movement-commands .subsection}
+### Readline Movement Commands {#readline-movement-commands .subsection}
 
 The above table describes the most basic keystrokes that you need in
 order to do editing of the input line. For your convenience, many other
@@ -8577,7 +8577,7 @@ characters while meta keystrokes operate on words.
 
 []{#Readline-Killing-Commands-1}
 
-### 8.2.3 Readline Killing Commands {#readline-killing-commands .subsection}
+### Readline Killing Commands {#readline-killing-commands .subsection}
 
 []{#index-killing-text} []{#index-yanking-text}
 
@@ -8639,7 +8639,7 @@ M-y
 
 []{#Readline-Arguments-1}
 
-### 8.2.4 Readline Arguments {#readline-arguments .subsection}
+### Readline Arguments {#readline-arguments .subsection}
 
 You can pass numeric arguments to Readline commands. Sometimes the
 argument acts as a repeat count, other times it is the *sign* of the
@@ -8662,7 +8662,7 @@ delete the next ten characters on the input line.
 
 []{#Searching-for-Commands-in-the-History}
 
-### 8.2.5 Searching for Commands in the History {#searching-for-commands-in-the-history .subsection}
+### Searching for Commands in the History {#searching-for-commands-in-the-history .subsection}
 
 Readline provides commands for searching through the command history
 (see [Bash History Facilities](#Bash-History-Facilities)) for lines
@@ -8706,7 +8706,7 @@ the user or be part of the contents of the current line.
 
 []{#Readline-Init-File-1}
 
-## 8.3 Readline Init File {#readline-init-file .section}
+## Readline Init File {#readline-init-file .section}
 
 []{#index-initialization-file_002c-readline}
 
@@ -8755,7 +8755,7 @@ An example inputrc file.
 
 []{#Readline-Init-File-Syntax-1}
 
-### 8.3.1 Readline Init File Syntax {#readline-init-file-syntax .subsection}
+### Readline Init File Syntax {#readline-init-file-syntax .subsection}
 
 There are only a few basic constructs allowed in the Readline init file.
 Blank lines are ignored. Lines beginning with a '\#' are comments. Lines
@@ -9369,7 +9369,7 @@ Key Bindings
 
 []{#Conditional-Init-Constructs-1}
 
-### 8.3.2 Conditional Init Constructs {#conditional-init-constructs .subsection}
+### Conditional Init Constructs {#conditional-init-constructs .subsection}
 
 Readline implements a facility similar in spirit to the conditional
 compilation features of the C preprocessor which allows key bindings and
@@ -9447,7 +9447,7 @@ parser directives used.
 
 []{#Sample-Init-File-1}
 
-### 8.3.3 Sample Init File {#sample-init-file .subsection}
+### Sample Init File {#sample-init-file .subsection}
 
 Here is an example of an inputrc file. This illustrates key binding,
 variable assignment, and conditional syntax.
@@ -9562,7 +9562,7 @@ $endif
 
 []{#Bindable-Readline-Commands-1}
 
-## 8.4 Bindable Readline Commands {#bindable-readline-commands .section}
+## Bindable Readline Commands {#bindable-readline-commands .section}
 
   - [Commands For Moving](#Commands-For-Moving): Moving about the line.
   - [Commands For History](#Commands-For-History): Getting at previous lines.
@@ -9590,7 +9590,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Commands-For-Moving-1}
 
-### 8.4.1 Commands For Moving {#commands-for-moving .subsection}
+### Commands For Moving {#commands-for-moving .subsection}
 
 `beginning-of-line (C-a)` []{#index-beginning_002dof_002dline-_0028C_002da_0029} 
 
@@ -9643,7 +9643,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Commands-For-Manipulating-The-History}
 
-### 8.4.2 Commands For Manipulating The History {#commands-for-manipulating-the-history .subsection}
+### Commands For Manipulating The History {#commands-for-manipulating-the-history .subsection}
 
 `accept-line (Newline or Return)` []{#index-accept_002dline-_0028Newline-or-Return_0029} 
 
@@ -9751,7 +9751,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Commands-For-Changing-Text}
 
-### 8.4.3 Commands For Changing Text {#commands-for-changing-text .subsection}
+### Commands For Changing Text {#commands-for-changing-text .subsection}
 
 `end-of-file (usually C-d)` []{#index-end_002dof_002dfile-_0028usually-C_002dd_0029} 
 
@@ -9844,7 +9844,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Killing-And-Yanking}
 
-### 8.4.4 Killing And Yanking {#killing-and-yanking .subsection}
+### Killing And Yanking {#killing-and-yanking .subsection}
 
 `kill-line (C-k)` []{#index-kill_002dline-_0028C_002dk_0029} 
 
@@ -9938,7 +9938,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Specifying-Numeric-Arguments}
 
-### 8.4.5 Specifying Numeric Arguments {#specifying-numeric-arguments .subsection}
+### Specifying Numeric Arguments {#specifying-numeric-arguments .subsection}
 
 `digit-argument (M-0, M-1, … M--)` []{#index-digit_002dargument-_0028M_002d0_002c-M_002d1_002c-_2026-M_002d_002d_0029} 
 
@@ -9965,7 +9965,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Letting-Readline-Type-For-You}
 
-### 8.4.6 Letting Readline Type For You {#letting-readline-type-for-you .subsection}
+### Letting Readline Type For You {#letting-readline-type-for-you .subsection}
 
 `complete (TAB)` []{#index-complete-_0028TAB_0029} 
 
@@ -10087,7 +10087,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Keyboard-Macros-1}
 
-### 8.4.7 Keyboard Macros {#keyboard-macros .subsection}
+### Keyboard Macros {#keyboard-macros .subsection}
 
 `start-kbd-macro (C-x ()` []{#index-start_002dkbd_002dmacro-_0028C_002dx-_0028_0029} 
 
@@ -10114,7 +10114,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Some-Miscellaneous-Commands}
 
-### 8.4.8 Some Miscellaneous Commands {#some-miscellaneous-commands .subsection}
+### Some Miscellaneous Commands {#some-miscellaneous-commands .subsection}
 
 `re-read-init-file (C-x C-r)` []{#index-re_002dread_002dinit_002dfile-_0028C_002dx-C_002dr_0029} 
 
@@ -10287,7 +10287,7 @@ command. The text between the point and mark is referred to as the
 
 []{#Readline-vi-Mode-1}
 
-## 8.5 Readline vi Mode {#readline-vi-mode .section}
+## Readline vi Mode {#readline-vi-mode .section}
 
 While the Readline library does not have a full set of `vi` editing
 functions, it does contain enough to allow simple editing of the line.
@@ -10309,7 +10309,7 @@ lines with 'k' and subsequent lines with 'j', and so forth.
 
 []{#Programmable-Completion-1}
 
-## 8.6 Programmable Completion {#programmable-completion .section}
+## Programmable Completion {#programmable-completion .section}
 
 []{#index-programmable-completion}
 
@@ -10455,7 +10455,7 @@ complete -D -F _completion_loader -o bashdefault -o default
 
 []{#Programmable-Completion-Builtins-1}
 
-## 8.7 Programmable Completion Builtins {#programmable-completion-builtins .section}
+## Programmable Completion Builtins {#programmable-completion-builtins .section}
 
 []{#index-completion-builtins}
 
@@ -10770,7 +10770,7 @@ happening.
 
 []{#A-Programmable-Completion-Example-1}
 
-## 8.8 A Programmable Completion Example {#a-programmable-completion-example .section}
+## A Programmable Completion Example {#a-programmable-completion-example .section}
 
 The most common way to obtain additional completion functionality beyond
 the default actions `complete` and `compgen` provide is to use a shell
@@ -10896,7 +10896,7 @@ bash in the examples/complete subdirectory.
 
 []{#Using-History-Interactively-1}
 
-# 9 Using History Interactively {#using-history-interactively .chapter}
+# Using History Interactively {#using-history-interactively .chapter}
 
 This chapter describes how to use the GNU History Library interactively,
 from a user's standpoint. It should be considered a user's guide. For
@@ -10913,7 +10913,7 @@ GNU Readline Library Manual.
 
 []{#Bash-History-Facilities-1}
 
-## 9.1 Bash History Facilities {#bash-history-facilities .section}
+## Bash History Facilities {#bash-history-facilities .section}
 
 []{#index-command-history} []{#index-history-list}
 
@@ -10971,7 +10971,7 @@ See [Bash Builtins](#Bash-Builtins), for a description of `shopt`.
 
 []{#Bash-History-Builtins-1}
 
-## 9.2 Bash History Builtins {#bash-history-builtins .section}
+## Bash History Builtins {#bash-history-builtins .section}
 
 []{#index-history-builtins}
 
@@ -11091,7 +11091,7 @@ history file.
 
 []{#History-Expansion}
 
-## 9.3 History Expansion {#history-expansion .section}
+## History Expansion {#history-expansion .section}
 
 []{#index-history-expansion}
 
@@ -11151,7 +11151,7 @@ file.
 
 []{#Event-Designators-1}
 
-### 9.3.1 Event Designators {#event-designators .subsection}
+### Event Designators {#event-designators .subsection}
 
 []{#index-event-designators}
 
@@ -11203,7 +11203,7 @@ the current position in the history list. []{#index-history-events}
 
 []{#Word-Designators-1}
 
-### 9.3.2 Word Designators {#word-designators .subsection}
+### Word Designators {#word-designators .subsection}
 
 Word designators are used to select desired words from the event. A ':'
 separates the event specification from the word designator. It may be
@@ -11278,7 +11278,7 @@ previous command is used as the event.
 
 []{#Modifiers-1}
 
-### 9.3.3 Modifiers {#modifiers .subsection}
+### Modifiers {#modifiers .subsection}
 
 After the optional word designator, you can add a sequence of one or
 more of the following modifiers, each preceded by a ':'.
@@ -11342,7 +11342,7 @@ more of the following modifiers, each preceded by a ':'.
 
 []{#Installing-Bash-1}
 
-# 10 Installing Bash {#installing-bash .chapter}
+# Installing Bash {#installing-bash .chapter}
 
 This chapter provides basic instructions for installing Bash on the
 various supported platforms. The distribution supports the GNU operating
@@ -11365,7 +11365,7 @@ Windows platforms.
 
 []{#Basic-Installation-1}
 
-## 10.1 Basic Installation {#basic-installation .section}
+## Basic Installation {#basic-installation .section}
 
 []{#index-installation} []{#index-configuration}
 []{#index-Bash-installation} []{#index-Bash-configuration}
@@ -11434,7 +11434,7 @@ computer), type 'make distclean'.
 
 []{#Compilers-and-Options-1}
 
-## 10.2 Compilers and Options {#compilers-and-options .section}
+## Compilers and Options {#compilers-and-options .section}
 
 Some systems require unusual options for compilation or linking that the
 `configure` script does not know about. You can give `configure` initial
@@ -11463,7 +11463,7 @@ The configuration process uses GCC to build Bash if it is available.
 
 []{#Compiling-For-Multiple-Architectures-1}
 
-## 10.3 Compiling For Multiple Architectures {#compiling-for-multiple-architectures .section}
+## Compiling For Multiple Architectures {#compiling-for-multiple-architectures .section}
 
 You can compile Bash for more than one kind of computer at the same
 time, by placing the object files for each architecture in their own
@@ -11502,7 +11502,7 @@ for other architectures.
 
 []{#Installation-Names-1}
 
-## 10.4 Installation Names {#installation-names .section}
+## Installation Names {#installation-names .section}
 
 By default, 'make install' will install into /usr/local/bin,
 /usr/local/man, etc. You can specify an installation prefix other than
@@ -11522,7 +11522,7 @@ files will still use the regular prefix.
 
 []{#Specifying-the-System-Type-1}
 
-## 10.5 Specifying the System Type {#specifying-the-system-type .section}
+## Specifying the System Type {#specifying-the-system-type .section}
 
 There may be some features `configure` can not figure out automatically,
 but need to determine by the type of host Bash will run on. Usually
@@ -11540,7 +11540,7 @@ See the file support/config.sub for the possible values of each field.
 
 []{#Sharing-Defaults-1}
 
-## 10.6 Sharing Defaults {#sharing-defaults .section}
+## Sharing Defaults {#sharing-defaults .section}
 
 If you want to set default values for `configure` scripts to share, you
 can create a site shell script called `config.site` that gives default
@@ -11557,7 +11557,7 @@ scripts do.
 
 []{#Operation-Controls-1}
 
-## 10.7 Operation Controls {#operation-controls .section}
+## Operation Controls {#operation-controls .section}
 
 `configure` recognizes the following options to control how it operates.
 
@@ -11596,7 +11596,7 @@ options. 'configure \--help' prints the complete list.
 
 []{#Optional-Features-1}
 
-## 10.8 Optional Features {#optional-features .section}
+## Optional Features {#optional-features .section}
 
 The Bash `configure` has a number of \--enable-feature options, where
 feature indicates an optional part of Bash. There are also several
