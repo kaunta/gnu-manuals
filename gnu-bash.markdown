@@ -4332,8 +4332,7 @@ standard.
 
     :   suppress further output
 
-    `\e`\
-    `\E`
+    `\e`, `\E`
 
     :   escape
 
