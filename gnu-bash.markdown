@@ -6658,8 +6658,7 @@ the single-character options to be recognized.
 
 :   Display a usage message on standard output and exit successfully.
 
-`--init-file filename`\
-`--rcfile filename`
+`--init-file filename`, `--rcfile filename`
 
 :   Execute commands from filename (instead of \~/.bashrc) in an
     interactive shell.
