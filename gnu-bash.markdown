@@ -15196,781 +15196,146 @@ Index Entry
 
 Section
 
-
-[A]{#Concept-Index_cp_letter-A}
-
-[alias expansion](#index-alias-expansion):
-
- 
-
-[Aliases](#Aliases)
-
-[arithmetic evaluation](#index-arithmetic-evaluation):
-
- 
-
-[Shell Arithmetic](#Shell-Arithmetic)
-
-[arithmetic expansion](#index-arithmetic-expansion):
-
- 
-
-[Arithmetic Expansion](#Arithmetic-Expansion)
-
-[arithmetic, shell](#index-arithmetic_002c-shell):
-
- 
-
-[Shell Arithmetic](#Shell-Arithmetic)
-
-[arrays](#index-arrays):
-
- 
-
-[Arrays](#Arrays)
-
-
-[B]{#Concept-Index_cp_letter-B}
-
-[background](#index-background):
-
- 
-
-[Job Control Basics](#Job-Control-Basics)
-
-[Bash configuration](#index-Bash-configuration):
-
- 
-
-[Basic Installation](#Basic-Installation)
-
-[Bash installation](#index-Bash-installation):
-
- 
-
-[Basic Installation](#Basic-Installation)
-
-[Bourne shell](#index-Bourne-shell):
-
- 
-
-[Basic Shell Features](#Basic-Shell-Features)
-
-[brace expansion](#index-brace-expansion):
-
- 
-
-[Brace Expansion](#Brace-Expansion)
-
-[builtin](#index-builtin-1):
-
- 
-
-[Definitions](#Definitions)
-
-
-[C]{#Concept-Index_cp_letter-C}
-
-[command editing](#index-command-editing):
-
- 
-
-[Readline Bare Essentials](#Readline-Bare-Essentials)
-
-[command execution](#index-command-execution):
-
- 
-
-[Command Search and Execution](#Command-Search-and-Execution)
-
-[command expansion](#index-command-expansion):
-
- 
-
-[Simple Command Expansion](#Simple-Command-Expansion)
-
-[command history](#index-command-history):
-
- 
-
-[Bash History Facilities](#Bash-History-Facilities)
-
-[command search](#index-command-search):
-
- 
-
-[Command Search and Execution](#Command-Search-and-Execution)
-
-[command substitution](#index-command-substitution):
-
- 
-
-[Command Substitution](#Command-Substitution)
-
-[command timing](#index-command-timing):
-
- 
-
-[Pipelines](#Pipelines)
-
-[commands, compound](#index-commands_002c-compound):
-
- 
-
-[Compound Commands](#Compound-Commands)
-
-[commands, conditional](#index-commands_002c-conditional):
-
- 
-
-[Conditional Constructs](#Conditional-Constructs)
-
-[commands, grouping](#index-commands_002c-grouping):
-
- 
-
-[Command Grouping](#Command-Grouping)
-
-[commands, lists](#index-commands_002c-lists):
-
- 
-
-[Lists](#Lists)
-
-[commands, looping](#index-commands_002c-looping):
-
- 
-
-[Looping Constructs](#Looping-Constructs)
-
-[commands, pipelines](#index-commands_002c-pipelines):
-
- 
-
-[Pipelines](#Pipelines)
-
-[commands, shell](#index-commands_002c-shell):
-
- 
-
-[Shell Commands](#Shell-Commands)
-
-[commands, simple](#index-commands_002c-simple):
-
- 
-
-[Simple Commands](#Simple-Commands)
-
-[comments, shell](#index-comments_002c-shell):
-
- 
-
-[Comments](#Comments)
-
-[completion builtins](#index-completion-builtins):
-
- 
-
-[Programmable Completion Builtins](#Programmable-Completion-Builtins)
-
-[configuration](#index-configuration):
-
- 
-
-[Basic Installation](#Basic-Installation)
-
-[control operator](#index-control-operator):
-
- 
-
-[Definitions](#Definitions)
-
-[coprocess](#index-coprocess):
-
- 
-
-[Coprocesses](#Coprocesses)
-
-
-[D]{#Concept-Index_cp_letter-D}
-
-[directory stack](#index-directory-stack):
-
- 
-
-[The Directory Stack](#The-Directory-Stack)
-
-
-[E]{#Concept-Index_cp_letter-E}
-
-[editing command lines](#index-editing-command-lines):
-
- 
-
-[Readline Bare Essentials](#Readline-Bare-Essentials)
-
-[environment](#index-environment):
-
- 
-
-[Environment](#Environment)
-
-[evaluation, arithmetic](#index-evaluation_002c-arithmetic):
-
- 
-
-[Shell Arithmetic](#Shell-Arithmetic)
-
-[event designators](#index-event-designators):
-
- 
-
-[Event Designators](#Event-Designators)
-
-[execution environment](#index-execution-environment):
-
- 
-
-[Command Execution Environment](#Command-Execution-Environment)
-
-[exit status](#index-exit-status):
-
- 
-
-[Definitions](#Definitions)
-
-[exit status](#index-exit-status-1):
-
- 
-
-[Exit Status](#Exit-Status)
-
-[expansion](#index-expansion):
-
- 
-
-[Shell Expansions](#Shell-Expansions)
-
-[expansion, arithmetic](#index-expansion_002c-arithmetic):
-
- 
-
-[Arithmetic Expansion](#Arithmetic-Expansion)
-
-[expansion, brace](#index-expansion_002c-brace):
-
- 
-
-[Brace Expansion](#Brace-Expansion)
-
-[expansion, filename](#index-expansion_002c-filename):
-
- 
-
-[Filename Expansion](#Filename-Expansion)
-
-[expansion, parameter](#index-expansion_002c-parameter):
-
- 
-
-[Shell Parameter Expansion](#Shell-Parameter-Expansion)
-
-[expansion, pathname](#index-expansion_002c-pathname):
-
- 
-
-[Filename Expansion](#Filename-Expansion)
-
-[expansion, tilde](#index-expansion_002c-tilde):
-
- 
-
-[Tilde Expansion](#Tilde-Expansion)
-
-[expressions, arithmetic](#index-expressions_002c-arithmetic):
-
- 
-
-[Shell Arithmetic](#Shell-Arithmetic)
-
-[expressions, conditional](#index-expressions_002c-conditional):
-
- 
-
-[Bash Conditional Expressions](#Bash-Conditional-Expressions)
-
-
-[F]{#Concept-Index_cp_letter-F}
-
-[field](#index-field):
-
- 
-
-[Definitions](#Definitions)
-
-[filename](#index-filename):
-
- 
-
-[Definitions](#Definitions)
-
-[filename expansion](#index-filename-expansion):
-
- 
-
-[Filename Expansion](#Filename-Expansion)
-
-[foreground](#index-foreground):
-
- 
-
-[Job Control Basics](#Job-Control-Basics)
-
-[functions, shell](#index-functions_002c-shell):
-
- 
-
-[Shell Functions](#Shell-Functions)
-
-
-[H]{#Concept-Index_cp_letter-H}
-
-[history builtins](#index-history-builtins):
-
- 
-
-[Bash History Builtins](#Bash-History-Builtins)
-
-[history events](#index-history-events):
-
- 
-
-[Event Designators](#Event-Designators)
-
-[history expansion](#index-history-expansion):
-
- 
-
-[History Interaction](#History-Interaction)
-
-[history list](#index-history-list):
-
- 
-
-[Bash History Facilities](#Bash-History-Facilities)
-
-[History, how to use](#index-History_002c-how-to-use):
-
- 
-
-[A Programmable Completion Example](#A-Programmable-Completion-Example)
-
-
-[I]{#Concept-Index_cp_letter-I}
-
-[identifier](#index-identifier):
-
- 
-
-[Definitions](#Definitions)
-
-[initialization file,
-readline](#index-initialization-file_002c-readline):
-
- 
-
-[Readline Init File](#Readline-Init-File)
-
-[installation](#index-installation):
-
- 
-
-[Basic Installation](#Basic-Installation)
-
-[interaction, readline](#index-interaction_002c-readline):
-
- 
-
-[Readline Interaction](#Readline-Interaction)
-
-[interactive shell](#index-interactive-shell):
-
- 
-
-[Invoking Bash](#Invoking-Bash)
-
-[interactive shell](#index-interactive-shell-1):
-
- 
-
-[Interactive Shells](#Interactive-Shells)
-
-[internationalization](#index-internationalization):
-
- 
-
-[Locale Translation](#Locale-Translation)
-
-
-[J]{#Concept-Index_cp_letter-J}
-
-[job](#index-job):
-
- 
-
-[Definitions](#Definitions)
-
-[job control](#index-job-control):
-
- 
-
-[Definitions](#Definitions)
-
-[job control](#index-job-control-1):
-
- 
-
-[Job Control Basics](#Job-Control-Basics)
-
-
-[K]{#Concept-Index_cp_letter-K}
-
-[kill ring](#index-kill-ring):
-
- 
-
-[Readline Killing Commands](#Readline-Killing-Commands)
-
-[killing text](#index-killing-text):
-
- 
-
-[Readline Killing Commands](#Readline-Killing-Commands)
-
-
-[L]{#Concept-Index_cp_letter-L}
-
-[localization](#index-localization):
-
- 
-
-[Locale Translation](#Locale-Translation)
-
-[login shell](#index-login-shell):
-
- 
-
-[Invoking Bash](#Invoking-Bash)
-
-
-[M]{#Concept-Index_cp_letter-M}
-
-[matching, pattern](#index-matching_002c-pattern):
-
- 
-
-[Pattern Matching](#Pattern-Matching)
-
-[metacharacter](#index-metacharacter):
-
- 
-
-[Definitions](#Definitions)
-
-
-[N]{#Concept-Index_cp_letter-N}
-
-[name](#index-name):
-
- 
-
-[Definitions](#Definitions)
-
-[native languages](#index-native-languages):
-
- 
-
-[Locale Translation](#Locale-Translation)
-
-[notation, readline](#index-notation_002c-readline):
-
- 
-
-[Readline Bare Essentials](#Readline-Bare-Essentials)
-
-
-[O]{#Concept-Index_cp_letter-O}
-
-[operator, shell](#index-operator_002c-shell):
-
- 
-
-[Definitions](#Definitions)
-
-
-[P]{#Concept-Index_cp_letter-P}
-
-[parameter expansion](#index-parameter-expansion):
-
- 
-
-[Shell Parameter Expansion](#Shell-Parameter-Expansion)
-
-[parameters](#index-parameters):
-
- 
-
-[Shell Parameters](#Shell-Parameters)
-
-[parameters, positional](#index-parameters_002c-positional):
-
- 
-
-[Positional Parameters](#Positional-Parameters)
-
-[parameters, special](#index-parameters_002c-special):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[pathname expansion](#index-pathname-expansion):
-
- 
-
-[Filename Expansion](#Filename-Expansion)
-
-[pattern matching](#index-pattern-matching):
-
- 
-
-[Pattern Matching](#Pattern-Matching)
-
-[pipeline](#index-pipeline):
-
- 
-
-[Pipelines](#Pipelines)
-
-[POSIX](#index-POSIX):
-
- 
-
-[Definitions](#Definitions)
-
-[POSIX Mode](#index-POSIX-Mode):
-
- 
-
-[Bash POSIX Mode](#Bash-POSIX-Mode)
-
-[process group](#index-process-group):
-
- 
-
-[Definitions](#Definitions)
-
-[process group ID](#index-process-group-ID):
-
- 
-
-[Definitions](#Definitions)
-
-[process substitution](#index-process-substitution):
-
- 
-
-[Process Substitution](#Process-Substitution)
-
-[programmable completion](#index-programmable-completion):
-
- 
-
-[Programmable Completion](#Programmable-Completion)
-
-[prompting](#index-prompting):
-
- 
-
-[Controlling the Prompt](#Controlling-the-Prompt)
-
-
-[Q]{#Concept-Index_cp_letter-Q}
-
-[quoting](#index-quoting):
-
- 
-
-[Quoting](#Quoting)
-
-[quoting, ANSI](#index-quoting_002c-ANSI):
-
- 
-
-[ANSI-C Quoting](#ANSI_002dC-Quoting)
-
-
-[R]{#Concept-Index_cp_letter-R}
-
-[Readline, how to use](#index-Readline_002c-how-to-use):
-
- 
-
-[Job Control Variables](#Job-Control-Variables)
-
-[redirection](#index-redirection):
-
- 
-
-[Redirections](#Redirections)
-
-[reserved word](#index-reserved-word):
-
- 
-
-[Definitions](#Definitions)
-
-[restricted shell](#index-restricted-shell):
-
- 
-
-[The Restricted Shell](#The-Restricted-Shell)
-
-[return status](#index-return-status):
-
- 
-
-[Definitions](#Definitions)
-
-
-[S]{#Concept-Index_cp_letter-S}
-
-[shell arithmetic](#index-shell-arithmetic):
-
- 
-
-[Shell Arithmetic](#Shell-Arithmetic)
-
-[shell function](#index-shell-function):
-
- 
-
-[Shell Functions](#Shell-Functions)
-
-[shell script](#index-shell-script):
-
- 
-
-[Shell Scripts](#Shell-Scripts)
-
-[shell variable](#index-shell-variable):
-
- 
-
-[Shell Parameters](#Shell-Parameters)
-
-[shell, interactive](#index-shell_002c-interactive):
-
- 
-
-[Interactive Shells](#Interactive-Shells)
-
-[signal](#index-signal):
-
- 
-
-[Definitions](#Definitions)
-
-[signal handling](#index-signal-handling):
-
- 
-
-[Signals](#Signals)
-
-[special builtin](#index-special-builtin):
-
- 
-
-[Definitions](#Definitions)
-
-[special builtin](#index-special-builtin-1):
-
- 
-
-[Special Builtins](#Special-Builtins)
-
-[startup files](#index-startup-files):
-
- 
-
-[Bash Startup Files](#Bash-Startup-Files)
-
-[suspending jobs](#index-suspending-jobs):
-
- 
-
-[Job Control Basics](#Job-Control-Basics)
-
-
-[T]{#Concept-Index_cp_letter-T}
-
-[tilde expansion](#index-tilde-expansion):
-
- 
-
-[Tilde Expansion](#Tilde-Expansion)
-
-[token](#index-token):
-
- 
-
-[Definitions](#Definitions)
-
-[translation, native
-languages](#index-translation_002c-native-languages):
-
- 
-
-[Locale Translation](#Locale-Translation)
-
-
-[V]{#Concept-Index_cp_letter-V}
-
-[variable, shell](#index-variable_002c-shell):
-
- 
-
-[Shell Parameters](#Shell-Parameters)
-
-[variables, readline](#index-variables_002c-readline):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[W]{#Concept-Index_cp_letter-W}
-
-[word](#index-word):
-
- 
-
-[Definitions](#Definitions)
-
-[word splitting](#index-word-splitting):
-
- 
-
-[Word Splitting](#Word-Splitting)
-
-
-[Y]{#Concept-Index_cp_letter-Y}
-
-[yanking text](#index-yanking-text):
-
- 
-
-[Readline Killing Commands](#Readline-Killing-Commands)
+- [A]{#Concept-Index_cp_letter-A}
+    - [alias expansion](#index-alias-expansion):   [Aliases](#Aliases)
+    - [arithmetic evaluation](#index-arithmetic-evaluation):   [Shell Arithmetic](#Shell-Arithmetic)
+    - [arithmetic expansion](#index-arithmetic-expansion):   [Arithmetic Expansion](#Arithmetic-Expansion)
+    - [arithmetic, shell](#index-arithmetic_002c-shell):   [Shell Arithmetic](#Shell-Arithmetic)
+    - [arrays](#index-arrays):   [Arrays](#Arrays)
+- [B]{#Concept-Index_cp_letter-B}
+    - [background](#index-background):   [Job Control Basics](#Job-Control-Basics)
+    - [Bash configuration](#index-Bash-configuration):   [Basic Installation](#Basic-Installation)
+    - [Bash installation](#index-Bash-installation):   [Basic Installation](#Basic-Installation)
+    - [Bourne shell](#index-Bourne-shell):   [Basic Shell Features](#Basic-Shell-Features)
+    - [brace expansion](#index-brace-expansion):   [Brace Expansion](#Brace-Expansion)
+    - [builtin](#index-builtin-1):   [Definitions](#Definitions)
+- [C]{#Concept-Index_cp_letter-C}
+    - [command editing](#index-command-editing):   [Readline Bare Essentials](#Readline-Bare-Essentials)
+    - [command execution](#index-command-execution):   [Command Search and Execution](#Command-Search-and-Execution)
+    - [command expansion](#index-command-expansion):   [Simple Command Expansion](#Simple-Command-Expansion)
+    - [command history](#index-command-history):   [Bash History Facilities](#Bash-History-Facilities)
+    - [command search](#index-command-search):   [Command Search and Execution](#Command-Search-and-Execution)
+    - [command substitution](#index-command-substitution):   [Command Substitution](#Command-Substitution)
+    - [command timing](#index-command-timing):   [Pipelines](#Pipelines)
+    - [commands, compound](#index-commands_002c-compound):   [Compound Commands](#Compound-Commands)
+    - [commands, conditional](#index-commands_002c-conditional):   [Conditional Constructs](#Conditional-Constructs)
+    - [commands, grouping](#index-commands_002c-grouping):   [Command Grouping](#Command-Grouping)
+    - [commands, lists](#index-commands_002c-lists):   [Lists](#Lists)
+    - [commands, looping](#index-commands_002c-looping):   [Looping Constructs](#Looping-Constructs)
+    - [commands, pipelines](#index-commands_002c-pipelines):   [Pipelines](#Pipelines)
+    - [commands, shell](#index-commands_002c-shell):   [Shell Commands](#Shell-Commands)
+    - [commands, simple](#index-commands_002c-simple):   [Simple Commands](#Simple-Commands)
+    - [comments, shell](#index-comments_002c-shell):   [Comments](#Comments)
+    - [completion builtins](#index-completion-builtins):   [Programmable Completion Builtins](#Programmable-Completion-Builtins)
+    - [configuration](#index-configuration):   [Basic Installation](#Basic-Installation)
+    - [control operator](#index-control-operator):   [Definitions](#Definitions)
+    - [coprocess](#index-coprocess):   [Coprocesses](#Coprocesses)
+- [D]{#Concept-Index_cp_letter-D}
+    - [directory stack](#index-directory-stack):   [The Directory Stack](#The-Directory-Stack)
+- [E]{#Concept-Index_cp_letter-E}
+    - [editing command lines](#index-editing-command-lines):   [Readline Bare Essentials](#Readline-Bare-Essentials)
+    - [environment](#index-environment):   [Environment](#Environment)
+    - [evaluation, arithmetic](#index-evaluation_002c-arithmetic):   [Shell Arithmetic](#Shell-Arithmetic)
+    - [event designators](#index-event-designators):   [Event Designators](#Event-Designators)
+    - [execution environment](#index-execution-environment):   [Command Execution Environment](#Command-Execution-Environment)
+    - [exit status](#index-exit-status):   [Definitions](#Definitions)
+    - [exit status](#index-exit-status-1):   [Exit Status](#Exit-Status)
+    - [expansion](#index-expansion):   [Shell Expansions](#Shell-Expansions)
+    - [expansion, arithmetic](#index-expansion_002c-arithmetic):   [Arithmetic Expansion](#Arithmetic-Expansion)
+    - [expansion, brace](#index-expansion_002c-brace):   [Brace Expansion](#Brace-Expansion)
+    - [expansion, filename](#index-expansion_002c-filename):   [Filename Expansion](#Filename-Expansion)
+    - [expansion, parameter](#index-expansion_002c-parameter):   [Shell Parameter Expansion](#Shell-Parameter-Expansion)
+    - [expansion, pathname](#index-expansion_002c-pathname):   [Filename Expansion](#Filename-Expansion)
+    - [expansion, tilde](#index-expansion_002c-tilde):   [Tilde Expansion](#Tilde-Expansion)
+    - [expressions, arithmetic](#index-expressions_002c-arithmetic):   [Shell Arithmetic](#Shell-Arithmetic)
+    - [expressions, conditional](#index-expressions_002c-conditional):   [Bash Conditional Expressions](#Bash-Conditional-Expressions)
+- [F]{#Concept-Index_cp_letter-F}
+    - [field](#index-field):   [Definitions](#Definitions)
+    - [filename](#index-filename):   [Definitions](#Definitions)
+    - [filename expansion](#index-filename-expansion):   [Filename Expansion](#Filename-Expansion)
+    - [foreground](#index-foreground):   [Job Control Basics](#Job-Control-Basics)
+    - [functions, shell](#index-functions_002c-shell):   [Shell Functions](#Shell-Functions)
+- [H]{#Concept-Index_cp_letter-H}
+    - [history builtins](#index-history-builtins):   [Bash History Builtins](#Bash-History-Builtins)
+    - [history events](#index-history-events):   [Event Designators](#Event-Designators)
+    - [history expansion](#index-history-expansion):   [History Interaction](#History-Interaction)
+    - [history list](#index-history-list):   [Bash History Facilities](#Bash-History-Facilities)
+    - [History, how to use](#index-History_002c-how-to-use):   [A Programmable Completion Example](#A-Programmable-Completion-Example)
+- [I]{#Concept-Index_cp_letter-I}
+    - [identifier](#index-identifier):   [Definitions](#Definitions)
+    - [initialization file, readline](#index-initialization-file_002c-readline):   [Readline Init File](#Readline-Init-File)
+    - [installation](#index-installation):   [Basic Installation](#Basic-Installation)
+    - [interaction, readline](#index-interaction_002c-readline):   [Readline Interaction](#Readline-Interaction)
+    - [interactive shell](#index-interactive-shell):   [Invoking Bash](#Invoking-Bash)
+    - [interactive shell](#index-interactive-shell-1):   [Interactive Shells](#Interactive-Shells)
+    - [internationalization](#index-internationalization):   [Locale Translation](#Locale-Translation)
+- [J]{#Concept-Index_cp_letter-J}
+    - [job](#index-job):   [Definitions](#Definitions)
+    - [job control](#index-job-control):   [Definitions](#Definitions)
+    - [job control](#index-job-control-1):   [Job Control Basics](#Job-Control-Basics)
+- [K]{#Concept-Index_cp_letter-K}
+    - [kill ring](#index-kill-ring):   [Readline Killing Commands](#Readline-Killing-Commands)
+    - [killing text](#index-killing-text):   [Readline Killing Commands](#Readline-Killing-Commands)
+- [L]{#Concept-Index_cp_letter-L}
+    - [localization](#index-localization):   [Locale Translation](#Locale-Translation)
+    - [login shell](#index-login-shell):   [Invoking Bash](#Invoking-Bash)
+- [M]{#Concept-Index_cp_letter-M}
+    - [matching, pattern](#index-matching_002c-pattern):   [Pattern Matching](#Pattern-Matching)
+    - [metacharacter](#index-metacharacter):   [Definitions](#Definitions)
+- [N]{#Concept-Index_cp_letter-N}
+    - [name](#index-name):   [Definitions](#Definitions)
+    - [native languages](#index-native-languages):   [Locale Translation](#Locale-Translation)
+    - [notation, readline](#index-notation_002c-readline):   [Readline Bare Essentials](#Readline-Bare-Essentials)
+- [O]{#Concept-Index_cp_letter-O}
+    - [operator, shell](#index-operator_002c-shell):   [Definitions](#Definitions)
+- [P]{#Concept-Index_cp_letter-P}
+    - [parameter expansion](#index-parameter-expansion):   [Shell Parameter Expansion](#Shell-Parameter-Expansion)
+    - [parameters](#index-parameters):   [Shell Parameters](#Shell-Parameters)
+    - [parameters, positional](#index-parameters_002c-positional):   [Positional Parameters](#Positional-Parameters)
+    - [parameters, special](#index-parameters_002c-special):   [Special Parameters](#Special-Parameters)
+    - [pathname expansion](#index-pathname-expansion):   [Filename Expansion](#Filename-Expansion)
+    - [pattern matching](#index-pattern-matching):   [Pattern Matching](#Pattern-Matching)
+    - [pipeline](#index-pipeline):   [Pipelines](#Pipelines)
+    - [POSIX](#index-POSIX):   [Definitions](#Definitions)
+    - [POSIX Mode](#index-POSIX-Mode):   [Bash POSIX Mode](#Bash-POSIX-Mode)
+    - [process group](#index-process-group):   [Definitions](#Definitions)
+    - [process group ID](#index-process-group-ID):   [Definitions](#Definitions)
+    - [process substitution](#index-process-substitution):   [Process Substitution](#Process-Substitution)
+    - [programmable completion](#index-programmable-completion):   [Programmable Completion](#Programmable-Completion)
+    - [prompting](#index-prompting):   [Controlling the Prompt](#Controlling-the-Prompt)
+- [Q]{#Concept-Index_cp_letter-Q}
+    - [quoting](#index-quoting):   [Quoting](#Quoting)
+    - [quoting, ANSI](#index-quoting_002c-ANSI):   [ANSI-C Quoting](#ANSI_002dC-Quoting)
+- [R]{#Concept-Index_cp_letter-R}
+    - [Readline, how to use](#index-Readline_002c-how-to-use):   [Job Control Variables](#Job-Control-Variables)
+    - [redirection](#index-redirection):   [Redirections](#Redirections)
+    - [reserved word](#index-reserved-word):   [Definitions](#Definitions)
+    - [restricted shell](#index-restricted-shell):   [The Restricted Shell](#The-Restricted-Shell)
+    - [return status](#index-return-status):   [Definitions](#Definitions)
+- [S]{#Concept-Index_cp_letter-S}
+    - [shell arithmetic](#index-shell-arithmetic):   [Shell Arithmetic](#Shell-Arithmetic)
+    - [shell function](#index-shell-function):   [Shell Functions](#Shell-Functions)
+    - [shell script](#index-shell-script):   [Shell Scripts](#Shell-Scripts)
+    - [shell variable](#index-shell-variable):   [Shell Parameters](#Shell-Parameters)
+    - [shell, interactive](#index-shell_002c-interactive):   [Interactive Shells](#Interactive-Shells)
+    - [signal](#index-signal):   [Definitions](#Definitions)
+    - [signal handling](#index-signal-handling):   [Signals](#Signals)
+    - [special builtin](#index-special-builtin):   [Definitions](#Definitions)
+    - [special builtin](#index-special-builtin-1):   [Special Builtins](#Special-Builtins)
+    - [startup files](#index-startup-files):   [Bash Startup Files](#Bash-Startup-Files)
+    - [suspending jobs](#index-suspending-jobs):   [Job Control Basics](#Job-Control-Basics)
+- [T]{#Concept-Index_cp_letter-T}
+    - [tilde expansion](#index-tilde-expansion):   [Tilde Expansion](#Tilde-Expansion)
+    - [token](#index-token):   [Definitions](#Definitions)
+    - [translation, native languages](#index-translation_002c-native-languages):   [Locale Translation](#Locale-Translation)
+- [V]{#Concept-Index_cp_letter-V}
+    - [variable, shell](#index-variable_002c-shell):   [Shell Parameters](#Shell-Parameters)
+    - [variables, readline](#index-variables_002c-readline):   [Readline Init File Syntax](#Readline-Init-File-Syntax)
+- [W]{#Concept-Index_cp_letter-W}
+    - [word](#index-word):   [Definitions](#Definitions)
+    - [word splitting](#index-word-splitting):   [Word Splitting](#Word-Splitting)
+- [Y]{#Concept-Index_cp_letter-Y}
+    - [yanking text](#index-yanking-text):   [Readline Killing Commands](#Readline-Killing-Commands)
 
 
   ------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
