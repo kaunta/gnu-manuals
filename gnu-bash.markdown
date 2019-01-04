@@ -2193,16 +2193,14 @@ omitted, the operator tests only for existence.
     offset is 0, and the positional parameters are used, `$@` is
     prefixed to the list.
 
-`${!prefix*}`\
-`${!prefix@}`
+`${!prefix*}`, `${!prefix@}`
 
 :   Expands to the names of variables whose names begin with prefix,
     separated by the first character of the `IFS` special variable. When
     '@' is used and the expansion appears within double quotes, each
     variable name expands to a separate word.
 
-`${!name[@]}`\
-`${!name[*]}`
+`${!name[@]}`, `${!name[*]}`
 
 :   If name is an array variable, expands to the list of array indices
     (keys) assigned in name. If name is not an array, expands to 0 if
@@ -2221,8 +2219,7 @@ omitted, the operator tests only for existence.
     negative indices count back from the end of the array, and an index
     of -1 references the last element.
 
-`${parameter#word}`\
-`${parameter##word}`
+`${parameter#word}`, `${parameter##word}`
 
 :   The word is expanded to produce a pattern just as in filename
     expansion (see [Filename Expansion](#Filename-Expansion)). If the
@@ -2236,8 +2233,7 @@ omitted, the operator tests only for existence.
     pattern removal operation is applied to each member of the array in
     turn, and the expansion is the resultant list.
 
-`${parameter%word}`\
-`${parameter%%word}`
+`${parameter%word}`, `${parameter%%word}`
 
 :   The word is expanded to produce a pattern just as in filename
     expansion. If the pattern matches a trailing portion of the expanded
@@ -2270,10 +2266,7 @@ omitted, the operator tests only for existence.
     '@' or '\*', the substitution operation is applied to each member of
     the array in turn, and the expansion is the resultant list.
 
-`${parameter^pattern}`\
-`${parameter^^pattern}`\
-`${parameter,pattern}`\
-`${parameter,,pattern}`
+`${parameter^pattern}`, `${parameter^^pattern}`, `${parameter,pattern}`, `${parameter,,pattern}`
 
 :   This expansion modifies the case of alphabetic characters in
     parameter. The pattern is expanded to produce a pattern just as in
