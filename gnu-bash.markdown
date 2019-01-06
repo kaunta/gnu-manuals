@@ -11316,8 +11316,7 @@ more of the following modifiers, each preceded by a ':'.
 
 :   Repeat the previous substitution.
 
-`g`\
-`a`
+`g`, `a`
 
 :   Cause changes to be applied over the entire event line. Used in
     conjunction with 's', as in `gs/old/new/`, or with '&'.
