@@ -14465,712 +14465,134 @@ Index Entry
 Section
 
 
-[A]{#Function-Index_fn_letter-A}
-
-[`abort (C-g)`](#index-abort-_0028C_002dg_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`accept-line (Newline or Return)`](#index-accept_002dline-_0028Newline-or-Return_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`alias-expand-line ()`](#index-alias_002dexpand_002dline-_0028_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-
-[B]{#Function-Index_fn_letter-B}
-
-[`backward-char (C-b)`](#index-backward_002dchar-_0028C_002db_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`backward-delete-char (Rubout)`](#index-backward_002ddelete_002dchar-_0028Rubout_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-[`backward-kill-line (C-x Rubout)`](#index-backward_002dkill_002dline-_0028C_002dx-Rubout_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`backward-kill-word (M-DEL)`](#index-backward_002dkill_002dword-_0028M_002dDEL_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`backward-word (M-b)`](#index-backward_002dword-_0028M_002db_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`beginning-of-history (M-<)`](#index-beginning_002dof_002dhistory-_0028M_002d_003c_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`beginning-of-line (C-a)`](#index-beginning_002dof_002dline-_0028C_002da_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`bracketed-paste-begin ()`](#index-bracketed_002dpaste_002dbegin-_0028_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-
-[C]{#Function-Index_fn_letter-C}
-
-[`call-last-kbd-macro (C-x e)`](#index-call_002dlast_002dkbd_002dmacro-_0028C_002dx-e_0029):
-
- 
-
-[Keyboard Macros](#Keyboard-Macros)
-
-[`capitalize-word (M-c)`](#index-capitalize_002dword-_0028M_002dc_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-[`character-search (C-])`](#index-character_002dsearch-_0028C_002d_005d_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`character-search-backward (M-C-])`](#index-character_002dsearch_002dbackward-_0028M_002dC_002d_005d_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`clear-screen (C-l)`](#index-clear_002dscreen-_0028C_002dl_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`complete (TAB)`](#index-complete-_0028TAB_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`complete-command (M-!)`](#index-complete_002dcommand-_0028M_002d_0021_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`complete-filename (M-/)`](#index-complete_002dfilename-_0028M_002d_002f_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`complete-hostname (M-@)`](#index-complete_002dhostname-_0028M_002d_0040_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`complete-into-braces (M-{)`](#index-complete_002dinto_002dbraces-_0028M_002d_007b_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`complete-username (M-~)`](#index-complete_002dusername-_0028M_002d_007e_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`complete-variable (M-$)`](#index-complete_002dvariable-_0028M_002d_0024_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`copy-backward-word ()`](#index-copy_002dbackward_002dword-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`copy-forward-word ()`](#index-copy_002dforward_002dword-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`copy-region-as-kill ()`](#index-copy_002dregion_002das_002dkill-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-
-[D]{#Function-Index_fn_letter-D}
-
-[`dabbrev-expand ()`](#index-dabbrev_002dexpand-_0028_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`delete-char (C-d)`](#index-delete_002dchar-_0028C_002dd_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-[`delete-char-or-list ()`](#index-delete_002dchar_002dor_002dlist-_0028_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`delete-horizontal-space ()`](#index-delete_002dhorizontal_002dspace-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`digit-argument (M-0, M-1, … M--)`](#index-digit_002dargument-_0028M_002d0_002c-M_002d1_002c-_2026-M_002d_002d_0029):
-
- 
-
-[Numeric Arguments](#Numeric-Arguments)
-
-[`display-shell-version (C-x C-v)`](#index-display_002dshell_002dversion-_0028C_002dx-C_002dv_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`do-uppercase-version (M-a, M-b, M-x, …)`](#index-do_002duppercase_002dversion-_0028M_002da_002c-M_002db_002c-M_002dx_002c-_2026_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`downcase-word (M-l)`](#index-downcase_002dword-_0028M_002dl_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-[`dump-functions ()`](#index-dump_002dfunctions-_0028_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`dump-macros ()`](#index-dump_002dmacros-_0028_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`dump-variables ()`](#index-dump_002dvariables-_0028_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`dynamic-complete-history (M-TAB)`](#index-dynamic_002dcomplete_002dhistory-_0028M_002dTAB_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-
-[E]{#Function-Index_fn_letter-E}
-
-[`edit-and-execute-command (C-xC-e)`](#index-edit_002dand_002dexecute_002dcommand-_0028C_002dxC_002de_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`end-kbd-macro (C-x ))`](#index-end_002dkbd_002dmacro-_0028C_002dx-_0029_0029):
-
- 
-
-[Keyboard Macros](#Keyboard-Macros)
-
-[`end-of-file (usually C-d)`](#index-end_002dof_002dfile-_0028usually-C_002dd_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-[`end-of-history (M->)`](#index-end_002dof_002dhistory-_0028M_002d_003e_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`end-of-line (C-e)`](#index-end_002dof_002dline-_0028C_002de_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`exchange-point-and-mark (C-x C-x)`](#index-exchange_002dpoint_002dand_002dmark-_0028C_002dx-C_002dx_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-
-[F]{#Function-Index_fn_letter-F}
-
-[`forward-backward-delete-char ()`](#index-forward_002dbackward_002ddelete_002dchar-_0028_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-[`forward-char (C-f)`](#index-forward_002dchar-_0028C_002df_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`forward-search-history (C-s)`](#index-forward_002dsearch_002dhistory-_0028C_002ds_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`forward-word (M-f)`](#index-forward_002dword-_0028M_002df_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-
-[G]{#Function-Index_fn_letter-G}
-
-[`glob-complete-word (M-g)`](#index-glob_002dcomplete_002dword-_0028M_002dg_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`glob-expand-word (C-x *)`](#index-glob_002dexpand_002dword-_0028C_002dx-_002a_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`glob-list-expansions (C-x g)`](#index-glob_002dlist_002dexpansions-_0028C_002dx-g_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-
-[H]{#Function-Index_fn_letter-H}
-
-[`history-and-alias-expand-line ()`](#index-history_002dand_002dalias_002dexpand_002dline-_0028_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`history-expand-line (M-^)`](#index-history_002dexpand_002dline-_0028M_002d_005e_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`history-search-backward ()`](#index-history_002dsearch_002dbackward-_0028_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`history-search-forward ()`](#index-history_002dsearch_002dforward-_0028_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`history-substr-search-backward ()`](#index-history_002dsubstr_002dsearch_002dbackward-_0028_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`history-substr-search-forward ()`](#index-history_002dsubstr_002dsearch_002dforward-_0028_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-
-[I]{#Function-Index_fn_letter-I}
-
-[`insert-comment (M-#)`](#index-insert_002dcomment-_0028M_002d_0023_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`insert-completions (M-*)`](#index-insert_002dcompletions-_0028M_002d_002a_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`insert-last-argument (M-. or M-_)`](#index-insert_002dlast_002dargument-_0028M_002d_002e-or-M_002d_005f_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-
-[K]{#Function-Index_fn_letter-K}
-
-[`kill-line (C-k)`](#index-kill_002dline-_0028C_002dk_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`kill-region ()`](#index-kill_002dregion-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`kill-whole-line ()`](#index-kill_002dwhole_002dline-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`kill-word (M-d)`](#index-kill_002dword-_0028M_002dd_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-
-[M]{#Function-Index_fn_letter-M}
-
-[`magic-space ()`](#index-magic_002dspace-_0028_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`menu-complete ()`](#index-menu_002dcomplete-_0028_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`menu-complete-backward ()`](#index-menu_002dcomplete_002dbackward-_0028_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-
-[N]{#Function-Index_fn_letter-N}
-
-[`next-history (C-n)`](#index-next_002dhistory-_0028C_002dn_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`non-incremental-forward-search-history (M-n)`](#index-non_002dincremental_002dforward_002dsearch_002dhistory-_0028M_002dn_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`non-incremental-reverse-search-history (M-p)`](#index-non_002dincremental_002dreverse_002dsearch_002dhistory-_0028M_002dp_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-
-[O]{#Function-Index_fn_letter-O}
-
-[`operate-and-get-next (C-o)`](#index-operate_002dand_002dget_002dnext-_0028C_002do_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`overwrite-mode ()`](#index-overwrite_002dmode-_0028_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-
-[P]{#Function-Index_fn_letter-P}
-
-[`possible-command-completions (C-x !)`](#index-possible_002dcommand_002dcompletions-_0028C_002dx-_0021_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`possible-completions (M-?)`](#index-possible_002dcompletions-_0028M_002d_003f_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`possible-filename-completions (C-x /)`](#index-possible_002dfilename_002dcompletions-_0028C_002dx-_002f_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`possible-hostname-completions (C-x @)`](#index-possible_002dhostname_002dcompletions-_0028C_002dx-_0040_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`possible-username-completions (C-x ~)`](#index-possible_002dusername_002dcompletions-_0028C_002dx-_007e_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`possible-variable-completions (C-x $)`](#index-possible_002dvariable_002dcompletions-_0028C_002dx-_0024_0029):
-
- 
-
-[Commands For Completion](#Commands-For-Completion)
-
-[`prefix-meta (ESC)`](#index-prefix_002dmeta-_0028ESC_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`previous-history (C-p)`](#index-previous_002dhistory-_0028C_002dp_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`print-last-kbd-macro ()`](#index-print_002dlast_002dkbd_002dmacro-_0028_0029):
-
- 
-
-[Keyboard Macros](#Keyboard-Macros)
-
-
-[Q]{#Function-Index_fn_letter-Q}
-
-[`quoted-insert (C-q or C-v)`](#index-quoted_002dinsert-_0028C_002dq-or-C_002dv_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-
-[R]{#Function-Index_fn_letter-R}
-
-[`re-read-init-file (C-x C-r)`](#index-re_002dread_002dinit_002dfile-_0028C_002dx-C_002dr_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`redraw-current-line ()`](#index-redraw_002dcurrent_002dline-_0028_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`reverse-search-history (C-r)`](#index-reverse_002dsearch_002dhistory-_0028C_002dr_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`revert-line (M-r)`](#index-revert_002dline-_0028M_002dr_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-
-[S]{#Function-Index_fn_letter-S}
-
-[`self-insert (a, b, A, 1, !, …)`](#index-self_002dinsert-_0028a_002c-b_002c-A_002c-1_002c-_0021_002c-_2026_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-[`set-mark (C-@)`](#index-set_002dmark-_0028C_002d_0040_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`shell-backward-kill-word ()`](#index-shell_002dbackward_002dkill_002dword-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`shell-backward-word ()`](#index-shell_002dbackward_002dword-_0028_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`shell-expand-line (M-C-e)`](#index-shell_002dexpand_002dline-_0028M_002dC_002de_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`shell-forward-word ()`](#index-shell_002dforward_002dword-_0028_0029):
-
- 
-
-[Commands For Moving](#Commands-For-Moving)
-
-[`shell-kill-word ()`](#index-shell_002dkill_002dword-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`skip-csi-sequence ()`](#index-skip_002dcsi_002dsequence-_0028_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`start-kbd-macro (C-x ()`](#index-start_002dkbd_002dmacro-_0028C_002dx-_0028_0029):
-
- 
-
-[Keyboard Macros](#Keyboard-Macros)
-
-
-[T]{#Function-Index_fn_letter-T}
-
-[`tilde-expand (M-&)`](#index-tilde_002dexpand-_0028M_002d_0026_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`transpose-chars (C-t)`](#index-transpose_002dchars-_0028C_002dt_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-[`transpose-words (M-t)`](#index-transpose_002dwords-_0028M_002dt_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-
-[U]{#Function-Index_fn_letter-U}
-
-[`undo (C-_ or C-x C-u)`](#index-undo-_0028C_002d_005f-or-C_002dx-C_002du_0029):
-
- 
-
-[Miscellaneous Commands](#Miscellaneous-Commands)
-
-[`universal-argument ()`](#index-universal_002dargument-_0028_0029):
-
- 
-
-[Numeric Arguments](#Numeric-Arguments)
-
-[`unix-filename-rubout ()`](#index-unix_002dfilename_002drubout-_0028_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`unix-line-discard (C-u)`](#index-unix_002dline_002ddiscard-_0028C_002du_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`unix-word-rubout (C-w)`](#index-unix_002dword_002drubout-_0028C_002dw_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`upcase-word (M-u)`](#index-upcase_002dword-_0028M_002du_0029):
-
- 
-
-[Commands For Text](#Commands-For-Text)
-
-
-[Y]{#Function-Index_fn_letter-Y}
-
-[`yank (C-y)`](#index-yank-_0028C_002dy_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
-
-[`yank-last-arg (M-. or M-_)`](#index-yank_002dlast_002darg-_0028M_002d_002e-or-M_002d_005f_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`yank-nth-arg (M-C-y)`](#index-yank_002dnth_002darg-_0028M_002dC_002dy_0029):
-
- 
-
-[Commands For History](#Commands-For-History)
-
-[`yank-pop (M-y)`](#index-yank_002dpop-_0028M_002dy_0029):
-
- 
-
-[Commands For Killing](#Commands-For-Killing)
+- [A]{#Function-Index_fn_letter-A}
+    - [`abort (C-g)`](#index-abort-_0028C_002dg_0029):	[Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`accept-line (Newline or Return)`](#index-accept_002dline-_0028Newline-or-Return_0029):	[Commands For History](#Commands-For-History)
+    - [`alias-expand-line ()`](#index-alias_002dexpand_002dline-_0028_0029):	[Miscellaneous Commands](#Miscellaneous-Commands)
+- [B]{#Function-Index_fn_letter-B}
+    - [`backward-char (C-b)`](#index-backward_002dchar-_0028C_002db_0029):   [Commands For Moving](#Commands-For-Moving)
+    - [`backward-delete-char (Rubout)`](#index-backward_002ddelete_002dchar-_0028Rubout_0029):   [Commands For Text](#Commands-For-Text)
+    - [`backward-kill-line (C-x Rubout)`](#index-backward_002dkill_002dline-_0028C_002dx-Rubout_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`backward-kill-word (M-DEL)`](#index-backward_002dkill_002dword-_0028M_002dDEL_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`backward-word (M-b)`](#index-backward_002dword-_0028M_002db_0029):   [Commands For Moving](#Commands-For-Moving)
+    - [`beginning-of-history (M-<)`](#index-beginning_002dof_002dhistory-_0028M_002d_003c_0029):   [Commands For History](#Commands-For-History)
+    - [`beginning-of-line (C-a)`](#index-beginning_002dof_002dline-_0028C_002da_0029):   [Commands For Moving](#Commands-For-Moving)
+    - [`bracketed-paste-begin ()`](#index-bracketed_002dpaste_002dbegin-_0028_0029):   [Commands For Text](#Commands-For-Text)
+- [C]{#Function-Index_fn_letter-C}
+    - [`call-last-kbd-macro (C-x e)`](#index-call_002dlast_002dkbd_002dmacro-_0028C_002dx-e_0029):   [Keyboard Macros](#Keyboard-Macros)
+    - [`capitalize-word (M-c)`](#index-capitalize_002dword-_0028M_002dc_0029):   [Commands For Text](#Commands-For-Text)
+    - [`character-search (C-])`](#index-character_002dsearch-_0028C_002d_005d_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`character-search-backward (M-C-])`](#index-character_002dsearch_002dbackward-_0028M_002dC_002d_005d_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`clear-screen (C-l)`](#index-clear_002dscreen-_0028C_002dl_0029):   [Commands For Moving](#Commands-For-Moving)
+    - [`complete (TAB)`](#index-complete-_0028TAB_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`complete-command (M-!)`](#index-complete_002dcommand-_0028M_002d_0021_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`complete-filename (M-/)`](#index-complete_002dfilename-_0028M_002d_002f_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`complete-hostname (M-@)`](#index-complete_002dhostname-_0028M_002d_0040_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`complete-into-braces (M-{)`](#index-complete_002dinto_002dbraces-_0028M_002d_007b_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`complete-username (M-~)`](#index-complete_002dusername-_0028M_002d_007e_0029):   [Commands For Completion](#Commands-For-Completion) 
+    - [`complete-variable (M-$)`](#index-complete_002dvariable-_0028M_002d_0024_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`copy-backward-word ()`](#index-copy_002dbackward_002dword-_0028_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`copy-forward-word ()`](#index-copy_002dforward_002dword-_0028_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`copy-region-as-kill ()`](#index-copy_002dregion_002das_002dkill-_0028_0029):   [Commands For Killing](#Commands-For-Killing) 
+- [D]{#Function-Index_fn_letter-D}
+    - [`dabbrev-expand ()`](#index-dabbrev_002dexpand-_0028_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`delete-char (C-d)`](#index-delete_002dchar-_0028C_002dd_0029):   [Commands For Text](#Commands-For-Text) 
+    - [`delete-char-or-list ()`](#index-delete_002dchar_002dor_002dlist-_0028_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`delete-horizontal-space ()`](#index-delete_002dhorizontal_002dspace-_0028_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`digit-argument (M-0, M-1, … M--)`](#index-digit_002dargument-_0028M_002d0_002c-M_002d1_002c-_2026-M_002d_002d_0029):   [Numeric Arguments](#Numeric-Arguments)
+    - [`display-shell-version (C-x C-v)`](#index-display_002dshell_002dversion-_0028C_002dx-C_002dv_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`do-uppercase-version (M-a, M-b, M-x, …)`](#index-do_002duppercase_002dversion-_0028M_002da_002c-M_002db_002c-M_002dx_002c-_2026_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`downcase-word (M-l)`](#index-downcase_002dword-_0028M_002dl_0029):   [Commands For Text](#Commands-For-Text) 
+    - [`dump-functions ()`](#index-dump_002dfunctions-_0028_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`dump-macros ()`](#index-dump_002dmacros-_0028_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`dump-variables ()`](#index-dump_002dvariables-_0028_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`dynamic-complete-history (M-TAB)`](#index-dynamic_002dcomplete_002dhistory-_0028M_002dTAB_0029):   [Commands For Completion](#Commands-For-Completion)
+- [E]{#Function-Index_fn_letter-E}
+    - [`edit-and-execute-command (C-xC-e)`](#index-edit_002dand_002dexecute_002dcommand-_0028C_002dxC_002de_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`end-kbd-macro (C-x ))`](#index-end_002dkbd_002dmacro-_0028C_002dx-_0029_0029):   [Keyboard Macros](#Keyboard-Macros)
+    - [`end-of-file (usually C-d)`](#index-end_002dof_002dfile-_0028usually-C_002dd_0029):   [Commands For Text](#Commands-For-Text)
+    - [`end-of-history (M->)`](#index-end_002dof_002dhistory-_0028M_002d_003e_0029):   [Commands For History](#Commands-For-History)
+    - [`end-of-line (C-e)`](#index-end_002dof_002dline-_0028C_002de_0029):   [Commands For Moving](#Commands-For-Moving)
+    - [`exchange-point-and-mark (C-x C-x)`](#index-exchange_002dpoint_002dand_002dmark-_0028C_002dx-C_002dx_0029):   [Miscellaneous Commands](#Miscellaneous-Commands) 
+- [F]{#Function-Index_fn_letter-F}
+    - [`forward-backward-delete-char ()`](#index-forward_002dbackward_002ddelete_002dchar-_0028_0029):   [Commands For Text](#Commands-For-Text)
+    - [`forward-char (C-f)`](#index-forward_002dchar-_0028C_002df_0029):   [Commands For Moving](#Commands-For-Moving)
+    - [`forward-search-history (C-s)`](#index-forward_002dsearch_002dhistory-_0028C_002ds_0029):   [Commands For History](#Commands-For-History)
+    - [`forward-word (M-f)`](#index-forward_002dword-_0028M_002df_0029):   [Commands For Moving](#Commands-For-Moving)
+- [G]{#Function-Index_fn_letter-G}
+    - [`glob-complete-word (M-g)`](#index-glob_002dcomplete_002dword-_0028M_002dg_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`glob-expand-word (C-x *)`](#index-glob_002dexpand_002dword-_0028C_002dx-_002a_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`glob-list-expansions (C-x g)`](#index-glob_002dlist_002dexpansions-_0028C_002dx-g_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+- [H]{#Function-Index_fn_letter-H}
+    - [`history-and-alias-expand-line ()`](#index-history_002dand_002dalias_002dexpand_002dline-_0028_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`history-expand-line (M-^)`](#index-history_002dexpand_002dline-_0028M_002d_005e_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`history-search-backward ()`](#index-history_002dsearch_002dbackward-_0028_0029):   [Commands For History](#Commands-For-History)
+    - [`history-search-forward ()`](#index-history_002dsearch_002dforward-_0028_0029):   [Commands For History](#Commands-For-History)
+    - [`history-substr-search-backward ()`](#index-history_002dsubstr_002dsearch_002dbackward-_0028_0029):   [Commands For History](#Commands-For-History)
+    - [`history-substr-search-forward ()`](#index-history_002dsubstr_002dsearch_002dforward-_0028_0029):   [Commands For History](#Commands-For-History)
+- [I]{#Function-Index_fn_letter-I}
+    - [`insert-comment (M-#)`](#index-insert_002dcomment-_0028M_002d_0023_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`insert-completions (M-*)`](#index-insert_002dcompletions-_0028M_002d_002a_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`insert-last-argument (M-. or M-_)`](#index-insert_002dlast_002dargument-_0028M_002d_002e-or-M_002d_005f_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+- [K]{#Function-Index_fn_letter-K}
+    - [`kill-line (C-k)`](#index-kill_002dline-_0028C_002dk_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`kill-region ()`](#index-kill_002dregion-_0028_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`kill-whole-line ()`](#index-kill_002dwhole_002dline-_0028_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`kill-word (M-d)`](#index-kill_002dword-_0028M_002dd_0029):   [Commands For Killing](#Commands-For-Killing) 
+- [M]{#Function-Index_fn_letter-M} 
+    - [`magic-space ()`](#index-magic_002dspace-_0028_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`menu-complete ()`](#index-menu_002dcomplete-_0028_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`menu-complete-backward ()`](#index-menu_002dcomplete_002dbackward-_0028_0029):   [Commands For Completion](#Commands-For-Completion)
+- [N]{#Function-Index_fn_letter-N}
+    - [`next-history (C-n)`](#index-next_002dhistory-_0028C_002dn_0029):   [Commands For History](#Commands-For-History)
+    - [`non-incremental-forward-search-history (M-n)`](#index-non_002dincremental_002dforward_002dsearch_002dhistory-_0028M_002dn_0029):   [Commands For History](#Commands-For-History)
+    - [`non-incremental-reverse-search-history (M-p)`](#index-non_002dincremental_002dreverse_002dsearch_002dhistory-_0028M_002dp_0029):   [Commands For History](#Commands-For-History)
+- [O]{#Function-Index_fn_letter-O} 
+    - [`operate-and-get-next (C-o)`](#index-operate_002dand_002dget_002dnext-_0028C_002do_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`overwrite-mode ()`](#index-overwrite_002dmode-_0028_0029):   [Commands For Text](#Commands-For-Text)
+- [P]{#Function-Index_fn_letter-P}
+    - [`possible-command-completions (C-x !)`](#index-possible_002dcommand_002dcompletions-_0028C_002dx-_0021_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`possible-completions (M-?)`](#index-possible_002dcompletions-_0028M_002d_003f_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`possible-filename-completions (C-x /)`](#index-possible_002dfilename_002dcompletions-_0028C_002dx-_002f_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`possible-hostname-completions (C-x @)`](#index-possible_002dhostname_002dcompletions-_0028C_002dx-_0040_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`possible-username-completions (C-x ~)`](#index-possible_002dusername_002dcompletions-_0028C_002dx-_007e_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`possible-variable-completions (C-x $)`](#index-possible_002dvariable_002dcompletions-_0028C_002dx-_0024_0029):   [Commands For Completion](#Commands-For-Completion)
+    - [`prefix-meta (ESC)`](#index-prefix_002dmeta-_0028ESC_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`previous-history (C-p)`](#index-previous_002dhistory-_0028C_002dp_0029):   [Commands For History](#Commands-For-History)
+    - [`print-last-kbd-macro ()`](#index-print_002dlast_002dkbd_002dmacro-_0028_0029):   [Keyboard Macros](#Keyboard-Macros)
+- [Q]{#Function-Index_fn_letter-Q}
+    - [`quoted-insert (C-q or C-v)`](#index-quoted_002dinsert-_0028C_002dq-or-C_002dv_0029):   [Commands For Text](#Commands-For-Text)
+- [R]{#Function-Index_fn_letter-R}
+    - [`re-read-init-file (C-x C-r)`](#index-re_002dread_002dinit_002dfile-_0028C_002dx-C_002dr_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`redraw-current-line ()`](#index-redraw_002dcurrent_002dline-_0028_0029):   [Commands For Moving](#Commands-For-Moving)
+    - [`reverse-search-history (C-r)`](#index-reverse_002dsearch_002dhistory-_0028C_002dr_0029):   [Commands For History](#Commands-For-History)
+    - [`revert-line (M-r)`](#index-revert_002dline-_0028M_002dr_0029):   [Miscellaneous Commands](#Miscellaneous-Commands) 
+- [S]{#Function-Index_fn_letter-S}
+    - [`self-insert (a, b, A, 1, !, …)`](#index-self_002dinsert-_0028a_002c-b_002c-A_002c-1_002c-_0021_002c-_2026_0029):   [Commands For Text](#Commands-For-Text)
+    - [`set-mark (C-@)`](#index-set_002dmark-_0028C_002d_0040_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`shell-backward-kill-word ()`](#index-shell_002dbackward_002dkill_002dword-_0028_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`shell-backward-word ()`](#index-shell_002dbackward_002dword-_0028_0029):   [Commands For Moving](#Commands-For-Moving)
+    - [`shell-expand-line (M-C-e)`](#index-shell_002dexpand_002dline-_0028M_002dC_002de_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`shell-forward-word ()`](#index-shell_002dforward_002dword-_0028_0029):   [Commands For Moving](#Commands-For-Moving) 
+    - [`shell-kill-word ()`](#index-shell_002dkill_002dword-_0028_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`skip-csi-sequence ()`](#index-skip_002dcsi_002dsequence-_0028_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`start-kbd-macro (C-x ()`](#index-start_002dkbd_002dmacro-_0028C_002dx-_0028_0029):   [Keyboard Macros](#Keyboard-Macros)
+- [T]{#Function-Index_fn_letter-T} 
+    - [`tilde-expand (M-&)`](#index-tilde_002dexpand-_0028M_002d_0026_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`transpose-chars (C-t)`](#index-transpose_002dchars-_0028C_002dt_0029):   [Commands For Text](#Commands-For-Text)
+    - [`transpose-words (M-t)`](#index-transpose_002dwords-_0028M_002dt_0029):   [Commands For Text](#Commands-For-Text)
+- [U]{#Function-Index_fn_letter-U}
+    - [`undo (C-_ or C-x C-u)`](#index-undo-_0028C_002d_005f-or-C_002dx-C_002du_0029):   [Miscellaneous Commands](#Miscellaneous-Commands)
+    - [`universal-argument ()`](#index-universal_002dargument-_0028_0029):   [Numeric Arguments](#Numeric-Arguments)
+    - [`unix-filename-rubout ()`](#index-unix_002dfilename_002drubout-_0028_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`unix-line-discard (C-u)`](#index-unix_002dline_002ddiscard-_0028C_002du_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`unix-word-rubout (C-w)`](#index-unix_002dword_002drubout-_0028C_002dw_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`upcase-word (M-u)`](#index-upcase_002dword-_0028M_002du_0029):   [Commands For Text](#Commands-For-Text)
+- [Y]{#Function-Index_fn_letter-Y} 
+    - [`yank (C-y)`](#index-yank-_0028C_002dy_0029):   [Commands For Killing](#Commands-For-Killing)
+    - [`yank-last-arg (M-. or M-_)`](#index-yank_002dlast_002darg-_0028M_002d_002e-or-M_002d_005f_0029):   [Commands For History](#Commands-For-History)
+    - [`yank-nth-arg (M-C-y)`](#index-yank_002dnth_002darg-_0028M_002dC_002dy_0029):   [Commands For History](#Commands-For-History)
+    - [`yank-pop (M-y)`](#index-yank_002dpop-_0028M_002dy_0029):   [Commands For Killing](#Commands-For-Killing)
 
 
   ------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
