@@ -1793,15 +1793,17 @@ Expansion is performed on the command line after it has been split into
 -   word splitting
 -   filename expansion
 
-  - [Brace Expansion](#Brace-Expansion): Expansion of expressions within braces.
-  - [Tilde Expansion](#Tilde-Expansion): Expansion of the \~ character.
-  - [Shell Parameter Expansion](#Shell-Parameter-Expansion): How Bash expands variables to their values.
-  - [Command Substitution](#Command-Substitution): Using the output of a command as an argument.
-  - [Arithmetic Expansion](#Arithmetic-Expansion): How to use arithmetic in shell expansions.
-  - [Process Substitution](#Process-Substitution): A way to write and read to and from a command.
-  - [Word Splitting](#Word-Splitting): How the results of expansion are split into separate arguments.
-  - [Filename Expansion](#Filename-Expansion): A shorthand for specifying filenames matching patterns.
-  - [Quote Removal](#Quote-Removal): How and when quote characters are removed from words.
+<!-- -->
+
+- [Brace Expansion](#Brace-Expansion): Expansion of expressions within braces.
+- [Tilde Expansion](#Tilde-Expansion): Expansion of the \~ character.
+- [Shell Parameter Expansion](#Shell-Parameter-Expansion): How Bash expands variables to their values.
+- [Command Substitution](#Command-Substitution): Using the output of a command as an argument.
+- [Arithmetic Expansion](#Arithmetic-Expansion): How to use arithmetic in shell expansions.
+- [Process Substitution](#Process-Substitution): A way to write and read to and from a command.
+- [Word Splitting](#Word-Splitting): How the results of expansion are split into separate arguments.
+- [Filename Expansion](#Filename-Expansion): A shorthand for specifying filenames matching patterns.
+- [Quote Removal](#Quote-Removal): How and when quote characters are removed from words.
 
 The order of expansions is: brace expansion; tilde expansion, parameter
 and variable expansion, arithmetic expansion, and command substitution
