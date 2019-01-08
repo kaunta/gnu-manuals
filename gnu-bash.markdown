@@ -13386,1061 +13386,188 @@ Index Entry
 Section
 
 
-[!]{#Variable-Index_vr_symbol-1}
-
-[`!`](#index-_0021-1):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[\#]{#Variable-Index_vr_symbol-2}
-
-[`#`](#index-_0023):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[\$]{#Variable-Index_vr_symbol-3}
-
-[`$`](#index-_0024):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$!`](#index-_0024_0021):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$#`](#index-_0024_0023):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$$`](#index-_0024_0024):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$*`](#index-_0024_002a):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$-`](#index-_0024_002d):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$0`](#index-_00240):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$?`](#index-_0024_003f):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$@`](#index-_0024_0040):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-[`$_`](#index-_0024_005f):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[\*]{#Variable-Index_vr_symbol-4}
-
-[`*`](#index-_002a):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[-]{#Variable-Index_vr_symbol-5}
-
-[`-`](#index-_002d):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[0]{#Variable-Index_vr_symbol-6}
-
-[`0`](#index-0):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[?]{#Variable-Index_vr_symbol-7}
-
-[`?`](#index-_003f):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[@]{#Variable-Index_vr_symbol-8}
-
-[`@`](#index-_0040):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[\_]{#Variable-Index_vr_symbol-9}
-
-[`_`](#index-_005f):
-
- 
-
-[Special Parameters](#Special-Parameters)
-
-
-[A]{#Variable-Index_vr_letter-A}
-
-[`auto_resume`](#index-auto_005fresume):
-
- 
-
-[Job Control Variables](#Job-Control-Variables)
-
-
-[B]{#Variable-Index_vr_letter-B}
-
-[`BASH`](#index-BASH):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASHOPTS`](#index-BASHOPTS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASHPID`](#index-BASHPID):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_ALIASES`](#index-BASH_005fALIASES):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_ARGC`](#index-BASH_005fARGC):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_ARGV`](#index-BASH_005fARGV):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_CMDS`](#index-BASH_005fCMDS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_COMMAND`](#index-BASH_005fCOMMAND):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_COMPAT`](#index-BASH_005fCOMPAT):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_ENV`](#index-BASH_005fENV):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_EXECUTION_STRING`](#index-BASH_005fEXECUTION_005fSTRING):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_LINENO`](#index-BASH_005fLINENO):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_LOADABLES_PATH`](#index-BASH_005fLOADABLES_005fPATH):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_REMATCH`](#index-BASH_005fREMATCH):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_SOURCE`](#index-BASH_005fSOURCE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_SUBSHELL`](#index-BASH_005fSUBSHELL):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_VERSINFO`](#index-BASH_005fVERSINFO):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_VERSION`](#index-BASH_005fVERSION):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`BASH_XTRACEFD`](#index-BASH_005fXTRACEFD):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`bell-style`](#index-bell_002dstyle):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`bind-tty-special-chars`](#index-bind_002dtty_002dspecial_002dchars):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`blink-matching-paren`](#index-blink_002dmatching_002dparen):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[C]{#Variable-Index_vr_letter-C}
-
-[`CDPATH`](#index-CDPATH):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`CHILD_MAX`](#index-CHILD_005fMAX):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`colored-completion-prefix`](#index-colored_002dcompletion_002dprefix):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`colored-stats`](#index-colored_002dstats):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`COLUMNS`](#index-COLUMNS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`comment-begin`](#index-comment_002dbegin):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`completion-display-width`](#index-completion_002ddisplay_002dwidth):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`completion-ignore-case`](#index-completion_002dignore_002dcase):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`completion-map-case`](#index-completion_002dmap_002dcase):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`completion-prefix-display-length`](#index-completion_002dprefix_002ddisplay_002dlength):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`completion-query-items`](#index-completion_002dquery_002ditems):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`COMPREPLY`](#index-COMPREPLY):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`COMP_CWORD`](#index-COMP_005fCWORD):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`COMP_KEY`](#index-COMP_005fKEY):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`COMP_LINE`](#index-COMP_005fLINE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`COMP_POINT`](#index-COMP_005fPOINT):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`COMP_TYPE`](#index-COMP_005fTYPE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`COMP_WORDBREAKS`](#index-COMP_005fWORDBREAKS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`COMP_WORDS`](#index-COMP_005fWORDS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`convert-meta`](#index-convert_002dmeta):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`COPROC`](#index-COPROC):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-
-[D]{#Variable-Index_vr_letter-D}
-
-[`DIRSTACK`](#index-DIRSTACK):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`disable-completion`](#index-disable_002dcompletion):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[E]{#Variable-Index_vr_letter-E}
-
-[`echo-control-characters`](#index-echo_002dcontrol_002dcharacters):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`editing-mode`](#index-editing_002dmode):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`EMACS`](#index-EMACS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`emacs-mode-string`](#index-emacs_002dmode_002dstring):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`enable-bracketed-paste`](#index-enable_002dbracketed_002dpaste):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`enable-keypad`](#index-enable_002dkeypad):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`ENV`](#index-ENV):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`EUID`](#index-EUID):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`EXECIGNORE`](#index-EXECIGNORE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`expand-tilde`](#index-expand_002dtilde):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[F]{#Variable-Index_vr_letter-F}
-
-[`FCEDIT`](#index-FCEDIT):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`FIGNORE`](#index-FIGNORE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`FUNCNAME`](#index-FUNCNAME):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`FUNCNEST`](#index-FUNCNEST):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-
-[G]{#Variable-Index_vr_letter-G}
-
-[`GLOBIGNORE`](#index-GLOBIGNORE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`GROUPS`](#index-GROUPS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-
-[H]{#Variable-Index_vr_letter-H}
-
-[`histchars`](#index-histchars):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HISTCMD`](#index-HISTCMD):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HISTCONTROL`](#index-HISTCONTROL):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HISTFILE`](#index-HISTFILE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HISTFILESIZE`](#index-HISTFILESIZE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HISTIGNORE`](#index-HISTIGNORE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`history-preserve-point`](#index-history_002dpreserve_002dpoint):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`history-size`](#index-history_002dsize):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`HISTSIZE`](#index-HISTSIZE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HISTTIMEFORMAT`](#index-HISTTIMEFORMAT):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HOME`](#index-HOME):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`horizontal-scroll-mode`](#index-horizontal_002dscroll_002dmode):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`HOSTFILE`](#index-HOSTFILE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HOSTNAME`](#index-HOSTNAME):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`HOSTTYPE`](#index-HOSTTYPE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-
-[I]{#Variable-Index_vr_letter-I}
-
-[`IFS`](#index-IFS):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`IGNOREEOF`](#index-IGNOREEOF):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`input-meta`](#index-input_002dmeta):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`INPUTRC`](#index-INPUTRC):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`isearch-terminators`](#index-isearch_002dterminators):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[K]{#Variable-Index_vr_letter-K}
-
-[`keymap`](#index-keymap):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[L]{#Variable-Index_vr_letter-L}
-
-[`LANG`](#index-LANG):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`LC_ALL`](#index-LC_005fALL):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`LC_COLLATE`](#index-LC_005fCOLLATE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`LC_CTYPE`](#index-LC_005fCTYPE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`LC_MESSAGES`](#index-LC_005fMESSAGES):
-
- 
-
-[Locale Translation](#Locale-Translation)
-
-[`LC_MESSAGES`](#index-LC_005fMESSAGES-1):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`LC_NUMERIC`](#index-LC_005fNUMERIC):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`LC_TIME`](#index-LC_005fTIME):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`LINENO`](#index-LINENO):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`LINES`](#index-LINES):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-
-[M]{#Variable-Index_vr_letter-M}
-
-[`MACHTYPE`](#index-MACHTYPE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`MAIL`](#index-MAIL):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`MAILCHECK`](#index-MAILCHECK):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`MAILPATH`](#index-MAILPATH):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`MAPFILE`](#index-MAPFILE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`mark-modified-lines`](#index-mark_002dmodified_002dlines):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`mark-symlinked-directories`](#index-mark_002dsymlinked_002ddirectories):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`match-hidden-files`](#index-match_002dhidden_002dfiles):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`menu-complete-display-prefix`](#index-menu_002dcomplete_002ddisplay_002dprefix):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`meta-flag`](#index-meta_002dflag):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[O]{#Variable-Index_vr_letter-O}
-
-[`OLDPWD`](#index-OLDPWD):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`OPTARG`](#index-OPTARG):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`OPTERR`](#index-OPTERR):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`OPTIND`](#index-OPTIND):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`OSTYPE`](#index-OSTYPE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`output-meta`](#index-output_002dmeta):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[P]{#Variable-Index_vr_letter-P}
-
-[`page-completions`](#index-page_002dcompletions):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`PATH`](#index-PATH):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`PIPESTATUS`](#index-PIPESTATUS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`POSIXLY_CORRECT`](#index-POSIXLY_005fCORRECT):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`PPID`](#index-PPID):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`PROMPT_COMMAND`](#index-PROMPT_005fCOMMAND):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`PROMPT_DIRTRIM`](#index-PROMPT_005fDIRTRIM):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`PS0`](#index-PS0):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`PS1`](#index-PS1):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`PS2`](#index-PS2):
-
- 
-
-[Bourne Shell Variables](#Bourne-Shell-Variables)
-
-[`PS3`](#index-PS3):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`PS4`](#index-PS4):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`PWD`](#index-PWD):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-
-[R]{#Variable-Index_vr_letter-R}
-
-[`RANDOM`](#index-RANDOM):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`READLINE_LINE`](#index-READLINE_005fLINE):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`READLINE_POINT`](#index-READLINE_005fPOINT):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`REPLY`](#index-REPLY):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`revert-all-at-newline`](#index-revert_002dall_002dat_002dnewline):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[S]{#Variable-Index_vr_letter-S}
-
-[`SECONDS`](#index-SECONDS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`SHELL`](#index-SHELL):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`SHELLOPTS`](#index-SHELLOPTS):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`SHLVL`](#index-SHLVL):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`show-all-if-ambiguous`](#index-show_002dall_002dif_002dambiguous):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`show-all-if-unmodified`](#index-show_002dall_002dif_002dunmodified):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`show-mode-in-prompt`](#index-show_002dmode_002din_002dprompt):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`skip-completed-text`](#index-skip_002dcompleted_002dtext):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-
-[T]{#Variable-Index_vr_letter-T}
-
-[`TEXTDOMAIN`](#index-TEXTDOMAIN):
-
- 
-
-[Locale Translation](#Locale-Translation)
-
-[`TEXTDOMAINDIR`](#index-TEXTDOMAINDIR):
-
- 
-
-[Locale Translation](#Locale-Translation)
-
-[`TIMEFORMAT`](#index-TIMEFORMAT):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`TMOUT`](#index-TMOUT):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-[`TMPDIR`](#index-TMPDIR):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-
-[U]{#Variable-Index_vr_letter-U}
-
-[`UID`](#index-UID):
-
- 
-
-[Bash Variables](#Bash-Variables)
-
-
-[V]{#Variable-Index_vr_letter-V}
-
-[`vi-cmd-mode-string`](#index-vi_002dcmd_002dmode_002dstring):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`vi-ins-mode-string`](#index-vi_002dins_002dmode_002dstring):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
-[`visible-stats`](#index-visible_002dstats):
-
- 
-
-[Readline Init File Syntax](#Readline-Init-File-Syntax)
-
+- [!]{#Variable-Index_vr_symbol-1}
+    - [`!`](#index-_0021-1):   [Special Parameters](#Special-Parameters)
+    - [\#]{#Variable-Index_vr_symbol-2} [`#`](#index-_0023):   [Special Parameters](#Special-Parameters)
+    - [\$]{#Variable-Index_vr_symbol-3} [`$`](#index-_0024):   [Special Parameters](#Special-Parameters) 
+    - [`$!`](#index-_0024_0021):   [Special Parameters](#Special-Parameters) 
+    - [`$#`](#index-_0024_0023):   [Special Parameters](#Special-Parameters)
+    - [`$$`](#index-_0024_0024):   [Special Parameters](#Special-Parameters)
+    - [`$*`](#index-_0024_002a):   [Special Parameters](#Special-Parameters)
+    - [`$-`](#index-_0024_002d):   [Special Parameters](#Special-Parameters)
+    - [`$0`](#index-_00240):   [Special Parameters](#Special-Parameters)
+    - [`$?`](#index-_0024_003f):   [Special Parameters](#Special-Parameters)
+    - [`$@`](#index-_0024_0040):   [Special Parameters](#Special-Parameters)
+    - [`$_`](#index-_0024_005f):   [Special Parameters](#Special-Parameters)
+    - [\*]{#Variable-Index_vr_symbol-4} [`*`](#index-_002a):   [Special Parameters](#Special-Parameters)
+    - [-]{#Variable-Index_vr_symbol-5} [`-`](#index-_002d):   [Special Parameters](#Special-Parameters)
+    - [0]{#Variable-Index_vr_symbol-6} [`0`](#index-0):   [Special Parameters](#Special-Parameters)
+    - [?]{#Variable-Index_vr_symbol-7} [`?`](#index-_003f):   [Special Parameters](#Special-Parameters)
+    - [@]{#Variable-Index_vr_symbol-8} [`@`](#index-_0040):   [Special Parameters](#Special-Parameters)
+    - [\_]{#Variable-Index_vr_symbol-9} [`_`](#index-_005f):   [Special Parameters](#Special-Parameters)
+- [A]{#Variable-Index_vr_letter-A} 
+    - [`auto_resume`](#index-auto_005fresume):   [Job Control Variables](#Job-Control-Variables)
+- [B]{#Variable-Index_vr_letter-B} 
+    - [`BASH`](#index-BASH):   [Bash Variables](#Bash-Variables)
+    - [`BASHOPTS`](#index-BASHOPTS):   [Bash Variables](#Bash-Variables)
+    - [`BASHPID`](#index-BASHPID):   [Bash Variables](#Bash-Variables)
+    - [`BASH_ALIASES`](#index-BASH_005fALIASES):   [Bash Variables](#Bash-Variables)
+    - [`BASH_ARGC`](#index-BASH_005fARGC):   [Bash Variables](#Bash-Variables)
+    - [`BASH_ARGV`](#index-BASH_005fARGV):   [Bash Variables](#Bash-Variables)
+    - [`BASH_CMDS`](#index-BASH_005fCMDS):   [Bash Variables](#Bash-Variables)
+    - [`BASH_COMMAND`](#index-BASH_005fCOMMAND):   [Bash Variables](#Bash-Variables)
+    - [`BASH_COMPAT`](#index-BASH_005fCOMPAT):   [Bash Variables](#Bash-Variables)
+    - [`BASH_ENV`](#index-BASH_005fENV):   [Bash Variables](#Bash-Variables)
+    - [`BASH_EXECUTION_STRING`](#index-BASH_005fEXECUTION_005fSTRING):   [Bash Variables](#Bash-Variables)
+    - [`BASH_LINENO`](#index-BASH_005fLINENO):   [Bash Variables](#Bash-Variables)
+    - [`BASH_LOADABLES_PATH`](#index-BASH_005fLOADABLES_005fPATH):   [Bash Variables](#Bash-Variables)
+    - [`BASH_REMATCH`](#index-BASH_005fREMATCH):   [Bash Variables](#Bash-Variables)
+    - [`BASH_SOURCE`](#index-BASH_005fSOURCE):   [Bash Variables](#Bash-Variables)
+    - [`BASH_SUBSHELL`](#index-BASH_005fSUBSHELL):   [Bash Variables](#Bash-Variables)
+    - [`BASH_VERSINFO`](#index-BASH_005fVERSINFO):   [Bash Variables](#Bash-Variables)
+    - [`BASH_VERSION`](#index-BASH_005fVERSION):   [Bash Variables](#Bash-Variables)
+    - [`BASH_XTRACEFD`](#index-BASH_005fXTRACEFD):   [Bash Variables](#Bash-Variables)
+    - [`bell-style`](#index-bell_002dstyle):   [Readline Init File Syntax](#Readline-Init-File-Syntax)
+    - [`bind-tty-special-chars`](#index-bind_002dtty_002dspecial_002dchars):   [Readline Init File Syntax](#Readline-Init-File-Syntax)
+    - [`blink-matching-paren`](#index-blink_002dmatching_002dparen):   [Readline Init File Syntax](#Readline-Init-File-Syntax)
+- [C]{#Variable-Index_vr_letter-C}
+    - [`CDPATH`](#index-CDPATH):   [Bourne Shell Variables](#Bourne-Shell-Variables)
+    - [`CHILD_MAX`](#index-CHILD_005fMAX):   [Bash Variables](#Bash-Variables) 
+    - [`colored-completion-prefix`](#index-colored_002dcompletion_002dprefix):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`colored-stats`](#index-colored_002dstats):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`COLUMNS`](#index-COLUMNS):   [Bash Variables](#Bash-Variables) 
+    - [`comment-begin`](#index-comment_002dbegin):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`completion-display-width`](#index-completion_002ddisplay_002dwidth):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`completion-ignore-case`](#index-completion_002dignore_002dcase):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`completion-map-case`](#index-completion_002dmap_002dcase):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`completion-prefix-display-length`](#index-completion_002dprefix_002ddisplay_002dlength):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`completion-query-items`](#index-completion_002dquery_002ditems):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`COMPREPLY`](#index-COMPREPLY):   [Bash Variables](#Bash-Variables) 
+    - [`COMP_CWORD`](#index-COMP_005fCWORD):   [Bash Variables](#Bash-Variables) 
+    - [`COMP_KEY`](#index-COMP_005fKEY):   [Bash Variables](#Bash-Variables) 
+    - [`COMP_LINE`](#index-COMP_005fLINE):   [Bash Variables](#Bash-Variables) 
+    - [`COMP_POINT`](#index-COMP_005fPOINT):   [Bash Variables](#Bash-Variables) 
+    - [`COMP_TYPE`](#index-COMP_005fTYPE):   [Bash Variables](#Bash-Variables) 
+    - [`COMP_WORDBREAKS`](#index-COMP_005fWORDBREAKS):   [Bash Variables](#Bash-Variables) 
+    - [`COMP_WORDS`](#index-COMP_005fWORDS):   [Bash Variables](#Bash-Variables) 
+    - [`convert-meta`](#index-convert_002dmeta):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`COPROC`](#index-COPROC):   [Bash Variables](#Bash-Variables) 
+- [D]{#Variable-Index_vr_letter-D}
+    - [`DIRSTACK`](#index-DIRSTACK):   [Bash Variables](#Bash-Variables)
+    - [`disable-completion`](#index-disable_002dcompletion):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+- [E]{#Variable-Index_vr_letter-E} 
+    - [`echo-control-characters`](#index-echo_002dcontrol_002dcharacters):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`editing-mode`](#index-editing_002dmode):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`EMACS`](#index-EMACS):   [Bash Variables](#Bash-Variables) 
+    - [`emacs-mode-string`](#index-emacs_002dmode_002dstring):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`enable-bracketed-paste`](#index-enable_002dbracketed_002dpaste):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`enable-keypad`](#index-enable_002dkeypad):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`ENV`](#index-ENV):   [Bash Variables](#Bash-Variables) 
+    - [`EUID`](#index-EUID):   [Bash Variables](#Bash-Variables) 
+    - [`EXECIGNORE`](#index-EXECIGNORE):   [Bash Variables](#Bash-Variables) 
+    - [`expand-tilde`](#index-expand_002dtilde):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+- [F]{#Variable-Index_vr_letter-F} 
+    - [`FCEDIT`](#index-FCEDIT):   [Bash Variables](#Bash-Variables) 
+    - [`FIGNORE`](#index-FIGNORE):   [Bash Variables](#Bash-Variables) 
+    - [`FUNCNAME`](#index-FUNCNAME):   [Bash Variables](#Bash-Variables) 
+    - [`FUNCNEST`](#index-FUNCNEST):   [Bash Variables](#Bash-Variables) 
+- [G]{#Variable-Index_vr_letter-G}
+    - [`GLOBIGNORE`](#index-GLOBIGNORE):   [Bash Variables](#Bash-Variables) 
+    - [`GROUPS`](#index-GROUPS):   [Bash Variables](#Bash-Variables) 
+- [H]{#Variable-Index_vr_letter-H}
+    - [`histchars`](#index-histchars):   [Bash Variables](#Bash-Variables) 
+    - [`HISTCMD`](#index-HISTCMD):   [Bash Variables](#Bash-Variables) 
+    - [`HISTCONTROL`](#index-HISTCONTROL):   [Bash Variables](#Bash-Variables) 
+    - [`HISTFILE`](#index-HISTFILE):   [Bash Variables](#Bash-Variables) 
+    - [`HISTFILESIZE`](#index-HISTFILESIZE):   [Bash Variables](#Bash-Variables) 
+    - [`HISTIGNORE`](#index-HISTIGNORE):   [Bash Variables](#Bash-Variables) 
+    - [`history-preserve-point`](#index-history_002dpreserve_002dpoint):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`history-size`](#index-history_002dsize):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`HISTSIZE`](#index-HISTSIZE):   [Bash Variables](#Bash-Variables) 
+    - [`HISTTIMEFORMAT`](#index-HISTTIMEFORMAT):   [Bash Variables](#Bash-Variables) 
+    - [`HOME`](#index-HOME):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`horizontal-scroll-mode`](#index-horizontal_002dscroll_002dmode):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`HOSTFILE`](#index-HOSTFILE):   [Bash Variables](#Bash-Variables) 
+    - [`HOSTNAME`](#index-HOSTNAME):   [Bash Variables](#Bash-Variables) 
+    - [`HOSTTYPE`](#index-HOSTTYPE):   [Bash Variables](#Bash-Variables) 
+- [I]{#Variable-Index_vr_letter-I}
+    - [`IFS`](#index-IFS):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`IGNOREEOF`](#index-IGNOREEOF):   [Bash Variables](#Bash-Variables) 
+    - [`input-meta`](#index-input_002dmeta):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`INPUTRC`](#index-INPUTRC):   [Bash Variables](#Bash-Variables) 
+    - [`isearch-terminators`](#index-isearch_002dterminators):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+- [K]{#Variable-Index_vr_letter-K}
+    - [`keymap`](#index-keymap):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+- [L]{#Variable-Index_vr_letter-L}
+    - [`LANG`](#index-LANG):   [Bash Variables](#Bash-Variables) 
+    - [`LC_ALL`](#index-LC_005fALL):   [Bash Variables](#Bash-Variables) 
+    - [`LC_COLLATE`](#index-LC_005fCOLLATE):   [Bash Variables](#Bash-Variables) 
+    - [`LC_CTYPE`](#index-LC_005fCTYPE):   [Bash Variables](#Bash-Variables) 
+    - [`LC_MESSAGES`](#index-LC_005fMESSAGES):   [Locale Translation](#Locale-Translation) 
+    - [`LC_MESSAGES`](#index-LC_005fMESSAGES-1):   [Bash Variables](#Bash-Variables) 
+    - [`LC_NUMERIC`](#index-LC_005fNUMERIC):   [Bash Variables](#Bash-Variables) 
+    - [`LC_TIME`](#index-LC_005fTIME):   [Bash Variables](#Bash-Variables) 
+    - [`LINENO`](#index-LINENO):   [Bash Variables](#Bash-Variables) 
+    - [`LINES`](#index-LINES):   [Bash Variables](#Bash-Variables) 
+- [M]{#Variable-Index_vr_letter-M}
+    - [`MACHTYPE`](#index-MACHTYPE):   [Bash Variables](#Bash-Variables) 
+    - [`MAIL`](#index-MAIL):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`MAILCHECK`](#index-MAILCHECK):   [Bash Variables](#Bash-Variables) 
+    - [`MAILPATH`](#index-MAILPATH):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`MAPFILE`](#index-MAPFILE):   [Bash Variables](#Bash-Variables) 
+    - [`mark-modified-lines`](#index-mark_002dmodified_002dlines):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`mark-symlinked-directories`](#index-mark_002dsymlinked_002ddirectories):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`match-hidden-files`](#index-match_002dhidden_002dfiles):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`menu-complete-display-prefix`](#index-menu_002dcomplete_002ddisplay_002dprefix):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`meta-flag`](#index-meta_002dflag):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+- [O]{#Variable-Index_vr_letter-O}
+    - [`OLDPWD`](#index-OLDPWD):   [Bash Variables](#Bash-Variables) 
+    - [`OPTARG`](#index-OPTARG):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`OPTERR`](#index-OPTERR):   [Bash Variables](#Bash-Variables) 
+    - [`OPTIND`](#index-OPTIND):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`OSTYPE`](#index-OSTYPE):   [Bash Variables](#Bash-Variables) 
+    - [`output-meta`](#index-output_002dmeta):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+- [P]{#Variable-Index_vr_letter-P}
+    - [`page-completions`](#index-page_002dcompletions):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`PATH`](#index-PATH):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`PIPESTATUS`](#index-PIPESTATUS):   [Bash Variables](#Bash-Variables) 
+    - [`POSIXLY_CORRECT`](#index-POSIXLY_005fCORRECT):   [Bash Variables](#Bash-Variables) 
+    - [`PPID`](#index-PPID):   [Bash Variables](#Bash-Variables) 
+    - [`PROMPT_COMMAND`](#index-PROMPT_005fCOMMAND):   [Bash Variables](#Bash-Variables) 
+    - [`PROMPT_DIRTRIM`](#index-PROMPT_005fDIRTRIM):   [Bash Variables](#Bash-Variables) 
+    - [`PS0`](#index-PS0):   [Bash Variables](#Bash-Variables) 
+    - [`PS1`](#index-PS1):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`PS2`](#index-PS2):   [Bourne Shell Variables](#Bourne-Shell-Variables) 
+    - [`PS3`](#index-PS3):   [Bash Variables](#Bash-Variables) 
+    - [`PS4`](#index-PS4):   [Bash Variables](#Bash-Variables) 
+    - [`PWD`](#index-PWD):   [Bash Variables](#Bash-Variables) 
+- [R]{#Variable-Index_vr_letter-R}
+    - [`RANDOM`](#index-RANDOM):   [Bash Variables](#Bash-Variables) 
+    - [`READLINE_LINE`](#index-READLINE_005fLINE):   [Bash Variables](#Bash-Variables) 
+    - [`READLINE_POINT`](#index-READLINE_005fPOINT):   [Bash Variables](#Bash-Variables) 
+    - [`REPLY`](#index-REPLY):   [Bash Variables](#Bash-Variables) 
+    - [`revert-all-at-newline`](#index-revert_002dall_002dat_002dnewline):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+- [S]{#Variable-Index_vr_letter-S}
+    - [`SECONDS`](#index-SECONDS):   [Bash Variables](#Bash-Variables) 
+    - [`SHELL`](#index-SHELL):   [Bash Variables](#Bash-Variables) 
+    - [`SHELLOPTS`](#index-SHELLOPTS):   [Bash Variables](#Bash-Variables) 
+    - [`SHLVL`](#index-SHLVL):   [Bash Variables](#Bash-Variables) 
+    - [`show-all-if-ambiguous`](#index-show_002dall_002dif_002dambiguous):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`show-all-if-unmodified`](#index-show_002dall_002dif_002dunmodified):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`show-mode-in-prompt`](#index-show_002dmode_002din_002dprompt):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`skip-completed-text`](#index-skip_002dcompleted_002dtext):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+- [T]{#Variable-Index_vr_letter-T}
+    - [`TEXTDOMAIN`](#index-TEXTDOMAIN):   [Locale Translation](#Locale-Translation)
+    - [`TEXTDOMAINDIR`](#index-TEXTDOMAINDIR):   [Locale Translation](#Locale-Translation) 
+    - [`TIMEFORMAT`](#index-TIMEFORMAT):   [Bash Variables](#Bash-Variables) 
+    - [`TMOUT`](#index-TMOUT):   [Bash Variables](#Bash-Variables) 
+    - [`TMPDIR`](#index-TMPDIR):   [Bash Variables](#Bash-Variables) 
+- [U]{#Variable-Index_vr_letter-U}
+    - [`UID`](#index-UID):   [Bash Variables](#Bash-Variables) 
+- [V]{#Variable-Index_vr_letter-V}
+    - [`vi-cmd-mode-string`](#index-vi_002dcmd_002dmode_002dstring):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`vi-ins-mode-string`](#index-vi_002dins_002dmode_002dstring):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
+    - [`visible-stats`](#index-visible_002dstats):   [Readline Init File Syntax](#Readline-Init-File-Syntax) 
 
   ------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Jump to:     [**!**](#Variable-Index_vr_symbol-1){.summary-letter}   [**\#**](#Variable-Index_vr_symbol-2){.summary-letter}   [**\$**](#Variable-Index_vr_symbol-3){.summary-letter}   [**\***](#Variable-Index_vr_symbol-4){.summary-letter}   [**-**](#Variable-Index_vr_symbol-5){.summary-letter}   [**0**](#Variable-Index_vr_symbol-6){.summary-letter}   [**?**](#Variable-Index_vr_symbol-7){.summary-letter}   [**@**](#Variable-Index_vr_symbol-8){.summary-letter}   [**\_**](#Variable-Index_vr_symbol-9){.summary-letter}  \
