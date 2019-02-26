@@ -12747,422 +12747,84 @@ Index Entry
 Section
 
 
-[.]{#Builtin-Index_bt_symbol-1}
-
-[`.`](#index-_002e):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[:]{#Builtin-Index_bt_symbol-2}
-
-[`:`](#index-_003a):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[\[]{#Builtin-Index_bt_symbol-3}
-
-[`[`](#index-_005b):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[A]{#Builtin-Index_bt_letter-A}
-
-[`alias`](#index-alias):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-
-[B]{#Builtin-Index_bt_letter-B}
-
-[`bg`](#index-bg):
-
- 
-
-[Job Control Builtins](#Job-Control-Builtins)
-
-[`bind`](#index-bind):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`break`](#index-break):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`builtin`](#index-builtin):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-
-[C]{#Builtin-Index_bt_letter-C}
-
-[`caller`](#index-caller):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`cd`](#index-cd):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`command`](#index-command):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`compgen`](#index-compgen):
-
- 
-
-[Programmable Completion Builtins](#Programmable-Completion-Builtins)
-
-[`complete`](#index-complete):
-
- 
-
-[Programmable Completion Builtins](#Programmable-Completion-Builtins)
-
-[`compopt`](#index-compopt):
-
- 
-
-[Programmable Completion Builtins](#Programmable-Completion-Builtins)
-
-[`continue`](#index-continue):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[D]{#Builtin-Index_bt_letter-D}
-
-[`declare`](#index-declare):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`dirs`](#index-dirs):
-
- 
-
-[Directory Stack Builtins](#Directory-Stack-Builtins)
-
-[`disown`](#index-disown):
-
- 
-
-[Job Control Builtins](#Job-Control-Builtins)
-
-
-[E]{#Builtin-Index_bt_letter-E}
-
-[`echo`](#index-echo):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`enable`](#index-enable):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`eval`](#index-eval):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`exec`](#index-exec):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`exit`](#index-exit):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`export`](#index-export):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[F]{#Builtin-Index_bt_letter-F}
-
-[`fc`](#index-fc):
-
- 
-
-[Bash History Builtins](#Bash-History-Builtins)
-
-[`fg`](#index-fg):
-
- 
-
-[Job Control Builtins](#Job-Control-Builtins)
-
-
-[G]{#Builtin-Index_bt_letter-G}
-
-[`getopts`](#index-getopts):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[H]{#Builtin-Index_bt_letter-H}
-
-[`hash`](#index-hash):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`help`](#index-help):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`history`](#index-history):
-
- 
-
-[Bash History Builtins](#Bash-History-Builtins)
-
-
-[J]{#Builtin-Index_bt_letter-J}
-
-[`jobs`](#index-jobs):
-
- 
-
-[Job Control Builtins](#Job-Control-Builtins)
-
-
-[K]{#Builtin-Index_bt_letter-K}
-
-[`kill`](#index-kill):
-
- 
-
-[Job Control Builtins](#Job-Control-Builtins)
-
-
-[L]{#Builtin-Index_bt_letter-L}
-
-[`let`](#index-let):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`local`](#index-local):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`logout`](#index-logout):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-
-[M]{#Builtin-Index_bt_letter-M}
-
-[`mapfile`](#index-mapfile):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-
-[P]{#Builtin-Index_bt_letter-P}
-
-[`popd`](#index-popd):
-
- 
-
-[Directory Stack Builtins](#Directory-Stack-Builtins)
-
-[`printf`](#index-printf):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`pushd`](#index-pushd):
-
- 
-
-[Directory Stack Builtins](#Directory-Stack-Builtins)
-
-[`pwd`](#index-pwd):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[R]{#Builtin-Index_bt_letter-R}
-
-[`read`](#index-read):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`readarray`](#index-readarray):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`readonly`](#index-readonly):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`return`](#index-return):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[S]{#Builtin-Index_bt_letter-S}
-
-[`set`](#index-set):
-
- 
-
-[The Set Builtin](#The-Set-Builtin)
-
-[`shift`](#index-shift):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`shopt`](#index-shopt):
-
- 
-
-[The Shopt Builtin](#The-Shopt-Builtin)
-
-[`source`](#index-source):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`suspend`](#index-suspend):
-
- 
-
-[Job Control Builtins](#Job-Control-Builtins)
-
-
-[T]{#Builtin-Index_bt_letter-T}
-
-[`test`](#index-test):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`times`](#index-times):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`trap`](#index-trap):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`type`](#index-type):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`typeset`](#index-typeset):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-
-[U]{#Builtin-Index_bt_letter-U}
-
-[`ulimit`](#index-ulimit):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`umask`](#index-umask):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-[`unalias`](#index-unalias):
-
- 
-
-[Bash Builtins](#Bash-Builtins)
-
-[`unset`](#index-unset):
-
- 
-
-[Bourne Shell Builtins](#Bourne-Shell-Builtins)
-
-
-[W]{#Builtin-Index_bt_letter-W}
-
-[`wait`](#index-wait):
-
- 
-
-[Job Control Builtins](#Job-Control-Builtins)
-
+- . 
+    - [.]{#Builtin-Index_bt_symbol-1} [`.`](#index-_002e):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [:]{#Builtin-Index_bt_symbol-2} [`:`](#index-_003a):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [\[]{#Builtin-Index_bt_symbol-3} [`[`](#index-_005b):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+- [A]{#Builtin-Index_bt_letter-A}
+    - [`alias`](#index-alias):   [Bash Builtins](#Bash-Builtins) 
+- [B]{#Builtin-Index_bt_letter-B} 
+    - [`bg`](#index-bg):   [Job Control Builtins](#Job-Control-Builtins)
+    - [`bind`](#index-bind):   [Bash Builtins](#Bash-Builtins)
+    - [`break`](#index-break):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [`builtin`](#index-builtin):   [Bash Builtins](#Bash-Builtins)
+- [C]{#Builtin-Index_bt_letter-C}
+    - [`caller`](#index-caller):   [Bash Builtins](#Bash-Builtins)
+    - [`cd`](#index-cd):   [Bourne Shell Builtins](#Bourne-Shell-Builtins) 
+    - [`command`](#index-command):   [Bash Builtins](#Bash-Builtins)
+    - [`compgen`](#index-compgen):   [Programmable Completion Builtins](#Programmable-Completion-Builtins)
+    - [`complete`](#index-complete):   [Programmable Completion Builtins](#Programmable-Completion-Builtins)
+    - [`compopt`](#index-compopt):   [Programmable Completion Builtins](#Programmable-Completion-Builtins)
+    - [`continue`](#index-continue):   [Bourne Shell Builtins](#Bourne-Shell-Builtins) 
+- [D]{#Builtin-Index_bt_letter-D}
+    - [`declare`](#index-declare):   [Bash Builtins](#Bash-Builtins)
+    - [`dirs`](#index-dirs):   [Directory Stack Builtins](#Directory-Stack-Builtins)
+    - [`disown`](#index-disown):   [Job Control Builtins](#Job-Control-Builtins)
+- [E]{#Builtin-Index_bt_letter-E} 
+    - [`echo`](#index-echo):   [Bash Builtins](#Bash-Builtins)
+    - [`enable`](#index-enable):   [Bash Builtins](#Bash-Builtins)
+    - [`eval`](#index-eval):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [`exec`](#index-exec):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [`exit`](#index-exit):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [`export`](#index-export):   [Bourne Shell Builtins](#Bourne-Shell-Builtins) 
+- [F]{#Builtin-Index_bt_letter-F}
+    - [`fc`](#index-fc):   [Bash History Builtins](#Bash-History-Builtins) 
+    - [`fg`](#index-fg):   [Job Control Builtins](#Job-Control-Builtins) 
+- [G]{#Builtin-Index_bt_letter-G}
+    - [`getopts`](#index-getopts):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+- [H]{#Builtin-Index_bt_letter-H}
+    - [`hash`](#index-hash):   [Bourne Shell Builtins](#Bourne-Shell-Builtins) 
+    - [`help`](#index-help):   [Bash Builtins](#Bash-Builtins) 
+    - [`history`](#index-history):   [Bash History Builtins](#Bash-History-Builtins)
+- [J]{#Builtin-Index_bt_letter-J} 
+    - [`jobs`](#index-jobs):   [Job Control Builtins](#Job-Control-Builtins)
+- [K]{#Builtin-Index_bt_letter-K}
+    - [`kill`](#index-kill):   [Job Control Builtins](#Job-Control-Builtins)
+- [L]{#Builtin-Index_bt_letter-L}
+    - [`let`](#index-let):   [Bash Builtins](#Bash-Builtins)
+    - [`local`](#index-local):   [Bash Builtins](#Bash-Builtins)
+    - [`logout`](#index-logout):   [Bash Builtins](#Bash-Builtins)
+- [M]{#Builtin-Index_bt_letter-M}
+    - [`mapfile`](#index-mapfile):   [Bash Builtins](#Bash-Builtins)
+- [P]{#Builtin-Index_bt_letter-P}
+    - [`popd`](#index-popd):   [Directory Stack Builtins](#Directory-Stack-Builtins)
+    - [`printf`](#index-printf):   [Bash Builtins](#Bash-Builtins)
+    - [`pushd`](#index-pushd):   [Directory Stack Builtins](#Directory-Stack-Builtins)
+    - [`pwd`](#index-pwd):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+- [R]{#Builtin-Index_bt_letter-R}
+    - [`read`](#index-read):   [Bash Builtins](#Bash-Builtins)
+    - [`readarray`](#index-readarray):   [Bash Builtins](#Bash-Builtins)
+    - [`readonly`](#index-readonly):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [`return`](#index-return):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+- [S]{#Builtin-Index_bt_letter-S}
+    - [`set`](#index-set):   [The Set Builtin](#The-Set-Builtin) 
+    - [`shift`](#index-shift):   [Bourne Shell Builtins](#Bourne-Shell-Builtins) 
+    - [`shopt`](#index-shopt):   [The Shopt Builtin](#The-Shopt-Builtin)
+    - [`source`](#index-source):   [Bash Builtins](#Bash-Builtins)
+    - [`suspend`](#index-suspend):   [Job Control Builtins](#Job-Control-Builtins) 
+- [T]{#Builtin-Index_bt_letter-T}
+    - [`test`](#index-test):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [`times`](#index-times):   [Bourne Shell Builtins](#Bourne-Shell-Builtins) 
+    - [`trap`](#index-trap):   [Bourne Shell Builtins](#Bourne-Shell-Builtins) 
+    - [`type`](#index-type):   [Bash Builtins](#Bash-Builtins)
+    - [`typeset`](#index-typeset):   [Bash Builtins](#Bash-Builtins)
+- [U]{#Builtin-Index_bt_letter-U}
+    - [`ulimit`](#index-ulimit):   [Bash Builtins](#Bash-Builtins) 
+    - [`umask`](#index-umask):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+    - [`unalias`](#index-unalias):   [Bash Builtins](#Bash-Builtins)
+    - [`unset`](#index-unset):   [Bourne Shell Builtins](#Bourne-Shell-Builtins)
+- [W]{#Builtin-Index_bt_letter-W}
+    - [`wait`](#index-wait):   [Job Control Builtins](#Job-Control-Builtins) 
 
   ------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Jump to:     [**.**](#Builtin-Index_bt_symbol-1){.summary-letter}   [**:**](#Builtin-Index_bt_symbol-2){.summary-letter}   [**\[**](#Builtin-Index_bt_symbol-3){.summary-letter}  \
