@@ -8715,30 +8715,9 @@ is read, and the key bindings are set.
 In addition, the `C-x C-r` command re-reads this init file, thus
 incorporating any changes that you might have made to it.
 
-- [Readline Init File Syntax](#Readline-Init-File-Syntax):
-
-  
-
-Syntax for the commands in the inputrc file.
-
-``` {.menu-comment}
-```
-
-- [Conditional Init Constructs](#Conditional-Init-Constructs):
-
-  
-
-Conditional key bindings in the inputrc file.
-
-``` {.menu-comment}
-```
-
-- [Sample Init File](#Sample-Init-File):
-
-  
-
-An example inputrc file.
-
+- [Readline Init File Syntax](#Readline-Init-File-Syntax): Syntax for the commands in the inputrc file.
+- [Conditional Init Constructs](#Conditional-Init-Constructs): Conditional key bindings in the inputrc file.
+- [Sample Init File](#Sample-Init-File): An example inputrc file.
 
 []{#Readline-Init-File-Syntax}
 
