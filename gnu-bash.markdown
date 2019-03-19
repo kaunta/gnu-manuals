@@ -11539,9 +11539,7 @@ scripts do.
 
 :   Print a summary of the options to `configure`, and exit.
 
-`--quiet`\
-`--silent`\
-`-q`
+`--quiet`, `--silent`, `-q`
 
 :   Do not print messages saying which checks are being made.
 
