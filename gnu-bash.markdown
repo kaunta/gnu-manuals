@@ -12828,36 +12828,173 @@ Index Entry
 Section
 
 
-- [!]{#Reserved-Word-Index_rw_symbol-1} [`!`](#index-_0021):   [Pipelines](#Pipelines) 
-- [\[]{#Reserved-Word-Index_rw_symbol-2} [`[[`](#index-_005b_005b):   [Conditional Constructs](#Conditional-Constructs)
-- [\]]{#Reserved-Word-Index_rw_symbol-3} [`]]`](#index-_005d_005d):   [Conditional Constructs](#Conditional-Constructs)
-- [{]{#Reserved-Word-Index_rw_symbol-4} [`{`](#index-_007b):   [Command Grouping](#Command-Grouping)
-- [}]{#Reserved-Word-Index_rw_symbol-5} [`}`](#index-_007d):   [Command Grouping](#Command-Grouping)
-- [C]{#Reserved-Word-Index_rw_letter-C}
-    - [`case`](#index-case):   [Conditional Constructs](#Conditional-Constructs) 
-- [D]{#Reserved-Word-Index_rw_letter-D}
-    - [`do`](#index-do):   [Looping Constructs](#Looping-Constructs)
-    - [`done`](#index-done):   [Looping Constructs](#Looping-Constructs)
-- [E]{#Reserved-Word-Index_rw_letter-E} 
-    - [`elif`](#index-elif):   [Conditional Constructs](#Conditional-Constructs)
-    - [`else`](#index-else):   [Conditional Constructs](#Conditional-Constructs)
-    - [`esac`](#index-esac):   [Conditional Constructs](#Conditional-Constructs)
-- [F]{#Reserved-Word-Index_rw_letter-F} 
-    - [`fi`](#index-fi):   [Conditional Constructs](#Conditional-Constructs)
-    - [`for`](#index-for):   [Looping Constructs](#Looping-Constructs)
-    - [`function`](#index-function):   [Shell Functions](#Shell-Functions)
-- [I]{#Reserved-Word-Index_rw_letter-I}
-    - [`if`](#index-if):   [Conditional Constructs](#Conditional-Constructs) 
-    - [`in`](#index-in):   [Conditional Constructs](#Conditional-Constructs)
-- [S]{#Reserved-Word-Index_rw_letter-S} 
-    - [`select`](#index-select):   [Conditional Constructs](#Conditional-Constructs)
-- [T]{#Reserved-Word-Index_rw_letter-T} 
-    - [`then`](#index-then):   [Conditional Constructs](#Conditional-Constructs)
-    - [`time`](#index-time):   [Pipelines](#Pipelines)
-- [U]{#Reserved-Word-Index_rw_letter-U}
-    - [`until`](#index-until):   [Looping Constructs](#Looping-Constructs)
-- [W]{#Reserved-Word-Index_rw_letter-W}
-    - [`while`](#index-while):   [Looping Constructs](#Looping-Constructs)
+[!]{#Reserved-Word-Index_rw_symbol-1}
+
+[`!`](#index-_0021):
+
+ 
+
+[Pipelines](#Pipelines)
+
+
+[\[]{#Reserved-Word-Index_rw_symbol-2}
+
+[`[[`](#index-_005b_005b):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+
+[\]]{#Reserved-Word-Index_rw_symbol-3}
+
+[`]]`](#index-_005d_005d):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+
+[{]{#Reserved-Word-Index_rw_symbol-4}
+
+[`{`](#index-_007b):
+
+ 
+
+[Command Grouping](#Command-Grouping)
+
+
+[}]{#Reserved-Word-Index_rw_symbol-5}
+
+[`}`](#index-_007d):
+
+ 
+
+[Command Grouping](#Command-Grouping)
+
+
+[C]{#Reserved-Word-Index_rw_letter-C}
+
+[`case`](#index-case):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+
+[D]{#Reserved-Word-Index_rw_letter-D}
+
+[`do`](#index-do):
+
+ 
+
+[Looping Constructs](#Looping-Constructs)
+
+[`done`](#index-done):
+
+ 
+
+[Looping Constructs](#Looping-Constructs)
+
+
+[E]{#Reserved-Word-Index_rw_letter-E}
+
+[`elif`](#index-elif):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+[`else`](#index-else):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+[`esac`](#index-esac):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+
+[F]{#Reserved-Word-Index_rw_letter-F}
+
+[`fi`](#index-fi):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+[`for`](#index-for):
+
+ 
+
+[Looping Constructs](#Looping-Constructs)
+
+[`function`](#index-function):
+
+ 
+
+[Shell Functions](#Shell-Functions)
+
+
+[I]{#Reserved-Word-Index_rw_letter-I}
+
+[`if`](#index-if):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+[`in`](#index-in):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+
+[S]{#Reserved-Word-Index_rw_letter-S}
+
+[`select`](#index-select):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+
+[T]{#Reserved-Word-Index_rw_letter-T}
+
+[`then`](#index-then):
+
+ 
+
+[Conditional Constructs](#Conditional-Constructs)
+
+[`time`](#index-time):
+
+ 
+
+[Pipelines](#Pipelines)
+
+
+[U]{#Reserved-Word-Index_rw_letter-U}
+
+[`until`](#index-until):
+
+ 
+
+[Looping Constructs](#Looping-Constructs)
+
+
+[W]{#Reserved-Word-Index_rw_letter-W}
+
+[`while`](#index-while):
+
+ 
+
+[Looping Constructs](#Looping-Constructs)
+
 
   ------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Jump to:     [**!**](#Reserved-Word-Index_rw_symbol-1){.summary-letter}   [**\[**](#Reserved-Word-Index_rw_symbol-2){.summary-letter}   [**\]**](#Reserved-Word-Index_rw_symbol-3){.summary-letter}   [**{**](#Reserved-Word-Index_rw_symbol-4){.summary-letter}   [**}**](#Reserved-Word-Index_rw_symbol-5){.summary-letter}  \
