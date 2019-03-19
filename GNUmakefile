@@ -10,5 +10,12 @@ PANDOC_EPUB_OPTS= \
 	--toc-depth=6 \
 	--number-sections
 
-%.epub: %.markdown
+MANUALS := $(patsubst source/%.markdown, %, $(wildcard source/*.markdown))
+
+build: ; mkdir $@
+
+build/%.epub: source/%.markdown | build
 	$(PANDOC) $(PANDOC_EPUB_OPTS) $< -o $@
+
+gnu_manuals_release.tgz: $(patsubst %, build/%.epub, $(MANUALS))
+	tar czvf $@ build
