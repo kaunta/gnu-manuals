@@ -7213,13 +7213,11 @@ link itself.
 
 :   True if the length of string is zero.
 
-`-n string`\
-`string`
+`-n string`, `string`
 
 :   True if the length of string is non-zero.
 
-`string1 == string2`\
-`string1 = string2`
+`string1 == string2`, `string1 = string2`
 
 :   True if the strings are equal. When used with the `[[` command, this
     performs pattern matching as described above (see [Conditional
