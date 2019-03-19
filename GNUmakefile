@@ -10,5 +10,7 @@ PANDOC_EPUB_OPTS= \
 	--toc-depth=6 \
 	--number-sections
 
-%.epub: %.markdown
+build: ; mkdir $@
+
+build/%.epub: source/%.markdown | build
 	$(PANDOC) $(PANDOC_EPUB_OPTS) $< -o $@
