@@ -23,4 +23,11 @@ def remove_table_of_contents(doc):
 
     doc["blocks"] = list(itertools.filterfalse(like_toc_div, doc["blocks"]))
 
-    return doc
+def remove_navigation_headers(doc):
+    def like_navigation_header(block):
+        try:
+            return block["t"] == "Div" and block["c"][0][1][0] == "header"
+        except:
+            return False
+
+    doc["blocks"] = list(itertools.filterfalse(like_navigation_header, doc["blocks"]))
