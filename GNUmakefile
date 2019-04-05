@@ -10,7 +10,7 @@ PANDOC_EPUB_OPTS= \
 	--toc-depth=6 \
 	--number-sections
 
-MANUALS := $(patsubst source/%.markdown, %, $(wildcard source/*.markdown))
+MANUALS := gnu-bash gnu-grep gnu-sed
 
 build: ; mkdir $@
 
@@ -20,7 +20,7 @@ build/%.epub: source/%.markdown | build
 gnu_manuals_release.tgz: $(patsubst %, build/%.epub, $(MANUALS))
 	tar czvf $@ build
 
-source/%.markdown: manual_json/%.json tool/%.py
+source/%.markdown: manual_json/%.json tool/%.py tool/gnu_manuals_utilities.py
 	cat $< | python3 tool/$*.py | $(PANDOC) -f json -t markdown > $@
 
 manual_json/gnu-sed.json:
