@@ -25,3 +25,6 @@ source/%.markdown: manual_json/%.json tool/%.py
 
 manual_json/gnu-sed.json:
 	$(PANDOC) -f html -t json -o $@ https://www.gnu.org/software/sed/manual/sed.html
+
+manual_json/gnu-grep.json:
+	$(PANDOC) -f html -t json -o $@ https://www.gnu.org/software/grep/manual/grep.html
