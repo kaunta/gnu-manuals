@@ -19,3 +19,9 @@ build/%.epub: source/%.markdown | build
 
 gnu_manuals_release.tgz: $(patsubst %, build/%.epub, $(MANUALS))
 	tar czvf $@ build
+
+source/%.markdown: manual_json/%.json tool/%.py
+	cat $< | python3 tool/$*.py | $(PANDOC) -f json -t markdown > $@
+
+manual_json/gnu-sed.json:
+	$(PANDOC) -f html -t json -o $@ https://www.gnu.org/software/sed/manual/sed.html
