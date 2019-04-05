@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
 import sys
+import json
+
+import gnu_manuals_utilities as gmu
 
 if __name__ == "__main__":
-    for line in sys.stdin:
-        print(line)
+    doc = json.load(sys.stdin)
+
+    doc = gmu.remove_table_of_contents(doc)
+
+    json.dump(doc, sys.stdout)
