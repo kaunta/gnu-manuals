@@ -11,4 +11,6 @@ if __name__ == "__main__":
     gmu.remove_table_of_contents(doc)
     gmu.remove_navigation_headers(doc)
 
+    gmu.handle_multiline_dl_terms(doc)
+
     json.dump(doc, sys.stdout)
