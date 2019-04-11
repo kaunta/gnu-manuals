@@ -1,4 +1,5 @@
 PANDOC=pandoc
+PYTHON3=python3
 
 # "--toc-depth=6" because
 #
@@ -10,21 +11,23 @@ PANDOC_EPUB_OPTS= \
 	--toc-depth=6 \
 	--number-sections
 
-MANUALS := gnu-bash gnu-grep gnu-sed
-
-build: ; mkdir $@
-
-build/%.epub: source/%.markdown | build
-	$(PANDOC) $(PANDOC_EPUB_OPTS) $< -o $@
+MANUALS := gnu_bash gnu_grep gnu_sed
 
 gnu_manuals_release.tgz: $(patsubst %, build/%.epub, $(MANUALS))
 	tar czvf $@ build
 
-source/%.markdown: manual_json/%.json tool/%.py tool/gnu_manuals_utilities.py
-	cat $< | python3 tool/$*.py | $(PANDOC) -f json -t markdown > $@
+build: ; mkdir $@
+source: ; mkdir $@
+manual_json: ; mkdir $@
 
-manual_json/gnu-sed.json:
+build/%.epub: source/%.markdown | build
+	$(PANDOC) $(PANDOC_EPUB_OPTS) $< -o $@
+
+source/%.markdown: manual_json/%.json tool/%.py tool/gnu_manuals_utilities.py | source
+	cat $< | $(PYTHON3) tool/$*.py | $(PANDOC) -f json -t markdown > $@
+
+manual_json/gnu_sed.json: | manual_json
 	$(PANDOC) -f html -t json -o $@ https://www.gnu.org/software/sed/manual/sed.html
 
-manual_json/gnu-grep.json:
+manual_json/gnu_grep.json: | manual_json
 	$(PANDOC) -f html -t json -o $@ https://www.gnu.org/software/grep/manual/grep.html
