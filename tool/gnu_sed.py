@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
 
-import sys
+import datetime
 import json
+import sys
 
 import gnu_manuals_utilities as gmu
 
 if __name__ == "__main__":
     doc = json.load(sys.stdin)
+
+    gmu.set_title_author_date(doc,
+        title = "Sed Reference Manual v4.7",
+        author = "The GNU Project",
+        date = datetime.date(2018, 12, 29)
+    )
 
     gmu.remove_table_of_contents(doc)
     gmu.remove_navigation_headers(doc)
