@@ -19,5 +19,6 @@ if __name__ == "__main__":
     gmu.remove_navigation_headers(doc)
 
     gmu.handle_multiline_dl_terms(doc)
+    gmu.correct_numbered_headings(doc)
 
     json.dump(doc, sys.stdout)
