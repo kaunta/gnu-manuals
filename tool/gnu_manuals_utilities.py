@@ -16,7 +16,7 @@ def remove_table_of_contents(doc):
     # Remove table-of-contents heading
     def like_toc_heading(block):
         try:
-            return block["t"] == "Header" and block["c"][1][0] == "table-of-contents"
+            return block["t"] == "Header" and block["c"][1][0].startswith("table-of-contents")
         except:
             return False
 

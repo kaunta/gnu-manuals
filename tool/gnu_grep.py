@@ -6,7 +6,7 @@ import sys
 
 import gnu_manuals_utilities as gmu
 
-if __name__ == "__main__":
+def main():
     doc = json.load(sys.stdin)
 
     gmu.set_title_author_date(doc,
@@ -22,3 +22,6 @@ if __name__ == "__main__":
     gmu.correct_numbered_headings(doc)
 
     json.dump(doc, sys.stdout)
+
+if __name__ == "__main__":
+    main()
