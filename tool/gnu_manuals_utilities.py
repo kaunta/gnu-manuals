@@ -82,3 +82,44 @@ def handle_multiline_dl_terms(doc):
 
     for block in doc["blocks"]:
         fix_multiline_definition_terms(block)
+
+def set_title_author_date(doc, title, author, date):
+    """\
+    Set a title, author, and date for a GNU manual document.
+
+    This is done by editing the metadata block in the document.
+    """
+
+    assert tuple(doc["pandoc-api-version"]) == (1, 17, 5, 4)
+
+    def sentence_to_pandoc(sentence):
+        words = sentence.split()
+
+        if not words:
+            return
+
+        yield { "t": "Str", "c": words[0] }
+
+        for word in words[1:]:
+            yield { "t": "Space" }
+            yield { "t": "Str", "c": word }
+
+    doc["meta"]["date"] = {
+        "t": "MetaInlines",
+        "c": [
+            {
+                "t": "Str",
+                "c": date.strftime("%Y-%m-%d")
+            }
+        ]
+    }
+
+    doc["meta"]["author"] = {
+        "t": "MetaInlines",
+        "c": list(sentence_to_pandoc(author))
+    }
+
+    doc["meta"]["title"] = {
+        "t": "MetaInlines",
+        "c": list(sentence_to_pandoc(title))
+    }

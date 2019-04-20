@@ -1,6 +1,8 @@
 PANDOC=pandoc
 PYTHON3=python3
 
+DOWNLOAD_MANUAL = $(PANDOC) -s -f html -t json -o $@ $(1)
+
 # "--toc-depth=6" because
 #
 # (1) I want all headings to appear in the table of contents.
@@ -24,10 +26,10 @@ build/%.epub: source/%.markdown | build
 	$(PANDOC) $(PANDOC_EPUB_OPTS) $< -o $@
 
 source/%.markdown: manual_json/%.json tool/%.py tool/gnu_manuals_utilities.py | source
-	cat $< | $(PYTHON3) tool/$*.py | $(PANDOC) -f json -t markdown > $@
+	cat $< | $(PYTHON3) tool/$*.py | $(PANDOC) -s -f json -t markdown > $@
 
 manual_json/gnu_sed.json: | manual_json
-	$(PANDOC) -f html -t json -o $@ https://www.gnu.org/software/sed/manual/sed.html
+	$(call DOWNLOAD_MANUAL, https://www.gnu.org/software/sed/manual/sed.html)
 
 manual_json/gnu_grep.json: | manual_json
-	$(PANDOC) -f html -t json -o $@ https://www.gnu.org/software/grep/manual/grep.html
+	$(call DOWNLOAD_MANUAL, https://www.gnu.org/software/grep/manual/grep.html)
